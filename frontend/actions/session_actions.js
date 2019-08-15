@@ -36,6 +36,6 @@ const receiveErrors = errors => ({
   errors
 });
 
-export const deleteErrors = () => ({
+export const removeErrors = () => ({
   type: REMOVE_ERRORS
 });
