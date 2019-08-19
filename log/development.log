@@ -4421,3 +4421,239 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 589ms (Views: 586.3ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for ::1 at 2019-08-19 18:04:52 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Elvis/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 268ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270996644220'
+
+Started POST "/__better_errors/aa4bc871e008bec5/variables" for ::1 at 2019-08-19 18:04:54 -0400
+Started GET "/" for ::1 at 2019-08-19 18:06:08 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271002353020'
+
+Started POST "/__better_errors/50c4cef025a9f436/variables" for ::1 at 2019-08-19 18:06:09 -0400
+Started GET "/" for ::1 at 2019-08-19 18:06:23 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270960723220'
+
+Started POST "/__better_errors/5cce915513041f0b/variables" for ::1 at 2019-08-19 18:06:23 -0400
+Started GET "/" for ::1 at 2019-08-19 18:06:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271025711240'
+
+Started POST "/__better_errors/e0ec3634ad723391/variables" for ::1 at 2019-08-19 18:06:51 -0400
+Started GET "/" for ::1 at 2019-08-19 18:06:54 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271025472200'
+
+Started POST "/__better_errors/a9a130ff6b50966f/variables" for ::1 at 2019-08-19 18:06:54 -0400
+Started GET "/" for ::1 at 2019-08-19 18:07:12 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_black".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270996340300'
+
+Started POST "/__better_errors/72954ca84ad43994/variables" for ::1 at 2019-08-19 18:07:12 -0400
+Started GET "/" for ::1 at 2019-08-19 18:07:41 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271026319380'
+
+Started POST "/__better_errors/4556d0c01c225a84/variables" for ::1 at 2019-08-19 18:07:42 -0400
+Started GET "/" for ::1 at 2019-08-19 18:07:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271026022560'
+
+Started POST "/__better_errors/8d9457d0ae51494f/variables" for ::1 at 2019-08-19 18:07:51 -0400
+Started GET "/" for ::1 at 2019-08-19 18:07:58 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+Completed 200 OK in 1600ms (Views: 1595.2ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2019-08-19 18:08:37 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270969495680'
+
+Started POST "/__better_errors/ff7a737cb2776086/variables" for ::1 at 2019-08-19 18:08:38 -0400
+Started GET "/" for ::1 at 2019-08-19 18:08:50 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270974559340'
+
+Started POST "/__better_errors/ea2166fd5213f392/variables" for ::1 at 2019-08-19 18:08:50 -0400
+Started GET "/" for ::1 at 2019-08-19 18:09:06 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271025710580'
+
+Started POST "/__better_errors/1e7042ae66698323/variables" for ::1 at 2019-08-19 18:09:06 -0400
+Started GET "/" for ::1 at 2019-08-19 18:09:23 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270999516640'
+
+Started POST "/__better_errors/94cb4ca2f0e6f6cb/variables" for ::1 at 2019-08-19 18:09:23 -0400
+Started GET "/" for ::1 at 2019-08-19 18:10:19 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271026275580'
+
+Started POST "/__better_errors/036400fa549b57e3/variables" for ::1 at 2019-08-19 18:10:19 -0400
+Started GET "/" for ::1 at 2019-08-19 18:10:24 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271025945860'
+
+Started POST "/__better_errors/8afba30e5d494140/variables" for ::1 at 2019-08-19 18:10:24 -0400
+Started GET "/" for ::1 at 2019-08-19 18:10:36 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271002928880'
+
+Started POST "/__better_errors/69211c57ad674064/variables" for ::1 at 2019-08-19 18:10:36 -0400
+Started GET "/" for ::1 at 2019-08-19 18:11:27 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_black".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270997627900'
+
+Started POST "/__better_errors/eba491b259e1c274/variables" for ::1 at 2019-08-19 18:11:27 -0400
+Started GET "/" for ::1 at 2019-08-19 18:11:38 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271002176480'
+
+Started POST "/__better_errors/aa9e11fa8e2cc414/variables" for ::1 at 2019-08-19 18:11:38 -0400
+Started GET "/" for ::1 at 2019-08-19 18:11:51 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+Completed 200 OK in 71ms (Views: 67.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2019-08-19 18:13:03 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270999350380'
+
+Started POST "/__better_errors/1b9b8d3bea2e9888/variables" for ::1 at 2019-08-19 18:13:03 -0400
