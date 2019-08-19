@@ -1,0 +1,3 @@
+class Bathroom < ApplicationRecord 
+
+end

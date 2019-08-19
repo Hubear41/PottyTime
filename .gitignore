@@ -1,4 +1,16 @@
 DS_Store
 node_modules
+/.bundle
+
 bundle.js
 bundle.js.map
+
+/tmp/*
+/log/*
+!/tmp/.keep
+!/log/.keep
+
+/storage/*
+!/storage/.keep
+
+/config/master.key

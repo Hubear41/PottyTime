@@ -1,0 +1,6276 @@
+{
+    "marker_list": [
+        {
+            "marker": {
+                "oid": "144",
+                "lat": "40.733421",
+                "lon": "-73.999518",
+                "name": "BARNES & NOBLE",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "145",
+                "lat": "40.758587",
+                "lon": "-73.969831",
+                "name": "BARNES & NOBLE",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "146",
+                "lat": "40.737137",
+                "lon": "-73.990077",
+                "name": "BARNES & NOBLE",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "147",
+                "lat": "40.729917",
+                "lon": "-73.992566",
+                "name": "BARNES & NOBLE",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "148",
+                "lat": "40.74186",
+                "lon": "-73.993767",
+                "name": "BARNES & NOBLE",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "149",
+                "lat": "40.774326",
+                "lon": "-73.981944",
+                "name": "BARNES & NOBLE",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "206",
+                "lat": "40.72471385",
+                "lon": "-73.99646044",
+                "name": "Housing Works Used Book Cafe",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "207",
+                "lat": "40.75751793",
+                "lon": "-73.97829652",
+                "name": "Barnes & Noble Midtown @ Rockefeller Center",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "249",
+                "lat": "40.76709476",
+                "lon": "-73.98266315",
+                "name": "Universal News",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "316",
+                "lat": "40.71561071",
+                "lon": "-74.01141644",
+                "name": "Barnes & Noble Booksellers ~Tribeca",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "402",
+                "lat": "40.71559038",
+                "lon": "-74.01104629",
+                "name": "Barnes & Noble",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "448",
+                "lat": "40.73703912",
+                "lon": "-73.98957253",
+                "name": "Barnes & Noble",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1388",
+                "lat": "40.7860511",
+                "lon": "-73.9787349",
+                "name": "barnes & nobles",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1390",
+                "lat": "40.7790608",
+                "lon": "-73.955106",
+                "name": "barnes & nobles",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1391",
+                "lat": "40.7556905",
+                "lon": "-73.9788945999999",
+                "name": "barnes & nobles",
+                "category": "Book Store",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "5",
+                "lat": "40.765826",
+                "lon": "-73.96363",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "7",
+                "lat": "40.755057",
+                "lon": "-73.968551",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "8",
+                "lat": "40.761135",
+                "lon": "-73.969274",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "10",
+                "lat": "40.761136",
+                "lon": "-73.969971",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "11",
+                "lat": "40.756324",
+                "lon": "-73.970562",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "12",
+                "lat": "40.758887",
+                "lon": "-73.970782",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "13",
+                "lat": "40.74114027",
+                "lon": "-74.00138497",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "14",
+                "lat": "40.75056909",
+                "lon": "-73.97694469",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "15",
+                "lat": "40.77411093",
+                "lon": "-73.98133278",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "16",
+                "lat": "40.75231653",
+                "lon": "-73.97782445",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "18",
+                "lat": "40.757854",
+                "lon": "-73.971214",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "19",
+                "lat": "40.753956",
+                "lon": "-73.971967",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "20",
+                "lat": "40.756732",
+                "lon": "-73.972351",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "21",
+                "lat": "40.754968",
+                "lon": "-73.973311",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "22",
+                "lat": "40.761165",
+                "lon": "-73.973333",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "23",
+                "lat": "40.759625",
+                "lon": "-73.973609",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "24",
+                "lat": "40.751541",
+                "lon": "-73.973723",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "25",
+                "lat": "40.762416",
+                "lon": "-73.974205",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "26",
+                "lat": "40.7584",
+                "lon": "-73.974579",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "27",
+                "lat": "40.750121",
+                "lon": "-73.974764",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "28",
+                "lat": "40.753187",
+                "lon": "-73.97494",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "29",
+                "lat": "40.756147",
+                "lon": "-73.975022",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "30",
+                "lat": "40.751129",
+                "lon": "-73.975644",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "36",
+                "lat": "40.7430993",
+                "lon": "-74.00035501",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "37",
+                "lat": "40.75215398",
+                "lon": "-73.97533536",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "38",
+                "lat": "40.7565427",
+                "lon": "-73.97410154",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "39",
+                "lat": "40.75171509",
+                "lon": "-73.99267316",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "43",
+                "lat": "40.74415",
+                "lon": "-73.983708",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "44",
+                "lat": "40.754862",
+                "lon": "-73.983944",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "48",
+                "lat": "40.769399",
+                "lon": "-73.9848",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "49",
+                "lat": "40.759935",
+                "lon": "-73.985017",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "50",
+                "lat": "40.732141",
+                "lon": "-73.99814487",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "51",
+                "lat": "40.76218259",
+                "lon": "-73.9863646",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "52",
+                "lat": "40.77468779",
+                "lon": "-73.95429611",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "53",
+                "lat": "40.763717",
+                "lon": "-73.98522",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "54",
+                "lat": "40.747697",
+                "lon": "-73.985264",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "55",
+                "lat": "40.758295",
+                "lon": "-73.985632",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "56",
+                "lat": "40.755351",
+                "lon": "-73.986403",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "57",
+                "lat": "40.733802",
+                "lon": "-73.986649",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "58",
+                "lat": "40.74011",
+                "lon": "-73.986655",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "59",
+                "lat": "40.744999",
+                "lon": "-73.986908",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "60",
+                "lat": "40.762103",
+                "lon": "-73.987265",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "61",
+                "lat": "40.760431",
+                "lon": "-73.987296",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "62",
+                "lat": "40.752243",
+                "lon": "-73.98735",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "63",
+                "lat": "40.753658",
+                "lon": "-73.988528",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "64",
+                "lat": "40.758038",
+                "lon": "-73.989046",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "65",
+                "lat": "40.748077",
+                "lon": "-73.989198",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "66",
+                "lat": "40.734966",
+                "lon": "-73.989901",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "67",
+                "lat": "40.719304",
+                "lon": "-73.989938",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "68",
+                "lat": "40.729777",
+                "lon": "-73.990128",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "69",
+                "lat": "40.761628",
+                "lon": "-73.990137",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "70",
+                "lat": "40.751837",
+                "lon": "-73.990171",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "71",
+                "lat": "40.736751",
+                "lon": "-73.990749",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "72",
+                "lat": "40.755347",
+                "lon": "-73.991007",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "73",
+                "lat": "40.744858",
+                "lon": "-73.991216",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "74",
+                "lat": "40.748831",
+                "lon": "-73.992238",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "75",
+                "lat": "40.758823",
+                "lon": "-73.992503",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "76",
+                "lat": "40.751705",
+                "lon": "-73.992665",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "77",
+                "lat": "40.741851",
+                "lon": "-73.993412",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "78",
+                "lat": "40.760405",
+                "lon": "-73.996972",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "79",
+                "lat": "40.736692",
+                "lon": "-73.997164",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "80",
+                "lat": "40.745196",
+                "lon": "-73.998724",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "81",
+                "lat": "40.753483",
+                "lon": "-73.998819",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "82",
+                "lat": "40.732949",
+                "lon": "-73.999885",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "83",
+                "lat": "40.737338",
+                "lon": "-74.00171",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "85",
+                "lat": "40.756571",
+                "lon": "-74.003475",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "86",
+                "lat": "40.741895",
+                "lon": "-74.00454",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "89",
+                "lat": "40.772464",
+                "lon": "-73.951218",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "91",
+                "lat": "40.73180767",
+                "lon": "-73.99531245",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "92",
+                "lat": "40.72610015",
+                "lon": "-74.00559068",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "93",
+                "lat": "40.77402156",
+                "lon": "-73.95941377",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "94",
+                "lat": "40.75701406",
+                "lon": "-73.98241639",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "95",
+                "lat": "40.769943",
+                "lon": "-73.954596",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "97",
+                "lat": "40.771248",
+                "lon": "-73.959678",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "98",
+                "lat": "40.760255",
+                "lon": "-73.961344",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "99",
+                "lat": "40.712368",
+                "lon": "-74.007972",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "100",
+                "lat": "40.713054",
+                "lon": "-74.009584",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "101",
+                "lat": "40.711736",
+                "lon": "-74.007287",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "102",
+                "lat": "40.710458",
+                "lon": "-74.009601",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "106",
+                "lat": "40.714135",
+                "lon": "-74.015142",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "112",
+                "lat": "40.754397",
+                "lon": "-73.976339",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "113",
+                "lat": "40.75637",
+                "lon": "-73.976831",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "114",
+                "lat": "40.74368",
+                "lon": "-73.976848",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "115",
+                "lat": "40.779822",
+                "lon": "-73.976871",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "116",
+                "lat": "40.779981",
+                "lon": "-73.977075",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "117",
+                "lat": "40.763665",
+                "lon": "-73.977495",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "118",
+                "lat": "40.751533",
+                "lon": "-73.97778",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "119",
+                "lat": "40.763791",
+                "lon": "-73.978371",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "120",
+                "lat": "40.764727",
+                "lon": "-73.978477",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "121",
+                "lat": "40.753666",
+                "lon": "-73.978487",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "122",
+                "lat": "40.762698",
+                "lon": "-73.978543",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "123",
+                "lat": "40.756425",
+                "lon": "-73.978581",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "124",
+                "lat": "40.761789",
+                "lon": "-73.978886",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "125",
+                "lat": "40.753456",
+                "lon": "-73.978962",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "126",
+                "lat": "40.750619",
+                "lon": "-73.979049",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "127",
+                "lat": "40.758671",
+                "lon": "-73.979061",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "128",
+                "lat": "40.755217",
+                "lon": "-73.979464",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "130",
+                "lat": "40.760932",
+                "lon": "-73.979508",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "131",
+                "lat": "40.751916",
+                "lon": "-73.979773",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "132",
+                "lat": "40.764588",
+                "lon": "-73.98088",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "133",
+                "lat": "40.73309",
+                "lon": "-73.980905",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "135",
+                "lat": "40.781106",
+                "lon": "-73.981034",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "137",
+                "lat": "40.761699",
+                "lon": "-73.981165",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "140",
+                "lat": "40.74392028",
+                "lon": "-73.99193287",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "141",
+                "lat": "40.746628",
+                "lon": "-73.981399",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "142",
+                "lat": "40.74198566",
+                "lon": "-73.98067832",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "143",
+                "lat": "40.740709",
+                "lon": "-73.981936",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "150",
+                "lat": "40.715434",
+                "lon": "-74.008729",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "151",
+                "lat": "40.77108842",
+                "lon": "-73.9568603",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "152",
+                "lat": "40.72989708",
+                "lon": "-73.9906776",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "154",
+                "lat": "40.757667",
+                "lon": "-73.982217",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "155",
+                "lat": "40.764181",
+                "lon": "-73.982279",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "156",
+                "lat": "40.777441",
+                "lon": "-73.982314",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "157",
+                "lat": "40.769273",
+                "lon": "-73.982344",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "158",
+                "lat": "40.74861",
+                "lon": "-73.982499",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "159",
+                "lat": "40.763045",
+                "lon": "-73.983176",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "160",
+                "lat": "40.766892",
+                "lon": "-73.983628",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "211",
+                "lat": "40.77127936",
+                "lon": "-73.98234397",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "216",
+                "lat": "40.762196",
+                "lon": "-73.983396",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "217",
+                "lat": "40.76329182",
+                "lon": "-73.98307085",
+                "name": "Cosi",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "218",
+                "lat": "40.76028507",
+                "lon": "-73.9844656",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "220",
+                "lat": "40.75731069",
+                "lon": "-73.98249149",
+                "name": "Europa Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "221",
+                "lat": "40.75821277",
+                "lon": "-73.98137569",
+                "name": "Pret a Manger",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "225",
+                "lat": "40.73304748",
+                "lon": "-74.00384188",
+                "name": "Cafe Angelique",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "229",
+                "lat": "40.7315597",
+                "lon": "-74.00197506",
+                "name": "Cornelia Street Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "232",
+                "lat": "40.73190929",
+                "lon": "-74.00328398",
+                "name": "Sarahs Bagel Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "233",
+                "lat": "40.77128952",
+                "lon": "-73.9823252",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "238",
+                "lat": "40.73322634",
+                "lon": "-73.9995718",
+                "name": "Market Place Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "239",
+                "lat": "40.75813151",
+                "lon": "-73.98034573",
+                "name": "Lennys NYC",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "240",
+                "lat": "40.75938302",
+                "lon": "-73.98043156",
+                "name": "Starbucks Below Rockefeller Center",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "241",
+                "lat": "40.75925299",
+                "lon": "-73.97734165",
+                "name": "Au Croissant and Gourmet",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "242",
+                "lat": "40.76754167",
+                "lon": "-73.98304939",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "244",
+                "lat": "40.76837048",
+                "lon": "-73.98506641",
+                "name": "Europa Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "245",
+                "lat": "40.76684286",
+                "lon": "-73.98356438",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "247",
+                "lat": "40.76549398",
+                "lon": "-73.98382187",
+                "name": "Hale and Hearty Soups",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "248",
+                "lat": "40.76574588",
+                "lon": "-73.98368239",
+                "name": "The Bread Factory Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "263",
+                "lat": "40.76765543",
+                "lon": "-73.98216963",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "272",
+                "lat": "40.71870892",
+                "lon": "-74.00250614",
+                "name": "Broadway Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "283",
+                "lat": "40.76226792",
+                "lon": "-73.98047447",
+                "name": "Lous Cafe",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "285",
+                "lat": "40.75785519",
+                "lon": "-73.98548484",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "289",
+                "lat": "40.76176815",
+                "lon": "-73.97907168",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "308",
+                "lat": "40.71130874",
+                "lon": "-74.00854111",
+                "name": "Starbucks ( Battery Park Plaza)",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "314",
+                "lat": "40.71216469",
+                "lon": "-74.00331885",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "315",
+                "lat": "40.714915",
+                "lon": "-74.005861",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "317",
+                "lat": "40.715923",
+                "lon": "-74.00345",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "321",
+                "lat": "40.71808279",
+                "lon": "-73.99979174",
+                "name": "Starbucks Coffee",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "326",
+                "lat": "40.721291",
+                "lon": "-74.00045",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "330",
+                "lat": "40.722384",
+                "lon": "-73.997642",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "331",
+                "lat": "40.72266484",
+                "lon": "-73.9979893",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "344",
+                "lat": "40.72301244",
+                "lon": "-73.98857206",
+                "name": "The Bean Coffee",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "350",
+                "lat": "40.756215",
+                "lon": "-73.964282",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "352",
+                "lat": "40.760841",
+                "lon": "-73.983614",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "353",
+                "lat": "40.72591314",
+                "lon": "-73.99856865",
+                "name": "Aroma Expresso Bar",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "354",
+                "lat": "40.727437",
+                "lon": "-73.995248",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "361",
+                "lat": "40.72898243",
+                "lon": "-73.98676962",
+                "name": "Mudspot",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "362",
+                "lat": "40.729368",
+                "lon": "-73.98727",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "366",
+                "lat": "40.75056",
+                "lon": "-73.989262",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "370",
+                "lat": "40.75159",
+                "lon": "-73.990346",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "374",
+                "lat": "40.752589",
+                "lon": "-73.99301",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "379",
+                "lat": "40.756765",
+                "lon": "-73.988362",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "383",
+                "lat": "40.756806",
+                "lon": "-73.985887",
+                "name": "STARBUCKS",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "389",
+                "lat": "40.73009018",
+                "lon": "-74.00321692",
+                "name": "The Grey Dog Coffee",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "391",
+                "lat": "40.73366941",
+                "lon": "-74.00601715",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "395",
+                "lat": "40.733171",
+                "lon": "-74.002735",
+                "name": "Starbucks",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2735",
+                "lat": "40.755472",
+                "lon": "-73.9782308",
+                "name": "Gregory's Coffee",
+                "category": "Coffee Shop",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1340",
+                "lat": "40.777652",
+                "lon": "-73.9544159999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1342",
+                "lat": "40.7666592",
+                "lon": "-73.9624663999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1343",
+                "lat": "40.7260258",
+                "lon": "-73.9965422",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1344",
+                "lat": "40.722675",
+                "lon": "-73.997427",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1345",
+                "lat": "40.7151804",
+                "lon": "-74.0109916999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1346",
+                "lat": "40.7416969999999",
+                "lon": "-73.993266",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1347",
+                "lat": "40.7311439",
+                "lon": "-73.9934291999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1350",
+                "lat": "40.7340316",
+                "lon": "-73.9889494999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1351",
+                "lat": "40.7336016",
+                "lon": "-73.9999824999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1352",
+                "lat": "40.7529192",
+                "lon": "-73.9892039",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1353",
+                "lat": "40.7292318999999",
+                "lon": "-73.9886503999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1354",
+                "lat": "40.7260258",
+                "lon": "-73.9965422",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1355",
+                "lat": "40.7540452",
+                "lon": "-73.9813838",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1356",
+                "lat": "40.7523592999999",
+                "lon": "-73.9939028",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1358",
+                "lat": "40.7561632",
+                "lon": "-73.9807412",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1359",
+                "lat": "40.7454761",
+                "lon": "-73.9828726",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1360",
+                "lat": "40.742054",
+                "lon": "-74.0012459999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1361",
+                "lat": "40.7594973",
+                "lon": "-73.9915287999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1363",
+                "lat": "40.73731",
+                "lon": "-73.9899619999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1364",
+                "lat": "40.7399255",
+                "lon": "-73.9850622",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1365",
+                "lat": "40.7281648",
+                "lon": "-74.0051398",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1366",
+                "lat": "40.7789507",
+                "lon": "-73.9810891999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1367",
+                "lat": "40.7592334",
+                "lon": "-73.9822861999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1368",
+                "lat": "40.7630794",
+                "lon": "-73.9852664",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1369",
+                "lat": "40.7658676",
+                "lon": "-73.9824871999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1370",
+                "lat": "40.7513248",
+                "lon": "-73.9808575",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1371",
+                "lat": "40.7575374",
+                "lon": "-73.9741793",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1372",
+                "lat": "40.7481829",
+                "lon": "-73.9850635",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1373",
+                "lat": "40.7460757",
+                "lon": "-73.9939534999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1374",
+                "lat": "40.7145629",
+                "lon": "-74.0063756",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1375",
+                "lat": "40.763625",
+                "lon": "-73.9777335999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1376",
+                "lat": "40.7883739",
+                "lon": "-73.9766343",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1377",
+                "lat": "40.7659528",
+                "lon": "-73.9569808999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1379",
+                "lat": "40.733819",
+                "lon": "-73.9933838",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1380",
+                "lat": "40.7364299",
+                "lon": "-73.9970865999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1381",
+                "lat": "40.7443502",
+                "lon": "-73.9881073999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1382",
+                "lat": "40.744214",
+                "lon": "-73.9757918",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1383",
+                "lat": "40.7527127",
+                "lon": "-73.9834508999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1384",
+                "lat": "40.7571834",
+                "lon": "-73.9707338",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1385",
+                "lat": "40.7626599",
+                "lon": "-73.9661959999999",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1386",
+                "lat": "40.786191",
+                "lon": "-73.977863",
+                "name": "Chipotle Mexican Grill",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1436",
+                "lat": "40.7157714",
+                "lon": "-74.0052273",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1439",
+                "lat": "40.7161841",
+                "lon": "-74.0106827999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1440",
+                "lat": "40.7185119",
+                "lon": "-74.001164",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1441",
+                "lat": "40.714946",
+                "lon": "-73.9972829999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1442",
+                "lat": "40.712947",
+                "lon": "-73.9892529999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1443",
+                "lat": "40.718942",
+                "lon": "-73.988294",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1444",
+                "lat": "40.7288080999999",
+                "lon": "-74.0050378",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1445",
+                "lat": "40.730751",
+                "lon": "-74.0010949999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1446",
+                "lat": "40.7291149",
+                "lon": "-73.9932840999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1447",
+                "lat": "40.7257658",
+                "lon": "-73.9866260999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1449",
+                "lat": "40.7309045",
+                "lon": "-73.9823653999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1450",
+                "lat": "40.7374344",
+                "lon": "-73.9967848",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1452",
+                "lat": "40.737081",
+                "lon": "-73.990802",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1456",
+                "lat": "40.741901",
+                "lon": "-73.993191",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1457",
+                "lat": "40.740535",
+                "lon": "-73.9879169999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1458",
+                "lat": "40.7370236999999",
+                "lon": "-73.9794772999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1459",
+                "lat": "40.7429936",
+                "lon": "-73.9840302",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1460",
+                "lat": "40.745044",
+                "lon": "-73.9786009",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1461",
+                "lat": "40.747948",
+                "lon": "-73.9845139999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1463",
+                "lat": "40.749052",
+                "lon": "-73.9957489999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1464",
+                "lat": "40.7507779",
+                "lon": "-73.9867259999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1465",
+                "lat": "40.7514577",
+                "lon": "-73.980451",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1466",
+                "lat": "40.7509948",
+                "lon": "-73.9906333",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1467",
+                "lat": "40.7504739",
+                "lon": "-73.99058",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1468",
+                "lat": "40.7529521",
+                "lon": "-73.9803375",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1469",
+                "lat": "40.7476408",
+                "lon": "-73.9972555",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1470",
+                "lat": "40.75248",
+                "lon": "-73.992837",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1471",
+                "lat": "40.7546636",
+                "lon": "-73.9879747",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1472",
+                "lat": "40.7561728",
+                "lon": "-73.9778117999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1475",
+                "lat": "40.784705",
+                "lon": "-73.947161",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1477",
+                "lat": "40.77813",
+                "lon": "-73.9544655999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1479",
+                "lat": "40.7856163999999",
+                "lon": "-73.979078",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1483",
+                "lat": "40.7779191",
+                "lon": "-73.9825667999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1485",
+                "lat": "40.765887",
+                "lon": "-73.956951",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1488",
+                "lat": "40.760891",
+                "lon": "-73.9674549999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1489",
+                "lat": "40.7660501",
+                "lon": "-73.9833663",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1493",
+                "lat": "40.7622594",
+                "lon": "-73.9837508",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1494",
+                "lat": "40.756099",
+                "lon": "-73.9649039999999",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1495",
+                "lat": "40.763422",
+                "lon": "-73.9893351",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1496",
+                "lat": "40.7577775",
+                "lon": "-73.9819653",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1497",
+                "lat": "40.7628671",
+                "lon": "-73.9874095",
+                "name": "McDonalds",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2500",
+                "lat": "40.7161534",
+                "lon": "-74.0050107",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2501",
+                "lat": "40.7183138",
+                "lon": "-73.9865666",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2504",
+                "lat": "40.750155",
+                "lon": "-73.988152",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2505",
+                "lat": "40.752056",
+                "lon": "-73.9899118",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2506",
+                "lat": "40.7501845",
+                "lon": "-73.9832758",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2508",
+                "lat": "40.7580219",
+                "lon": "-73.9909139999999",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2509",
+                "lat": "40.7780962",
+                "lon": "-73.9530227999999",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2511",
+                "lat": "40.7295089",
+                "lon": "-73.9927664",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2518",
+                "lat": "40.7324792",
+                "lon": "-73.9961887",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2520",
+                "lat": "40.7695029",
+                "lon": "-73.9164713999999",
+                "name": "Burger King",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2742",
+                "lat": "40.7738547",
+                "lon": "-73.9503411",
+                "name": "McDonald's",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2752",
+                "lat": "40.7308646",
+                "lon": "-73.9926571",
+                "name": "Famiglia Pizza",
+                "category": "Fast Food",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "138",
+                "lat": "40.74796817",
+                "lon": "-73.987813",
+                "name": "Standford Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "163",
+                "lat": "40.75647768",
+                "lon": "-73.97431612",
+                "name": "Waldorf Astoria Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "164",
+                "lat": "40.76202819",
+                "lon": "-73.97225618",
+                "name": "Four Seasons Hotel New York",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "205",
+                "lat": "40.72191677",
+                "lon": "-74.00431395",
+                "name": "Soho Grand",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "214",
+                "lat": "40.74991481",
+                "lon": "-73.99108529",
+                "name": "Hotel Pennsylvania",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "215",
+                "lat": "40.76055325",
+                "lon": "-73.98489475",
+                "name": "Crown Plaza Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "281",
+                "lat": "40.71913583",
+                "lon": "-74.00022626",
+                "name": "Holiday Inn",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "287",
+                "lat": "40.7619835",
+                "lon": "-73.98266315",
+                "name": "Sheraton Manhattan Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "288",
+                "lat": "40.76287739",
+                "lon": "-73.98197651",
+                "name": "Sheraton New York Hotel & Towers",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "291",
+                "lat": "40.76256249",
+                "lon": "-73.97882491",
+                "name": "Hilton Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "297",
+                "lat": "40.75878165",
+                "lon": "-73.98691177",
+                "name": "Mariott Marquis Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "375",
+                "lat": "40.75279402",
+                "lon": "-73.99360925",
+                "name": "New Yorker Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1411",
+                "lat": "40.7574272",
+                "lon": "-73.9892421999999",
+                "name": "The Westin New York",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1419",
+                "lat": "40.7556198",
+                "lon": "-73.9823198",
+                "name": "Royalton Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1420",
+                "lat": "40.7220205",
+                "lon": "-74.0043036999999",
+                "name": "Soho Grand Hotel",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1428",
+                "lat": "40.750354",
+                "lon": "-73.9734632999999",
+                "name": "Grand Hyatt",
+                "category": "Hotel",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "17",
+                "lat": "40.77290844",
+                "lon": "-73.97442341",
+                "name": "Sheep Meadow Cafe at Mineral Springs",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "33",
+                "lat": "40.72583184",
+                "lon": "-73.99755478",
+                "name": "Angelika Film Center",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "40",
+                "lat": "40.72765716",
+                "lon": "-73.99955034",
+                "name": "5 Guys",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "84",
+                "lat": "40.76397035",
+                "lon": "-73.97236347",
+                "name": "Fao Schwarz",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "96",
+                "lat": "40.77533371",
+                "lon": "-73.96882296",
+                "name": "Loeb Boathouse",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "167",
+                "lat": "40.74874033",
+                "lon": "-73.98486257",
+                "name": "Banana RePublic",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "168",
+                "lat": "40.76163813",
+                "lon": "-73.99008751",
+                "name": "Pietrasanta",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "169",
+                "lat": "40.72135571",
+                "lon": "-74.00055885",
+                "name": "Pearl River Market",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "172",
+                "lat": "40.73286862",
+                "lon": "-74.00304794",
+                "name": "Jekyll and Hyde Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "174",
+                "lat": "40.76716",
+                "lon": "-73.96382",
+                "name": "NYC Police Station (19TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "175",
+                "lat": "40.7539",
+                "lon": "-73.99489",
+                "name": "NYC Police Station (14TH PRECINCT MID~TOWN SOUTH)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "179",
+                "lat": "40.71111763",
+                "lon": "-74.01027918",
+                "name": "St. Pauls Chapel",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "181",
+                "lat": "40.7348279",
+                "lon": "-73.99126768",
+                "name": "Whole Foods Market",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "182",
+                "lat": "40.76482",
+                "lon": "-73.98523",
+                "name": "NYC Police Station (MIDTOWN NORTH)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "183",
+                "lat": "40.72024",
+                "lon": "-74.00712",
+                "name": "NYC Police Station (1ST PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "184",
+                "lat": "40.78934",
+                "lon": "-73.94769",
+                "name": "NYC Police Station (23RD PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "186",
+                "lat": "40.78522",
+                "lon": "-73.9699",
+                "name": "NYC Police Station (CENTRAL PARK PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "187",
+                "lat": "40.71643",
+                "lon": "-73.98393",
+                "name": "NYC Police Station (7TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "188",
+                "lat": "40.73675",
+                "lon": "-73.98286",
+                "name": "NYC Police Station (13TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "189",
+                "lat": "40.71617",
+                "lon": "-73.99751",
+                "name": "NYC Police Station (5TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "191",
+                "lat": "40.73405",
+                "lon": "-74.00543",
+                "name": "NYC Police Station (6TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "193",
+                "lat": "40.72654",
+                "lon": "-73.98783",
+                "name": "NYC Police Station (9TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "199",
+                "lat": "40.74267",
+                "lon": "-73.99867",
+                "name": "NYC Police Station (10TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "201",
+                "lat": "40.75689",
+                "lon": "-73.97054",
+                "name": "NYC Police Station (17TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "202",
+                "lat": "40.78403",
+                "lon": "-73.97506",
+                "name": "NYC Police Station (20TH PRECINCT)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "210",
+                "lat": "40.77154952",
+                "lon": "-73.98186117",
+                "name": "Josephia Restaurants",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "219",
+                "lat": "40.76014692",
+                "lon": "-73.98450851",
+                "name": "M&M Store",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "222",
+                "lat": "40.72949464",
+                "lon": "-74.00084853",
+                "name": "Salon G",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "223",
+                "lat": "40.7329987",
+                "lon": "-74.00294065",
+                "name": "Garage",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "224",
+                "lat": "40.73250278",
+                "lon": "-74.00324106",
+                "name": "Bleecker Street Pizza",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "226",
+                "lat": "40.73664891",
+                "lon": "-74.00077343",
+                "name": "St. Vicents Hospital",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "227",
+                "lat": "40.77332078",
+                "lon": "-73.98139179",
+                "name": "International Hair",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "228",
+                "lat": "40.77153734",
+                "lon": "-73.98187995",
+                "name": "Josephina Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "230",
+                "lat": "40.77053387",
+                "lon": "-73.98229837",
+                "name": "Melissa Gourmet",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "231",
+                "lat": "40.72945398",
+                "lon": "-74.00086999",
+                "name": "Slane",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "234",
+                "lat": "40.73330357",
+                "lon": "-74.0023452",
+                "name": "Mercadito Grove",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "235",
+                "lat": "40.73265318",
+                "lon": "-74.00312841",
+                "name": "Karavas",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "236",
+                "lat": "40.73083612",
+                "lon": "-74.00467873",
+                "name": "Burritoville",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "237",
+                "lat": "40.72974668",
+                "lon": "-74.00364876",
+                "name": "GROME",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "243",
+                "lat": "40.76778544",
+                "lon": "-73.98369312",
+                "name": "Subway",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "246",
+                "lat": "40.76625781",
+                "lon": "-73.98360729",
+                "name": "FedEx Kinkos",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "250",
+                "lat": "40.72794173",
+                "lon": "-73.99892807",
+                "name": "Associated Supermarket",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "251",
+                "lat": "40.73090116",
+                "lon": "-74.00136352",
+                "name": "Cafe Amore",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "253",
+                "lat": "40.73032392",
+                "lon": "-74.00009751",
+                "name": "Bens Pizzaria",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "254",
+                "lat": "40.73220197",
+                "lon": "-74.00069833",
+                "name": "Coldstone Creamery",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "261",
+                "lat": "40.76360061",
+                "lon": "-73.98289919",
+                "name": "McDonalds",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "273",
+                "lat": "40.71887562",
+                "lon": "-74.00112748",
+                "name": "Pashmina Shopping Center",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "277",
+                "lat": "40.71841212",
+                "lon": "-73.9999634",
+                "name": "Canal Lucky Jewelry Center",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "279",
+                "lat": "40.71859915",
+                "lon": "-74.00252759",
+                "name": "Sun Sai Kai Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "284",
+                "lat": "40.76346247",
+                "lon": "-73.98135424",
+                "name": "Cafe Metro",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "286",
+                "lat": "40.76197537",
+                "lon": "-73.98362875",
+                "name": "Ellens Stardust Diner",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "290",
+                "lat": "40.7632837",
+                "lon": "-73.98166001",
+                "name": "Rays Pizza",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "292",
+                "lat": "40.75816604",
+                "lon": "-73.98909509",
+                "name": "Famiglia Pizzeria",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "293",
+                "lat": "40.75821074",
+                "lon": "-73.98906291",
+                "name": "McDonalds Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "307",
+                "lat": "40.71054835",
+                "lon": "-74.01070833",
+                "name": "Century 21",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "309",
+                "lat": "40.71308568",
+                "lon": "-74.01549339",
+                "name": "World Financial Center",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "310",
+                "lat": "40.71358581",
+                "lon": "-74.00840163",
+                "name": "Indian Express",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "311",
+                "lat": "40.71346789",
+                "lon": "-74.00815487",
+                "name": "17 Murray St Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "313",
+                "lat": "40.71341707",
+                "lon": "-74.00801539",
+                "name": "2 Rivers",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "318",
+                "lat": "40.71802993",
+                "lon": "-74.00305867",
+                "name": "Dunmow",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "319",
+                "lat": "40.71949769",
+                "lon": "-74.00438368",
+                "name": "Bread",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "320",
+                "lat": "40.71968065",
+                "lon": "-74.00511324",
+                "name": "Tribeca Grand",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "322",
+                "lat": "40.71560258",
+                "lon": "-73.9979893",
+                "name": "New Green Bo Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "325",
+                "lat": "40.71716593",
+                "lon": "-73.99723291",
+                "name": "Grand Harmony",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "327",
+                "lat": "40.76826079",
+                "lon": "-73.98326397",
+                "name": "Time Warner Building",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "328",
+                "lat": "40.72285998",
+                "lon": "-74.0013957",
+                "name": "Cafe Cafe",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "332",
+                "lat": "40.72306936",
+                "lon": "-73.99874568",
+                "name": "Banana RePublic",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "333",
+                "lat": "40.7237422",
+                "lon": "-73.99882615",
+                "name": "Cafe Duke",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "334",
+                "lat": "40.72606356",
+                "lon": "-74.00238276",
+                "name": "Blue Ribbon Sushi",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "335",
+                "lat": "40.72637863",
+                "lon": "-74.00178462",
+                "name": "Peep",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "336",
+                "lat": "40.72506348",
+                "lon": "-73.99888515",
+                "name": "Apple Store ~ SOHO",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "337",
+                "lat": "40.72503095",
+                "lon": "-73.99710953",
+                "name": "Miro Cafe",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "338",
+                "lat": "40.72491102",
+                "lon": "-73.99720609",
+                "name": "Broadway Gourmet",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "339",
+                "lat": "40.72482768",
+                "lon": "-73.99492621",
+                "name": "Soho Billiards",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "340",
+                "lat": "40.72458985",
+                "lon": "-73.99478674",
+                "name": "Botanica Bar",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "341",
+                "lat": "40.72452481",
+                "lon": "-73.99461508",
+                "name": "Milanos Bar",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "342",
+                "lat": "40.7237483",
+                "lon": "-73.99162173",
+                "name": "Whole Foods Market",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "343",
+                "lat": "40.72273395",
+                "lon": "-73.98907095",
+                "name": "The National Underground",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "345",
+                "lat": "40.72316083",
+                "lon": "-73.98819119",
+                "name": "One and One",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "346",
+                "lat": "40.72191067",
+                "lon": "-73.98769766",
+                "name": "Le Pere Pinard",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "347",
+                "lat": "40.72116463",
+                "lon": "-73.98812413",
+                "name": "Stanton Social",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "348",
+                "lat": "40.71971927",
+                "lon": "-73.98719341",
+                "name": "Welcome to the Johnsons",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "349",
+                "lat": "40.76148779",
+                "lon": "-73.97778153",
+                "name": "MOMA",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "351",
+                "lat": "40.74960595",
+                "lon": "-73.98779154",
+                "name": "The Gap",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "355",
+                "lat": "40.72668963",
+                "lon": "-73.99529636",
+                "name": "Wendys",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "356",
+                "lat": "40.72775676",
+                "lon": "-73.9942342",
+                "name": "Au Bon Pain",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "357",
+                "lat": "40.72828321",
+                "lon": "-73.99274021",
+                "name": "Astor Wines",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "358",
+                "lat": "40.72981578",
+                "lon": "-73.98972273",
+                "name": "McDonalds",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "359",
+                "lat": "40.72952716",
+                "lon": "-73.98985147",
+                "name": "Worlds Famous Rays Pizza",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "360",
+                "lat": "40.72925479",
+                "lon": "-73.98852915",
+                "name": "Chipotle",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "363",
+                "lat": "40.74989855",
+                "lon": "-73.98798466",
+                "name": "Macys",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "364",
+                "lat": "40.75020741",
+                "lon": "-73.98945451",
+                "name": "Macys Cellar Bar & Grill",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "367",
+                "lat": "40.75058128",
+                "lon": "-73.98985147",
+                "name": "Old Navy",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "369",
+                "lat": "40.7509389",
+                "lon": "-73.99059176",
+                "name": "Macys",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "371",
+                "lat": "40.7522129",
+                "lon": "-73.9901787",
+                "name": "Bread Factory Cafe",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "372",
+                "lat": "40.75211944",
+                "lon": "-73.99261415",
+                "name": "Wendys",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "373",
+                "lat": "40.75246486",
+                "lon": "-73.99327397",
+                "name": "TGI Fridays",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "376",
+                "lat": "40.75251362",
+                "lon": "-73.99422884",
+                "name": "AMC Loews",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "377",
+                "lat": "40.75543132",
+                "lon": "-73.99433881",
+                "name": "Manganeros Hero~Boy Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "380",
+                "lat": "40.75639844",
+                "lon": "-73.98780763",
+                "name": "McDonalds",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "381",
+                "lat": "40.75630701",
+                "lon": "-73.98621708",
+                "name": "Europa Cafe",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "382",
+                "lat": "40.75666663",
+                "lon": "-73.98635924",
+                "name": "Red Lobster",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "384",
+                "lat": "40.73134425",
+                "lon": "-74.00066882",
+                "name": "Vol De Nuit",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "385",
+                "lat": "40.72992351",
+                "lon": "-74.00084317",
+                "name": "Off the Wagon (bar)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "386",
+                "lat": "40.7292304",
+                "lon": "-74.00089413",
+                "name": "Qdoba",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "387",
+                "lat": "40.72948854",
+                "lon": "-73.99854988",
+                "name": "The Half Pint (bar)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "388",
+                "lat": "40.73107393",
+                "lon": "-74.00265902",
+                "name": "Amys Bread (cafe)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "390",
+                "lat": "40.7329235",
+                "lon": "-74.00456071",
+                "name": "Lederhosen",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "392",
+                "lat": "40.73321211",
+                "lon": "-74.00342613",
+                "name": "Maries Crisis ( bar)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "393",
+                "lat": "40.73398241",
+                "lon": "-74.00273412",
+                "name": "The Riviera Cafe",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "394",
+                "lat": "40.73582987",
+                "lon": "-74.00595009",
+                "name": "The White Horse",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "396",
+                "lat": "40.73246416",
+                "lon": "-74.00155932",
+                "name": "Down the Hatch (bar)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "397",
+                "lat": "40.73591726",
+                "lon": "-74.00071442",
+                "name": "Fiddlesticks Bar",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "398",
+                "lat": "40.7617072",
+                "lon": "-73.97940159",
+                "name": "Wachovia Bank",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "399",
+                "lat": "40.74854119",
+                "lon": "-73.98787737",
+                "name": "Duane Reade Pharmacy",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "400",
+                "lat": "40.7493865",
+                "lon": "-73.98772717",
+                "name": "Nedicks, Dunkin Donuts, KFC",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "401",
+                "lat": "40.71437463",
+                "lon": "-73.9990139",
+                "name": "Hop Lee Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "403",
+                "lat": "40.71502114",
+                "lon": "-74.01134133",
+                "name": "Whole Foods Tribeca",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "404",
+                "lat": "40.71376879",
+                "lon": "-74.00873959",
+                "name": "Delizia Uno",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "405",
+                "lat": "40.7348218",
+                "lon": "-73.97933722",
+                "name": "Petite Abeille",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "406",
+                "lat": "40.74160768",
+                "lon": "-73.97846013",
+                "name": "Paddy Reillys Pub",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "407",
+                "lat": "40.74208524",
+                "lon": "-73.97820801",
+                "name": "Failte Irish Whiskey Bar",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "408",
+                "lat": "40.74353824",
+                "lon": "-73.97733629",
+                "name": "Whiskey River",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "409",
+                "lat": "40.74366423",
+                "lon": "-73.97734165",
+                "name": "Borders Books",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "410",
+                "lat": "40.74432061",
+                "lon": "-73.97651553",
+                "name": "Benjamin Bar & Restaurant",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "411",
+                "lat": "40.74451366",
+                "lon": "-73.97637337",
+                "name": "Hook & Ladder Pub",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "416",
+                "lat": "40.72533993",
+                "lon": "-73.99231911",
+                "name": "Pizza Atpu",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "423",
+                "lat": "40.7791847",
+                "lon": "-73.96267533",
+                "name": "Metropolitan Museum of Art",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "449",
+                "lat": "40.77859975",
+                "lon": "-73.96341562",
+                "name": "MET Metropolitan Museum of Art",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "451",
+                "lat": "40.74829735",
+                "lon": "-73.98926407",
+                "name": "AMC Loews",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "458",
+                "lat": "40.734795",
+                "lon": "-73.989691",
+                "name": "Panera Bread",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1392",
+                "lat": "40.7346942",
+                "lon": "-73.9905871",
+                "name": "nordstrom rack",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1393",
+                "lat": "40.7639807",
+                "lon": "-73.9716177",
+                "name": "crate and barrel",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1394",
+                "lat": "40.7684141",
+                "lon": "-73.9827037",
+                "name": "whole foods",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1395",
+                "lat": "40.7598051",
+                "lon": "-73.9665145999999",
+                "name": "whole foods",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1396",
+                "lat": "40.7238111",
+                "lon": "-73.9923524",
+                "name": "whole foods",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1397",
+                "lat": "40.7450809",
+                "lon": "-73.9953522999999",
+                "name": "whole foods",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1398",
+                "lat": "40.7224201999999",
+                "lon": "-73.9824775",
+                "name": "whole foods",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1400",
+                "lat": "40.7637931",
+                "lon": "-73.9722014",
+                "name": "apple store",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1401",
+                "lat": "40.7751164",
+                "lon": "-73.982656",
+                "name": "apple store",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1402",
+                "lat": "40.7250796",
+                "lon": "-73.9990616999999",
+                "name": "apple store",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1403",
+                "lat": "40.7412225",
+                "lon": "-74.0055041",
+                "name": "apple store",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1404",
+                "lat": "40.7616122",
+                "lon": "-73.9740186999999",
+                "name": "henri bendel",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1406",
+                "lat": "40.7141052",
+                "lon": "-74.0038668",
+                "name": "NYC Police Department",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1407",
+                "lat": "40.7163623",
+                "lon": "-73.9839341",
+                "name": "NYC Police Department",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1408",
+                "lat": "40.736597",
+                "lon": "-73.9831950999999",
+                "name": "NYC Police Department",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1409",
+                "lat": "40.716188",
+                "lon": "-73.9974869999999",
+                "name": "NYC Police Department",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1410",
+                "lat": "40.7264639",
+                "lon": "-73.9879326999999",
+                "name": "NYC Police Department",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1413",
+                "lat": "40.735547",
+                "lon": "-73.9942972",
+                "name": "The New School",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1414",
+                "lat": "40.7370364",
+                "lon": "-73.9923989",
+                "name": "Foundation Center",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1415",
+                "lat": "40.715531",
+                "lon": "-74.0114691",
+                "name": "Bed Bath & Beyond",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1416",
+                "lat": "40.740167",
+                "lon": "-73.9942681999999",
+                "name": "Bed Bath & Beyond",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1417",
+                "lat": "40.772511",
+                "lon": "-73.9817838",
+                "name": "Bed Bath & Beyond",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1418",
+                "lat": "40.7608662",
+                "lon": "-73.9610606",
+                "name": "Bed Bath & Beyond",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1421",
+                "lat": "40.7194449",
+                "lon": "-74.0058938999999",
+                "name": "J. Crew",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1422",
+                "lat": "40.737633",
+                "lon": "-73.9922022",
+                "name": "J. Crew",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1423",
+                "lat": "40.7684141",
+                "lon": "-73.9827037",
+                "name": "J. Crew",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1425",
+                "lat": "40.7677792",
+                "lon": "-73.9681160999999",
+                "name": "J. Crew",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1426",
+                "lat": "40.759",
+                "lon": "-73.979",
+                "name": "J. Crew",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1433",
+                "lat": "40.7394093",
+                "lon": "-73.9756237",
+                "name": "Bellevue Hospital Center",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1435",
+                "lat": "40.72504",
+                "lon": "-73.9835299999999",
+                "name": "New York Methodist Hospital",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2497",
+                "lat": "40.7298842",
+                "lon": "-73.996078",
+                "name": "Pless Hall",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2555",
+                "lat": "40.7298171",
+                "lon": "-73.9942236",
+                "name": "kimball Block (NYU)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2556",
+                "lat": "40.7298092",
+                "lon": "-73.9880819",
+                "name": "Barney Building (NYU)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2557",
+                "lat": "40.7310431",
+                "lon": "-73.9957041",
+                "name": "Ehrenkranz Silver School of Social Work (NYU)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2558",
+                "lat": "40.7332774",
+                "lon": "-73.9946310999999",
+                "name": "Bronfman Center (NYU)",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2738",
+                "lat": "40.7522951",
+                "lon": "-73.9780658",
+                "name": "Home Depot",
+                "category": "Other",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "4",
+                "lat": "40.77383875",
+                "lon": "-73.96663427",
+                "name": "Model Boathouse (Kerbs) Cafe at Conservatory Water",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "6",
+                "lat": "40.7301979",
+                "lon": "-73.9982307",
+                "name": "Washington Square Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "31",
+                "lat": "40.7692521",
+                "lon": "-73.980968",
+                "name": "Merchants Gate",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "34",
+                "lat": "40.77378594",
+                "lon": "-73.97126913",
+                "name": "Bethesda Terrace",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "35",
+                "lat": "40.76828516",
+                "lon": "-73.97199869",
+                "name": "Central Park Zoo",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "42",
+                "lat": "40.75384855",
+                "lon": "-73.98416519",
+                "name": "Bryant Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "45",
+                "lat": "40.78934326",
+                "lon": "-73.96187067",
+                "name": "Tennis House",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "46",
+                "lat": "40.77844133",
+                "lon": "-73.96802902",
+                "name": "Ramble Shed",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "47",
+                "lat": "40.76755386",
+                "lon": "-73.97265315",
+                "name": "The Arsenal",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "129",
+                "lat": "40.76825266",
+                "lon": "-73.97719145",
+                "name": "Heckscher House",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "134",
+                "lat": "40.76771637",
+                "lon": "-73.97178411",
+                "name": "Wollman Skating Rink",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "136",
+                "lat": "40.78001743",
+                "lon": "-73.9688766",
+                "name": "Delacorte Theatre",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "139",
+                "lat": "40.75873695",
+                "lon": "-73.97910118",
+                "name": "Rockfeller Center Lower Floor",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "153",
+                "lat": "40.75249533",
+                "lon": "-73.97755623",
+                "name": "Grand Central Station Public Restroom",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "161",
+                "lat": "40.77566276",
+                "lon": "-73.94415736",
+                "name": "Carl Schurz Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "162",
+                "lat": "40.77225844",
+                "lon": "-73.97782445",
+                "name": "Tavern on the Green",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "165",
+                "lat": "40.75886698",
+                "lon": "-73.97794247",
+                "name": "Rockefeller Center",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "166",
+                "lat": "40.759574",
+                "lon": "-73.97704124",
+                "name": "SAKS Fifth Avenue",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "176",
+                "lat": "40.76446604",
+                "lon": "-73.97130132",
+                "name": "Barneys New York",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "177",
+                "lat": "40.7619063",
+                "lon": "-73.96719217",
+                "name": "Bloomingdales",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "178",
+                "lat": "40.72250221",
+                "lon": "-73.9995718",
+                "name": "Old Navy",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "196",
+                "lat": "40.72581151",
+                "lon": "-73.99691105",
+                "name": "Crate and Barrel",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "197",
+                "lat": "40.78067954",
+                "lon": "-73.96178484",
+                "name": "Ancient Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "204",
+                "lat": "40.71308568",
+                "lon": "-74.01547194",
+                "name": "World Financial Center, Winter Garden",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "209",
+                "lat": "40.75068694",
+                "lon": "-73.99248004",
+                "name": "Long Island Railroad",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "212",
+                "lat": "40.73065726",
+                "lon": "-73.99865985",
+                "name": "Washington Square Park Bathrooms",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "213",
+                "lat": "40.75085356",
+                "lon": "-73.99404645",
+                "name": "Penn Station Public Restroom",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "252",
+                "lat": "40.74115246",
+                "lon": "-73.98794979",
+                "name": "Public Restroom",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "257",
+                "lat": "40.76066295",
+                "lon": "-73.9608407",
+                "name": "Bed Bath and Beyond",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "258",
+                "lat": "40.74000221",
+                "lon": "-73.99479747",
+                "name": "Bed Bath and Beyond",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "259",
+                "lat": "40.74122968",
+                "lon": "-74.00573015",
+                "name": "Bodum",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "262",
+                "lat": "40.73965673",
+                "lon": "-73.99493694",
+                "name": "Old Navy",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "270",
+                "lat": "40.72091256",
+                "lon": "-74.00439978",
+                "name": "Tribeca Bagels",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "271",
+                "lat": "40.71969488",
+                "lon": "-74.00269389",
+                "name": "Pearl Paint",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "274",
+                "lat": "40.71965015",
+                "lon": "-74.00227815",
+                "name": "Sbarro Pizza and Pasta",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "275",
+                "lat": "40.71893254",
+                "lon": "-74.00111675",
+                "name": "Kings Leather",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "276",
+                "lat": "40.71886749",
+                "lon": "-74.00265098",
+                "name": "Starbucks Coffee",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "278",
+                "lat": "40.71546027",
+                "lon": "-73.99876714",
+                "name": "Teariffic",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "280",
+                "lat": "40.71931879",
+                "lon": "-74.00100946",
+                "name": "Burger King",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "282",
+                "lat": "40.71861134",
+                "lon": "-74.00079757",
+                "name": "Mc Donalds",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "294",
+                "lat": "40.7583428",
+                "lon": "-73.97094727",
+                "name": "Citicorp Center",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "295",
+                "lat": "40.73535632",
+                "lon": "-73.98952961",
+                "name": "Babies R Us",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "296",
+                "lat": "40.7419816",
+                "lon": "-74.00518298",
+                "name": "Chelsea Market",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "298",
+                "lat": "40.75888729",
+                "lon": "-73.98474455",
+                "name": "Times Square McDonalds",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "312",
+                "lat": "40.71326459",
+                "lon": "-74.00767207",
+                "name": "New Amsterdam Branch Library",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "323",
+                "lat": "40.71513498",
+                "lon": "-74.0005374",
+                "name": "Columbus Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "324",
+                "lat": "40.71774735",
+                "lon": "-73.99622977",
+                "name": "Franklin Square",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "329",
+                "lat": "40.72226641",
+                "lon": "-73.99922848",
+                "name": "Bloomingdales Soho",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "365",
+                "lat": "40.75052033",
+                "lon": "-73.98913264",
+                "name": "Macys Department Store",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "368",
+                "lat": "40.75095516",
+                "lon": "-73.99061322",
+                "name": "Penn Station",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "378",
+                "lat": "40.75603476",
+                "lon": "-73.99043083",
+                "name": "Port Authority Bus Terminal",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "413",
+                "lat": "40.75045124",
+                "lon": "-73.9874804",
+                "name": "Herald Square Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "414",
+                "lat": "40.74846804",
+                "lon": "-73.98851037",
+                "name": "Greeley Square Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "415",
+                "lat": "40.77314407",
+                "lon": "-73.98389697",
+                "name": "Lincoln Center for Performing Arts",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "421",
+                "lat": "40.75813963",
+                "lon": "-73.97733092",
+                "name": "Saks Fifth Avenue",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "422",
+                "lat": "40.76193474",
+                "lon": "-73.96654844",
+                "name": "Bloomingdales",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "424",
+                "lat": "40.74977663",
+                "lon": "-73.99229765",
+                "name": "Penn Station~ New Jersey Transit",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "425",
+                "lat": "40.75915547",
+                "lon": "-73.98141861",
+                "name": "Rockefeller Center",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "427",
+                "lat": "40.71688335",
+                "lon": "-74.01619077",
+                "name": "The Soltaire",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "428",
+                "lat": "40.74850462",
+                "lon": "-74.0083158",
+                "name": "Chelsea Piers Golf Club",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "429",
+                "lat": "40.71249202",
+                "lon": "-73.98856401",
+                "name": "Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "430",
+                "lat": "40.7110607",
+                "lon": "-73.99311304",
+                "name": "Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "431",
+                "lat": "40.71070287",
+                "lon": "-73.99691105",
+                "name": "Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "433",
+                "lat": "40.75724568",
+                "lon": "-73.95411372",
+                "name": "Roosevelt Island Tramway",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "434",
+                "lat": "40.76056341",
+                "lon": "-74.0031673",
+                "name": "NY Waterway Ferry Terminal",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "436",
+                "lat": "40.75331214",
+                "lon": "-73.98248076",
+                "name": "New York Public Library Schwarzman Building",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "437",
+                "lat": "40.76815922",
+                "lon": "-73.98249149",
+                "name": "Time Warner",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "446",
+                "lat": "40.73311252",
+                "lon": "-74.01066542",
+                "name": "Public Toilets",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "447",
+                "lat": "40.73633186",
+                "lon": "-73.9896369",
+                "name": "Inside Playground at Union Sq.",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "450",
+                "lat": "40.77400937",
+                "lon": "-73.96650553",
+                "name": "Conservatory Pond ~ Central Park close to 74th St and 5th ave",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "452",
+                "lat": "40.76312523",
+                "lon": "-74.00031209",
+                "name": "Pier 84 Comfort Station",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "453",
+                "lat": "40.77371687",
+                "lon": "-73.98493767",
+                "name": "Riverside Branch New York Public Library",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "454",
+                "lat": "40.77371687",
+                "lon": "-73.98493767",
+                "name": "Riverside Branch New York Public Library",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "456",
+                "lat": "40.7895748",
+                "lon": "-73.9739004",
+                "name": "Subway",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1076",
+                "lat": "40.7109794",
+                "lon": "-73.996911",
+                "name": "Alfred E. Smith Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1079",
+                "lat": "40.7372266",
+                "lon": "-73.9754115",
+                "name": "Asser Levy Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1081",
+                "lat": "40.7355596",
+                "lon": "-73.9823091",
+                "name": "Augustus St. Gaudens",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1084",
+                "lat": "40.7362343",
+                "lon": "-74.0055799",
+                "name": "Bleecker Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1087",
+                "lat": "40.7736102",
+                "lon": "-73.9457089",
+                "name": "Carl Schurz Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1088",
+                "lat": "40.7753743",
+                "lon": "-73.9437389",
+                "name": "Carl Schurz Promenade",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1090",
+                "lat": "40.7495978",
+                "lon": "-74.007597",
+                "name": "Chelsea Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1091",
+                "lat": "40.7482974",
+                "lon": "-74.0019751",
+                "name": "Chelsea Recreation Center",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1092",
+                "lat": "40.730641",
+                "lon": "-73.9972973",
+                "name": "Cherry Tree Washington Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1094",
+                "lat": "40.7112559",
+                "lon": "-73.9935637",
+                "name": "Coleman Square Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1095",
+                "lat": "40.7157943",
+                "lon": "-74.0034488",
+                "name": "Columbus Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1096",
+                "lat": "40.7390308",
+                "lon": "-74.0048075",
+                "name": "Corporal John A. Seravalli",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1097",
+                "lat": "40.7682405",
+                "lon": "-73.9939713",
+                "name": "De Witt Clinton Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1098",
+                "lat": "40.7300719",
+                "lon": "-74.0026832",
+                "name": "Downing Street Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1099",
+                "lat": "40.7253724",
+                "lon": "-73.9754319",
+                "name": "Dry Dock Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1101",
+                "lat": "40.7236158",
+                "lon": "-73.973012",
+                "name": "East River Park (10th Street)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1102",
+                "lat": "40.7141346",
+                "lon": "-73.9764643",
+                "name": "East River Park (Tennis Courts)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1103",
+                "lat": "40.7215638",
+                "lon": "-73.9747593",
+                "name": "East River Park (Track Building)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1104",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "East River Playround",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1113",
+                "lat": "40.719745",
+                "lon": "-73.980999",
+                "name": "Hamilton Fish Park (Recreation Center)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1125",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "J. Hood Wright Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1130",
+                "lat": "40.7700747",
+                "lon": "-73.9494490999999",
+                "name": "John Jay Park & Pool",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1132",
+                "lat": "40.7127254",
+                "lon": "-73.9884923999999",
+                "name": "Little Flower Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1135",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "Martin Luther King Houses",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1136",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "May Matthews Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1137",
+                "lat": "40.7590996",
+                "lon": "-73.9921448",
+                "name": "McCaffrey Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1144",
+                "lat": "40.7784886",
+                "lon": "-73.9854522",
+                "name": "Playground 70",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1145",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "Playground 96 (XCVI)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1148",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "Renaissance Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1149",
+                "lat": "40.7731644",
+                "lon": "-73.9936924",
+                "name": "Riverside Park (Boat Basin)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1155",
+                "lat": "40.783199",
+                "lon": "-73.9844789999999",
+                "name": "Riverside Park (Neufeld Playground)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1156",
+                "lat": "40.7877029",
+                "lon": "-73.9811608999999",
+                "name": "Riverside Park (River Run Playground)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1160",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "Robert Moses Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1161",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "Roger Morris Park (Morris Jumel Mansion)",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1162",
+                "lat": "40.7194471",
+                "lon": "-74.0015255",
+                "name": "Sara D. Roosevelt Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1165",
+                "lat": "40.7849665",
+                "lon": "-73.9695960999999",
+                "name": "Sol Bloom Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1166",
+                "lat": "40.7144902",
+                "lon": "-73.9846456",
+                "name": "Sol Lain Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1172",
+                "lat": "40.7127837",
+                "lon": "-74.0059413",
+                "name": "St Vartan Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1173",
+                "lat": "40.7836314",
+                "lon": "-73.9430131",
+                "name": "Stanley Isaacs",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1174",
+                "lat": "40.781839",
+                "lon": "-73.979285",
+                "name": "Tecumseh Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1176",
+                "lat": "40.7262831",
+                "lon": "-73.9818048",
+                "name": "Tompkins Square",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1177",
+                "lat": "40.7357791",
+                "lon": "-73.9903772",
+                "name": "Union Square Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1178",
+                "lat": "40.7248576",
+                "lon": "-74.0026518999999",
+                "name": "Vesuvio Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1179",
+                "lat": "40.7643734",
+                "lon": "-73.9616090999999",
+                "name": "Wagner Pool",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1180",
+                "lat": "40.7714256",
+                "lon": "-73.9883602",
+                "name": "West 59th St Recreation Center & Pool",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1184",
+                "lat": "40.7291647",
+                "lon": "-73.957469",
+                "name": "American Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1190",
+                "lat": "40.7413029999999",
+                "lon": "-73.989344",
+                "name": "Benson Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1195",
+                "lat": "40.7394876",
+                "lon": "-73.9826494",
+                "name": "Bill Brown Memorial Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1218",
+                "lat": "40.7478166",
+                "lon": "-73.9966529",
+                "name": "Coney Island",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1219",
+                "lat": "40.7522407",
+                "lon": "-73.9956900999999",
+                "name": "Coney Island",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1222",
+                "lat": "40.7410712",
+                "lon": "-74.0015593",
+                "name": "Coney Island Beach",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1223",
+                "lat": "40.7446311",
+                "lon": "-73.9989762999999",
+                "name": "Coney Island Beach",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1224",
+                "lat": "40.7159722",
+                "lon": "-73.9371777",
+                "name": "Cooper Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1235",
+                "lat": "40.766016",
+                "lon": "-73.9852394",
+                "name": "Fox Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1246",
+                "lat": "40.7672781",
+                "lon": "-73.9841948999999",
+                "name": "Harry Maze Memorial Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1253",
+                "lat": "40.7123596",
+                "lon": "-73.9848951999999",
+                "name": "Jackie Robinson Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1259",
+                "lat": "40.7665612",
+                "lon": "-73.9629317",
+                "name": "Leif Ericson Park & Square",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1267",
+                "lat": "40.7457289",
+                "lon": "-73.9801982",
+                "name": "Marine Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1271",
+                "lat": "40.7233309999999",
+                "lon": "-73.951729",
+                "name": "McCarren Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1275",
+                "lat": "40.7313396",
+                "lon": "-73.9825657",
+                "name": "Mellet Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1276",
+                "lat": "40.7153113",
+                "lon": "-73.9604365",
+                "name": "Metropolitan Pool",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1277",
+                "lat": "40.724039",
+                "lon": "-73.9432669",
+                "name": "Monsignor Mcgolrick Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1288",
+                "lat": "40.742254",
+                "lon": "-74.000703",
+                "name": "Paul W. Kolbert Park\/Rachel Haber Cohen Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1295",
+                "lat": "40.7539319",
+                "lon": "-73.9721220999999",
+                "name": "PS 1 Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1319",
+                "lat": "40.7176788",
+                "lon": "-74.0057724999999",
+                "name": "Sternberg Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1326",
+                "lat": "40.7616616",
+                "lon": "-73.9865631",
+                "name": "Tilden Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1332",
+                "lat": "40.7329396",
+                "lon": "-73.9980147999999",
+                "name": "West 8nd St CS",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "1334",
+                "lat": "40.7173837",
+                "lon": "-73.9914666999999",
+                "name": "William Sheridan Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2565",
+                "lat": "40.7550935",
+                "lon": "-73.9265515",
+                "name": "Arrow Community Garden",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2566",
+                "lat": "40.7609826",
+                "lon": "-73.9907693",
+                "name": "Astoria Heights Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2567",
+                "lat": "40.7694041",
+                "lon": "-73.9224181999999",
+                "name": "Athens Sq",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2574",
+                "lat": "40.7412297",
+                "lon": "-73.9026877",
+                "name": "Big Bush Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2583",
+                "lat": "40.7863952",
+                "lon": "-73.9779798999999",
+                "name": "Clement Clark Moore Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2592",
+                "lat": "40.7733656",
+                "lon": "-73.906788",
+                "name": "Ditmars Park Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2594",
+                "lat": "40.758804",
+                "lon": "-73.9381111",
+                "name": "Dutch Kills Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2621",
+                "lat": "40.7682567",
+                "lon": "-73.9361858",
+                "name": "Hallets Cove Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2640",
+                "lat": "40.7646285",
+                "lon": "-73.9322469",
+                "name": "Kennedy Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2643",
+                "lat": "40.7475658",
+                "lon": "-73.9111018",
+                "name": "Lawrence Virgilio Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2649",
+                "lat": "40.7468806",
+                "lon": "-73.9208077999999",
+                "name": "Lou Lodati Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2656",
+                "lat": "40.7276003",
+                "lon": "-73.9053726",
+                "name": "Maurice Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2659",
+                "lat": "40.7472245",
+                "lon": "-73.9488888",
+                "name": "Murray Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2661",
+                "lat": "40.7414895",
+                "lon": "-73.9218882999999",
+                "name": "Noonan Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2670",
+                "lat": "40.7563923",
+                "lon": "-73.9487171",
+                "name": "Queensbridge Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2671",
+                "lat": "40.7664366",
+                "lon": "-73.9409924",
+                "name": "Rainey Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2673",
+                "lat": "40.7185097",
+                "lon": "-73.9017677",
+                "name": "Reiff Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2691",
+                "lat": "40.744009",
+                "lon": "-73.9994219999999",
+                "name": "Triborough Bridge Playground A",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2692",
+                "lat": "40.7413029999999",
+                "lon": "-73.989344",
+                "name": "Triborough Bridge Playground B",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2700",
+                "lat": "40.7517354",
+                "lon": "-73.9866769",
+                "name": "Woodtree Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2717",
+                "lat": "40.7218903",
+                "lon": "-73.9855585999999",
+                "name": "Markham Playground",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2740",
+                "lat": "40.7435017",
+                "lon": "-74.0068755",
+                "name": "High Line Bathroom at W 16th St",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2741",
+                "lat": "40.7396384",
+                "lon": "-74.0083238",
+                "name": "High Line Bathroom at Gansevoort St",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2749",
+                "lat": "40.753877",
+                "lon": "-73.969015",
+                "name": "Morton Williams",
+                "category": "Public",
+                "zindex": 1
+            }
+        },
+        {
+            "marker": {
+                "oid": "2771",
+                "lat": "40.750107392542866",
+                "lon": "-74.00113212707708",
+                "name": "Chelsea Park",
+                "category": "Public",
+                "zindex": 1
+            }
+        }
+    ],
+    "count_per_marker": [
+        {
+            "id": "pt_cnt_0",
+            "category_name": "Public",
+            "category_cnt": 167
+        },
+        {
+            "id": "pt_cnt_1",
+            "category_name": "Book Store",
+            "category_cnt": 15
+        },
+        {
+            "id": "pt_cnt_2",
+            "category_name": "Coffee Shop",
+            "category_cnt": 165
+        },
+        {
+            "id": "pt_cnt_3",
+            "category_name": "Hotel",
+            "category_cnt": 16
+        },
+        {
+            "id": "pt_cnt_4",
+            "category_name": "Fast Food",
+            "category_cnt": 94
+        },
+        {
+            "id": "pt_cnt_5",
+            "category_name": "Other",
+            "category_cnt": 167
+        }
+    ]
+}
