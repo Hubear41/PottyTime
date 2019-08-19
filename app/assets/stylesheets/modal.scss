@@ -30,5 +30,34 @@ $almost_white: #eeeeee;
   flex-direction: column;
 }
 
-.facebook-button {
+.facebook-button,
+.google-button {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: rgb(69, 104, 178);
+  border-radius: 4px;
+  padding: 10px 22px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.facebook-button p,
+.google-button p {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.google-button {
+  background-color: white;
+  border: 2px grey solid;
+  margin-top: 5px;
+}
+
+.google-button p {
+  color: grey;
 }

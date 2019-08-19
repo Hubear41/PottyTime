@@ -1,17 +1,23 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from "react";
 
 const SignupForm = props => {
   return (
-    <div className='signup-form-container'>
-      <div className='close-modal-button'>
-        <h1>X</h1>
+    <div className="signup-form-container">
+      <div className="close-modal-button">
+        <h1 onClick={props.closeModal}>X</h1>
       </div>
-      <div className='signup-button-container'>
-        <div className='facebook-button'> <p>Continue with Facebook</p> </div>
-        <div className='google-button'> <p>Continue with Google</p> </div>
+      <div className="signup-button-container">
+        <div className="facebook-button">
+          {" "}
+          <p>Continue with Facebook</p>{" "}
+        </div>
+        <div className="google-button">
+          {" "}
+          <p>Continue with Google</p>{" "}
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default SignupForm;
