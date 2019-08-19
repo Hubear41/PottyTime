@@ -9,6 +9,8 @@ bundle.js.map
 /log/*
 !/tmp/.keep
 !/log/.keep
+log/*
+tmp/*
 
 /storage/*
 !/storage/.keep

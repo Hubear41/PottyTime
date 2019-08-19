@@ -4657,3 +4657,24 @@ Sass::SyntaxError - Undefined variable: "$almost_white".:
   app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70270999350380'
 
 Started POST "/__better_errors/1b9b8d3bea2e9888/variables" for ::1 at 2019-08-19 18:13:03 -0400
+Started GET "/" for ::1 at 2019-08-19 18:16:16 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Undefined variable: "$almost_white".:
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1076407657796053427_70271017388400'
+
+Started POST "/__better_errors/52f6ac7d1d32d5e5/variables" for ::1 at 2019-08-19 18:16:16 -0400
+Started GET "/" for ::1 at 2019-08-19 18:16:35 -0400
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+Completed 200 OK in 343ms (Views: 340.6ms | ActiveRecord: 0.3ms)
+
+
