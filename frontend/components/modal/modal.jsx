@@ -1,5 +1,5 @@
 import React from "react";
-import SignupFormContainer from "./signup_form_container";
+import SignupFormContainer from "./signup_modal_container";
 // import LoginFormContainer from "./login_form_container";
 
 const Modal = props => {
