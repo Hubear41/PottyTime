@@ -1,6 +1,6 @@
 import React from "react";
 import SignupFormContainer from "./signup_modal_container";
-// import LoginFormContainer from "./login_form_container";
+import LoginFormContainer from "./login_form_container";
 
 const Modal = props => {
   const { modal, closeModal } = props;
@@ -12,7 +12,7 @@ const Modal = props => {
       component = <SignupFormContainer />;
       break;
     case "login":
-      // component = <LoginFormContainer />;
+      component = <LoginFormContainer />;
       break;
     default:
       return null;

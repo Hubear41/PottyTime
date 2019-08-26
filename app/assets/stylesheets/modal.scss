@@ -61,3 +61,10 @@ $almost_white: #eeeeee;
 .google-button p {
   color: grey;
 }
+
+.login-form-container {
+  background-color: $almost_white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
