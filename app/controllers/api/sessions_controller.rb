@@ -5,10 +5,10 @@ class Api::SessionsController < ApplicationController
             params[:user][:password]
         )
 
-        if user
+        if @user
             login!(@user)
 
-            render "api/users/show"
+            render :create
         else
             render json: "The email and password combination doesn't exist."
         end
@@ -16,9 +16,8 @@ class Api::SessionsController < ApplicationController
 
     def destroy
         if current_user
-            logout(current_user)
-
-            render json: {}
+            logout!
+            render json: {} 
         else
             render json: "Cannot logout if not logged in."
         end

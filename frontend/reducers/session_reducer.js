@@ -4,17 +4,17 @@ import {
 } from '../actions/session_actions';
 
 const defaultState = {
-    id: null,
+    currentUser: null
 }
 
 const sessionReducer = (state = defaultState, action) => {
     Object.freeze(state);
 
-    switch(action.type) {
+    switch (action.type) {
         case RECEIVE_CURRENT_USER:
-            return Object.assign({}, state, { [action.user.id]: action.user });
+            return Object.assign({}, state, { currentUser: action.currentUser.id });
         case LOGOUT:
-            return {};
+            return defaultState;
         default:
             return state;
     }

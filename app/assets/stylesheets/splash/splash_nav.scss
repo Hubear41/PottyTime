@@ -20,17 +20,20 @@ $cyan: #00adb5;
   text-transform: uppercase;
 }
 
-.splash-nav-btns {
+.splash-nav-btns,
+.logout-button {
   margin-right: 10px;
 }
 
-.splash-nav-btns button {
+.splash-nav-btns button,
+.logout-button {
   margin-left: 5px;
   border-radius: 4px;
   border-color: $almost_black;
 }
 
-.splash-nav-btns button:hover {
+.splash-nav-btns button:hover,
+.logout-button:hover {
   color: $cyan;
   transition-duration: 0.15s;
 }

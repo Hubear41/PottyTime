@@ -1,44 +1,37 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 
-class LoginForm extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { username: "", password: "" };
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+const LoginForm = props => {
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
 
-  handleSubmit(e) {
+  function handleSubmit(e) {
     e.preventDefault();
+    props.loginUser({ email, password }).then(action => props.closeModal());
   }
 
-  handleChange(field) {
-    return e => {
-      this.setState({ [field]: e.target.value });
-    };
-  }
-
-  render() {
-    return (
-      <div className="login-form-container">
-        <label htmlFor="username">Username</label>
-        <input
-          id="username"
-          type="text"
-          className="username-input"
-          onChange={this.handleChange("username")}
-          value={this.state.username}
-        />
-        <label htmlFor="password">Password</label>
-        <input
-          id="password"
-          type="password"
-          className="password-input"
-          onChange={this.handleChange("password")}
-          value={this.state.password}
-        />
-      </div>
-    );
-  }
-}
+  return (
+    <form className="login-form-container">
+      <label htmlFor="email">email</label>
+      <input
+        id="email"
+        type="text"
+        className="email-input"
+        onChange={e => setEmail(e.target.value)}
+        value={email}
+      />
+      <label htmlFor="password">Password</label>
+      <input
+        id="password"
+        type="password"
+        className="password-input"
+        onChange={e => setPassword(e.target.value)}
+        value={password}
+      />
+      <button type="submit" onClick={handleSubmit}>
+        Submit
+      </button>
+    </form>
+  );
+};
 
 export default LoginForm;
