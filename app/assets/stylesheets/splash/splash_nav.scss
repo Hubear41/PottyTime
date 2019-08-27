@@ -34,6 +34,7 @@ $cyan: #00adb5;
 
 .splash-nav-btns button:hover,
 .logout-button:hover {
-  color: $cyan;
+  background-color: $cyan;
+  color: white;
   transition-duration: 0.15s;
 }

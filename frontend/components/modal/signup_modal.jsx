@@ -4,7 +4,9 @@ const SignupModal = props => {
   return (
     <div className="signup-container">
       <div className="close-modal-button">
-        <h1 onClick={props.closeModal}>X</h1>
+        <h1 className="close-button" onClick={props.closeModal}>
+          X
+        </h1>
       </div>
       <div className="signup-button-container">
         <div className="facebook-button">

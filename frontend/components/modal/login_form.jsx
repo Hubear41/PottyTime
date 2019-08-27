@@ -11,6 +11,9 @@ const LoginForm = props => {
 
   return (
     <form className="login-form-container">
+      <h1 onClick={props.closeModal} className="close-button">
+        X
+      </h1>
       <label htmlFor="email">email</label>
       <input
         id="email"
@@ -27,7 +30,7 @@ const LoginForm = props => {
         onChange={e => setPassword(e.target.value)}
         value={password}
       />
-      <button type="submit" onClick={handleSubmit}>
+      <button id="login-button" type="submit" onClick={handleSubmit}>
         Submit
       </button>
     </form>
