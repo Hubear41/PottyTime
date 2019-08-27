@@ -1,18 +1,15 @@
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
+import { signupUser } from '../../actions/session_actions';
 import SignupForm from './signup_form';
-import {closeModal, openModal} from '../../actions/modal_actions';
-import {signupUser} from '../../actions/session_actions';
-import {removeErrors} from '../../actions/session_actions';
+import { closeModal } from '../../actions/modal_actions'
 
-const msp = ({errors}) => ({
-  errors
+const msp = ({ entities }) => ({
+
 })
 
-const mdp = ({dispatch}) => ({
+const mdp = dispatch => ({
   signupUser: user => dispatch(signupUser(user)),
-  closeModal: () => dispatch(closeModal()),
-  openModal: modal => dispatch(openModal(modal)),
-  removeErrors: () => dispatch(removeErrors())
+  closeModal: () => dispatch(closeModal())
 })
 
-export default connect(msp,mdp)(SignupForm);
+export default connect(null, mdp)(SignupForm)

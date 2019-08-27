@@ -1,17 +1,50 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useState, useEffect } from "react";
 
-const SignupForm = props => {
+const SignUpForm = props => {
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
+  const [confirmPass, setConfirmPass] = useState("");
+
+  function handleSumbit(e) {
+    e.preventDefault();
+    if (confirmPass === password) {
+      props
+        .signupUser({ password, email: email.toLowerCase() })
+        .then(action => props.closeModal());
+    }
+  }
+
   return (
-    <div className='signup-form-container'>
-      <div className='close-modal-button'>
-        <h1>X</h1>
-      </div>
-      <div className='signup-button-container'>
-        <div className='facebook-button'> <p>Continue with Facebook</p> </div>
-        <div className='google-button'> <p>Continue with Google</p> </div>
-      </div>
-    </div>
-  )
-}
+    <form className="signup-form-container">
+      <label htmlFor="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        onChange={e => setEmail(e.target.value)}
+        value={email}
+        placeholder="email"
+      />
+      <label htmlFor="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        onChange={e => setPassword(e.target.value)}
+        value={password}
+        placeholder="password"
+      />
+      <label htmlFor="confirm">Confirm Password</label>
+      <input
+        type="password"
+        id="confirm-password"
+        value={confirmPass}
+        onChange={e => setConfirmPass(e.target.value)}
+        placeholder="confirm password"
+      />
+      <button type="submit" onClick={handleSumbit}>
+        Submit
+      </button>
+    </form>
+  );
+};
 
-export default SignupForm;
+export default SignUpForm;

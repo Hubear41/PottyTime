@@ -5,10 +5,10 @@ export const LOGOUT = "LOGOUT";
 export const RECEIVE_ERRORS = "RECEIVE_ERRORS";
 export const REMOVE_ERRORS = "REMOVE_ERRORS";
 
-export const loginUser = user => dispatch => 
+export const loginUser = user => dispatch =>
   login(user).then(
     currentUser => dispatch(receiveCurrentUser(currentUser)),
-    errors => dispatch(receiveErros(errors))
+    errors => dispatch(receiveErrors(errors))
   );
 
 export const logoutUser = () => dispatch =>
@@ -19,11 +19,11 @@ export const logoutUser = () => dispatch =>
 
 export const signupUser = user => dispatch =>
   signup(user).then(
-    currentUser => dispatch(recieveCurrentUser(currentUser)),
+    currentUser => dispatch(receiveCurrentUser(currentUser)),
     errors => dispatch(receiveErrors(errors))
   );
 
-const recieveCurrentUser = currentUser => {
+const receiveCurrentUser = currentUser => {
   return { type: RECEIVE_CURRENT_USER, currentUser };
 };
 
