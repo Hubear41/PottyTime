@@ -6,7 +6,7 @@ const Search = props => {
     const { requestBathrooms, bathrooms } = props;
 
     return (
-        <div className="search-index">
+        <div id="search-index">
             <BathroomMap />
             <BathroomIndex 
                 requestBathrooms={requestBathrooms} 
