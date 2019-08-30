@@ -1,12 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import MarkerManager from '../../util/marker_manager';
 
 const BathroomMap = props => {
     const { bathrooms } = props;
-
-    const mapRef = React.createRef();
-    const mapNodeRef = React.createRef();
-    const markerManagerRef = React.createRef();
+    const mapRef = useRef();
+    const mapNodeRef = useRef();
+    const markerManagerRef = useRef();
 
     // setup for google maps after it mounts
     useEffect( () => {
@@ -28,7 +27,7 @@ const BathroomMap = props => {
         if ( markerManagerRef.current !== null ) {
             markerManagerRef.current.updateMarkers(bathrooms);
         }
-    }, [bathrooms])
+    }, [bathrooms]);
 
     return (
         <div id="map-container" ref={map => mapNodeRef.current = map}></div>

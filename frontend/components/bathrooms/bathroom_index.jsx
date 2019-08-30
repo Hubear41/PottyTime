@@ -8,13 +8,17 @@ const BathroomIndex = props => {
         requestBathrooms();
     }, []);
 
-    const bathroomItems = [];
-    for (let idx = 0; idx < 10 && idx < bathrooms.length; idx++) {
-        const bathroom = bathrooms[idx];
-        bathroomItems.push(
-            <BathroomIndexItem bathroom={bathroom} idx={idx} key={"bathroom " + idx} />
-        );    
-    }
+    // const bathroomItems = [];
+    // for (let idx = 0; idx < 10 && idx < bathrooms.length; idx++) {
+    //     const bathroom = bathrooms[idx];
+    //     bathroomItems.push(
+    //         <BathroomIndexItem bathroom={bathroom} idx={idx} key={"bathroom " + idx} />
+    //     );    
+    // }
+
+    const bathroomItems = bathrooms.map( (bathroom, idx) => {
+        return <BathroomIndexItem bathroom={bathroom} idx={idx} key={"bathroom " + idx} />;
+    });
 
     return (
         <aside className="bathroom-index">

@@ -1,1 +1,1 @@
-json.extract! bathroom, :lat, :lng, :name
+json.extract! bathroom, :id, :lat, :lng, :name
