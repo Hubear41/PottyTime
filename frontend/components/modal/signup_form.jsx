@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { withRouter } from 'react-router-dom';
 
 const SignUpForm = props => {
   const [password, setPassword] = useState("");
@@ -10,7 +11,8 @@ const SignUpForm = props => {
     if (confirmPass === password) {
       props
         .signupUser({ password, email: email.toLowerCase() })
-        .then(action => props.closeModal());
+        .then(action => props.closeModal())
+        .then(() => props.history.push("/bathrooms"));
     }
   }
 
@@ -47,4 +49,4 @@ const SignUpForm = props => {
   );
 };
 
-export default SignUpForm;
+export default withRouter(SignUpForm);

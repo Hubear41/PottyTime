@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { withRouter } from 'react-router-dom';
 
 const LoginForm = props => {
   const [password, setPassword] = useState("");
@@ -6,7 +7,9 @@ const LoginForm = props => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.loginUser({ email, password }).then(action => props.closeModal());
+    props.loginUser({ email, password })
+         .then(action => props.closeModal())
+         .then(() => props.history.push("/bathrooms"));
   }
 
   return (
@@ -37,4 +40,4 @@ const LoginForm = props => {
   );
 };
 
-export default LoginForm;
+export default withRouter(LoginForm);

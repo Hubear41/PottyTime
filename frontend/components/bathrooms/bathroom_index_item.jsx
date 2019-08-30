@@ -4,7 +4,7 @@ const BathroomIndexItem = props => {
     const { bathroom, idx } = props;
 
     return (
-        <li className={`bathroom-list-item-${idx}`} key={bathroom.id} >
+        <li className={`bathroom-list-item-${idx}`} key={"bathroom " + bathroom.id} >
             <h2>{bathroom.name}</h2>
             <span>{`lat: ${bathroom.lat} | lng: ${bathroom.lng}`}</span>
         </li>

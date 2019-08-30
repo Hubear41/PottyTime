@@ -2,22 +2,26 @@ import React, { useEffect } from 'react';
 import BathroomIndexItem from './bathroom_index_item';
 
 const BathroomIndex = props => {
-    useEffect( () => {
-        props.requestBathrooms();
+    const { requestBathrooms, bathrooms } = props;
+
+    useEffect( () => { // fetch all bathrooms on mount
+        requestBathrooms();
     }, []);
 
-    const bathroomItems = props.bathrooms.map( (bathroom, idx) => {
-        return <BathroomIndexItem bathroom={bathroom} idx={idx} />;
-    });
+    const bathroomItems = [];
+    for (let idx = 0; idx < 10 && idx < bathrooms.length; idx++) {
+        const bathroom = bathrooms[idx];
+        bathroomItems.push(
+            <BathroomIndexItem bathroom={bathroom} idx={idx} key={"bathroom " + idx} />
+        );    
+    }
 
     return (
-        <div className="bathroom-index">
-            <aside className="bathroom-index-list">
-                <ul>
-                    {bathroomItems}
-                </ul>
-            </aside>
-        </div>
+        <aside className="bathroom-index">
+            <ul className="bathroom-index-list">
+                {bathroomItems}
+            </ul>
+        </aside>
     )
 }
 
