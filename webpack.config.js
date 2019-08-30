@@ -1,4 +1,5 @@
 const path = require("path");
+
 module.exports = {
     context: __dirname,
     entry: "./frontend/index.jsx",
@@ -23,5 +24,5 @@ module.exports = {
             }
         ]
     },
-    devtool: "source-map"
-};
+    devtool: "source-map",
+}

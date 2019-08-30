@@ -1,15 +1,17 @@
-.splash-wrapper {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    background: $almost_black;
+$almost_black: #222831;
+$almost_white: #eeeeee;
 
-    .splash-form {
-        background: $almost_white;
-        border-radius: 5px;
-        width: 40vw;
-        min-width: 100px;
-        height: 40vh;
-        min-height: 200px;
-    }
+.splash-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: $almost_black;
+}
+.splash-form {
+  background: $almost_white;
+  border-radius: 5px;
+  width: 40vw;
+  min-width: 100px;
+  height: 40vh;
+  min-height: 200px;
 }

@@ -1,0 +1,40 @@
+$almost_white: #eeeeee;
+$dark_cyan: #006166;
+$light_cyan: #00f2ff;
+$almost_black: #222831;
+$cyan: #00adb5;
+
+.splash-nav-wrapper {
+  display: flex;
+  background-color: $almost_white;
+  justify-content: space-between;
+  border-bottom: $dark_cyan 1px solid;
+  height: 40px;
+  align-items: center;
+}
+
+.splash-title {
+  margin-left: 10px;
+  color: $dark_cyan;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.splash-nav-btns,
+.logout-button {
+  margin-right: 10px;
+}
+
+.splash-nav-btns button,
+.logout-button {
+  margin-left: 5px;
+  border-radius: 4px;
+  border-color: $almost_black;
+}
+
+.splash-nav-btns button:hover,
+.logout-button:hover {
+  background-color: $cyan;
+  color: white;
+  transition-duration: 0.15s;
+}
