@@ -15,7 +15,7 @@ class MarkerManager {
     createMarkerFromBathroom(bathroom) {
         const { lat, lng, name, id } = bathroom;
 
-        const marker = new.google.maps.Marker({
+        const marker = new google.maps.Marker({
             position: { lat, lng }, 
             title: name,
         });

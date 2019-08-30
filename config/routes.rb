@@ -10,4 +10,6 @@ Rails.application.routes.draw do
 
     resources :bathrooms, only: [:index, :show]
   end
+
+  get '*path', to: 'static_pages#root'
 end
