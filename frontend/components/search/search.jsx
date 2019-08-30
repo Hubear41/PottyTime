@@ -7,7 +7,9 @@ const Search = props => {
 
     return (
         <div id="search-index">
-            <BathroomMap />
+            <BathroomMap 
+                bathrooms={bathrooms} 
+            />
             <BathroomIndex 
                 requestBathrooms={requestBathrooms} 
                 bathrooms={bathrooms} 
