@@ -6,7 +6,7 @@ import { filter } from 'minimatch';
 const Search = props => {
     const { requestBathrooms, updateFilter, bathrooms } = props;
 
-    const filteredBathrooms = bathrooms.slice(0, 20);
+    const filteredBathrooms = bathrooms; // .slice(0, 20);
 
     return (
         <div id="search-index">
