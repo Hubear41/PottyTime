@@ -17,8 +17,6 @@ const Splash = props => {
 
   return (
     <div className="splash-wrapper">
-      <SplashNavContainer />
-
       <form className="splash-form" onSubmit={handleSubmit}>
         <label htmlFor="location">Location: </label>
         <input
