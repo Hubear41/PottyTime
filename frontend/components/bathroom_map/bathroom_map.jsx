@@ -20,6 +20,18 @@ const BathroomMap = props => {
         // wrap this.mapNode in a Google Map
         mapRef.current = new google.maps.Map(mapNodeRef.current, mapOptions);
         markerManagerRef.current = new MarkerManager(mapRef.current);
+
+        const idleListener = mapRef.current.addListener("idle", () => {
+            const mapLatLng = mapRef.current.getBounds();
+            const southWest = mapLatLng.getSouthWest();
+            const northEast = mapLatLng.getNorthEast();
+
+            props.updateBounds({ northEast, southWest });
+        });
+
+        return () => {
+            mapRef.current.removeListener(idleListener);
+        }
     }, []);
 
     // update markers whenever bathrooms change
