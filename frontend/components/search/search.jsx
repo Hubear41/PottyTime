@@ -4,7 +4,7 @@ import BathroomMap from '../bathroom_map/bathroom_map';
 import { filter } from 'minimatch';
 
 const Search = props => {
-    const { requestBathrooms, updateBounds, bathrooms } = props;
+    const { requestBathrooms, updateFilter, bathrooms } = props;
 
     const filteredBathrooms = bathrooms.slice(0, 20);
 
@@ -12,7 +12,7 @@ const Search = props => {
         <div id="search-index">
             <BathroomMap 
                 bathrooms={filteredBathrooms} 
-                updateBounds={updateBounds}
+                updateFilter={updateFilter}
             />
             <BathroomIndex 
                 requestBathrooms={requestBathrooms} 

@@ -5,7 +5,7 @@ const BathroomIndex = props => {
     const { requestBathrooms, bathrooms } = props;
 
     useEffect( () => { // fetch all bathrooms on mount
-        requestBathrooms();
+        // requestBathrooms();
     }, []);
 
     // const bathroomItems = [];

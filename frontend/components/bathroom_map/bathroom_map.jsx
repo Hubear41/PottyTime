@@ -21,12 +21,15 @@ const BathroomMap = props => {
         mapRef.current = new google.maps.Map(mapNodeRef.current, mapOptions);
         markerManagerRef.current = new MarkerManager(mapRef.current);
 
+        // updates filters each time the map becomes idle
         const idleListener = mapRef.current.addListener("idle", () => {
-            const mapLatLng = mapRef.current.getBounds();
-            const southWest = mapLatLng.getSouthWest();
-            const northEast = mapLatLng.getNorthEast();
-
-            props.updateBounds({ northEast, southWest });
+            const { north, south, east, west } = mapRef.current.getBounds().toJSON();
+            const bounds = {
+                northEast: { lat: north, lng: east },
+                southWest: { lat: south, lng: west },
+            };
+            
+            props.updateFilter("bounds", bounds);
         });
 
         return () => {

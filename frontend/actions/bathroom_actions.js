@@ -7,6 +7,6 @@ export const receiveBathrooms = bathrooms => ({
     bathrooms,
 });
 
-export const requestBathrooms = () => dispatch => (
-    BathroomAPI.fetchBathrooms().then( bathrooms => dispatch(receiveBathrooms(bathrooms)))
+export const requestBathrooms = filters => dispatch => (
+    BathroomAPI.fetchBathrooms(filters).then( bathrooms => dispatch(receiveBathrooms(bathrooms)))
 );

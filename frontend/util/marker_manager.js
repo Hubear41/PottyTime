@@ -5,9 +5,19 @@ class MarkerManager {
     }
 
     updateMarkers(bathrooms) {
+        const bathroomObj = {};
+
         bathrooms.forEach( bathroom => {
             if ( !this.markers[bathroom.id] ) {
                 this.createMarkerFromBathroom(bathroom);
+            }
+            bathroomObj[bathroom.id] = bathroom;
+        });
+
+        // remove any markers that aren't in bathrooms array
+        Object.keys(this.markers).forEach( id => {
+            if ( !bathroomObj[id] ) {
+                this.removeMarker(this.markers[id]);
             }
         });
     }
@@ -18,11 +28,18 @@ class MarkerManager {
         const marker = new google.maps.Marker({
             position: { lat, lng }, 
             title: name,
+            id,
         });
 
         marker.setMap(this.map);
         this.markers[id] = marker;
     }
+
+    // remove marker from map and from this.markers
+    removeMarker(marker) {
+        marker.setMap(null);
+        delete this.markers[marker.id];
+    }   
 }
 
 export default MarkerManager;
