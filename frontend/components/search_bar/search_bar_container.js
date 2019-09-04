@@ -9,7 +9,7 @@ import SearchBar from './search_bar';
 const mdp = dispatch => ({
     updateFilter: (filter, value) => dispatch(updateFilter(filter, value)),
     receiveError: () => dispatch(receiveSearchError()),
-    clearSearchError: () => dispatch(clearSearchError()),
+    clearError: () => dispatch(clearSearchError()),
 });
 
 export default connect(null, mdp)(SearchBar);

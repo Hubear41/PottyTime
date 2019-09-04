@@ -1,0 +1,18 @@
+@import "../default_styles";
+
+.no-search-results {
+    padding-bottom: 20px;
+    border-bottom: 1px solid $lighter_black;
+    margin-bottom: 10px;
+    color: $light_gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+    h5 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 300;
+    }
+}

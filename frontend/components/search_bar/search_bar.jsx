@@ -38,7 +38,7 @@ const SearchBar = props => {
 
     return (
         <form id="splash-search" onSubmit={handleSubmit}>
-            <i class="fas fa-search-location"></i>
+            <i className="fas fa-search-location"></i>
             <input 
                 id="search-input"
                 type="text"
