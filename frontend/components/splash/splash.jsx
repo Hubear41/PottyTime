@@ -25,7 +25,7 @@ const Splash = props => {
 
   const handleSubmit = e => {
     e.preventDefault();
-
+    
     if (search.name === "" && !search.location) {
       props.history.push("/bathrooms");
     } else if ( !search.location ) {

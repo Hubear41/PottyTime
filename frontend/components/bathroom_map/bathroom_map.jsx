@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import MarkerManager from '../../util/marker_manager';
 
 const BathroomMap = props => {
-    const { bathrooms, center } = props;
+    const { bathrooms, center, noResults } = props;
     const mapRef = useRef();
     const mapNodeRef = useRef();
     const markerManagerRef = useRef();
@@ -23,14 +23,17 @@ const BathroomMap = props => {
         markerManagerRef.current = new MarkerManager(mapRef.current);
 
         // updates filters each time the map becomes idle
-        const idleListener = mapRef.current.addListener("idle", () => {
-            const { north, south, east, west } = mapRef.current.getBounds().toJSON();
-            const bounds = {
-                northEast: { lat: north, lng: east },
-                southWest: { lat: south, lng: west },
-            };
+        const idleListener = mapRef.current.addListener("idle", () => { 
             
-            props.updateFilter("bounds", bounds);
+            if ( !noResults ) {
+                const { north, south, east, west } = mapRef.current.getBounds().toJSON();
+                const bounds = {
+                    northEast: { lat: north, lng: east },
+                    southWest: { lat: south, lng: west },
+                };
+                
+                props.updateFilter("bounds", bounds);
+            }
         });
 
         return () => {

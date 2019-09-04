@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+
 const SearchBar = props => {
-    const[search, updateSearch] = useState({ name: "", location: null });
+    const [search, updateSearch] = useState({ name: "", location: null });
 
     useEffect(() => {
         const input = document.getElementById("search-input");
@@ -11,29 +12,30 @@ const SearchBar = props => {
         );
 
         autocomplete.addListener("place_changed", function () {
-            updateSearch(autocomplete.getPlace());
+            const newPlace = autocomplete.getPlace();
+            
+            if (newPlace.location) {
+                updateSearch( Object.assign({}, search, autocomplete.getPlace()) );
+            }
         });
 
         return () => {
             props.clearError();
         };
-    });
+    }, []);
 
     const handleSubmit = e => {
         e.preventDefault();
-
-        if (search.name === "" && !search.location) {
-            props.history.push("/bathrooms");
-        } else if (!search.location) {
+        if ( !search.location ) {
             props.receiveError();
         } else {
             props.updateFilter("center", search.location);
-            props.history.push("/bathrooms");
         }
     };
 
     const handleChange = e => {
         updateSearch(Object.assign({}, search, { name: e.target.value }));
+
     };
 
     return (
