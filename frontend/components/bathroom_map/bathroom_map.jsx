@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import MarkerManager from '../../util/marker_manager';
 
 const BathroomMap = props => {
-    const { bathrooms } = props;
+    const { bathrooms, center } = props;
     const mapRef = useRef();
     const mapNodeRef = useRef();
     const markerManagerRef = useRef();
@@ -10,10 +10,11 @@ const BathroomMap = props => {
     // setup for google maps after it mounts
     useEffect( () => {
         const mapOptions = {
-            center: { 
-                lat: 40.7549, 
-                lng: -73.9840 
-            }, // this is NY
+            // center: { 
+            //     lat: 40.7549, 
+            //     lng: -73.9840 
+            // }, // this is NY
+            center,
             zoom: 16
         };
 

@@ -1,7 +1,11 @@
 import { UPDATE_FILTER } from '../actions/filter_actions';
 
 const defaultState = {
-    bounds: {}
+    bounds: {},
+    center: {
+        lat: 40.7536,
+        lng: -73.9832,
+    },
 };
 
 const filtersReducer = (state = defaultState, { type, filter, value }) => {

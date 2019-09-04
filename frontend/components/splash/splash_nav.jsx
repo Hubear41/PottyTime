@@ -24,7 +24,10 @@ const SplashNav = props => {
   );
   return (
     <header className="splash-nav-wrapper">
-      <h1 className="splash-title">Comfort Station</h1>
+      <div className="splash-nav-left">
+        <h1 className="splash-title">Comfort Station</h1>
+        
+      </div>
       {loggedIn}
     </header>
   );
