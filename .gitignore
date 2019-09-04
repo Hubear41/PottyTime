@@ -1,16 +1,28 @@
 .DS_Store
-node_modules
-/.bundle
 
+// ignore node_modules
+node_modules
+
+// Environment Normalization
+/.bundle
+/vendor/bundle
+
+// ignore bundle files
 bundle.js
 bundle.js.map
 
+// ignore byebug history
+.byebug_history
+
+// Ignore all logfiles and tempfiles.
 /tmp/*
 /log/*
 !/tmp/.keep
 !/log/.keep
 
+// Ignore uploaded files in development
 /storage/*
 !/storage/.keep
 
+// Ignore secret master key
 /config/master.key
