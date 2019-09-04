@@ -6,15 +6,16 @@ $cyan: #00adb5;
 
 .splash-nav-wrapper {
   display: flex;
-  background-color: $almost_white;
+  background-color: white;
   justify-content: space-between;
   border-bottom: $dark_cyan 1px solid;
-  height: 40px;
+  height: 60px;
   align-items: center;
 }
 
 .splash-title {
   margin-left: 10px;
+  font-size: 18px;
   color: $dark_cyan;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;

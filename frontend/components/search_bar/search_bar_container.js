@@ -12,4 +12,4 @@ const mdp = dispatch => ({
     clearSearchError: () => dispatch(clearSearchError()),
 });
 
-export default connect(null, mdp)(Splash);
+export default connect(null, mdp)(SearchBar);
