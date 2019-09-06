@@ -9,7 +9,6 @@ const msp = ({ session }) => ({
 })
 
 const mdp = dispatch => ({
-  requestBathroom: () => dispatch(requestBathroom(1)),
   openModal: modal => dispatch(openModal(modal)),
   logoutUser: () => dispatch(logoutUser())
 })

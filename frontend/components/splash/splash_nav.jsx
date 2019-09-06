@@ -34,7 +34,6 @@ const SplashNav = props => {
         <h1 className="splash-title">Comfort Station</h1>
         {navSearch}
       </div>
-      <span onClick={props.requestBathroom}>Test</span>
       {loggedIn}
     </header>
   );
