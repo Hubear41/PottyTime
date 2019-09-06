@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import SplashNav from './splash_nav'
 import { openModal } from '../../actions/modal_actions'
 import { logoutUser } from '../../actions/session_actions'
+import { requestBathroom } from '../../actions/bathroom_actions'
 
 const msp = ({ session }) => ({
   currentUser: session.currentUser

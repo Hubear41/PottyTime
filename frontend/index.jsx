@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Root from "./components/root";
 import configureStore from "./store/store";
 import { openModal } from "./actions/modal_actions";
+import { requestBathroom } from "./actions/bathroom_actions";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
@@ -27,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   window.getState = store.getState;
   window.dispatch = store.dispatch;
   window.openModal = openModal("signup");
+  window.requestBathroom = requestBathroom;
   //
 
   ReactDOM.render(<Root store={store} />, root);
