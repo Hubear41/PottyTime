@@ -4,7 +4,7 @@ class Api::BathroomsController < ApplicationController
     render :show
   end
 
-  def index 
+  def index
     @bathrooms = Bathroom.in_bounds(params[:bounds])
     render :index
   end
