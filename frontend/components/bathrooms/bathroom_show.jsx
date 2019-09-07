@@ -6,7 +6,13 @@ const BathroomShow = props => {
     props.requestBathroom(benchId);
   }, []);
 
-  return <h1>hello</h1>;
+  let currentBathroom = props.bathrooms[props.match.params.id];
+
+  return (
+    <div>
+      <p>{currentBathroom ? currentBathroom.id : null}</p>
+    </div>
+  );
 };
 
 export default BathroomShow;
