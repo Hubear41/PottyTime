@@ -31,6 +31,6 @@ export const createBathroom = bathroom => dispatch => (
     BathroomAPI.createBathroom(bathroom).then(bathroom => dispatch(receiveBathroom(bathroom)))
 );
 
-export const deleteBathroom = id => dispatch => (
+export const removeBathroom = id => dispatch => (
     BathroomAPI.deleteBathroom(id).then(bathroom => dispatch(deleteBathroom(bathroom)))
 )
