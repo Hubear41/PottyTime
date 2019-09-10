@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Bathroom.destroy_all
+Category.destroy_all
+BathroomCategory.destroy_all
 User.destroy_all
 
 require 'json'
