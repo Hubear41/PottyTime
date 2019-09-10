@@ -21,7 +21,7 @@ const BathroomShow = props => {
           lat: currentBathroom.lat,
           lng: currentBathroom.lng
         },
-        zoom: 18
+        zoom: 16
       };
 
       mapRef.current = new google.maps.Map(mapNodeRef.current, mapOptions);
@@ -47,31 +47,6 @@ const BathroomShow = props => {
 
       markerManagerRef.current.updateMarkers([currentBathroom]);
 
-      const geocoder = new google.maps.Geocoder();
-      const infowindow = new google.maps.InfoWindow();
-
-      function geocodeLatLng(geocoder, map, infowindow) {
-        var latlng = { lat: currentBathroom.lat, lng: currentBathroom.lng };
-        geocoder.geocode({ location: latlng }, function(results, status) {
-          if (status === "OK") {
-            if (results[0]) {
-              var marker = new google.maps.Marker({
-                position: latlng,
-                map: map
-              });
-              infowindow.setContent(results[0].formatted_address);
-              infowindow.open(map, marker);
-            } else {
-              window.alert("No results found");
-            }
-          } else {
-            window.alert("Geocoder failed due to: " + status);
-          }
-        });
-      }
-
-      geocodeLatLng(geocoder, mapRef.current, infowindow);
-
       return () => {
         mapRef.current.removeListener(idleListener);
       };
@@ -81,9 +56,8 @@ const BathroomShow = props => {
   return (
     <div className="bathroom-show-container">
       <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>
-      <div className="bathroom-information-container">
-        <p>{currentBathroom ? currentBathroom.name : null}</p>
-      </div>
+      <div></div>
+      <p>{currentBathroom ? currentBathroom.name : null}</p>
     </div>
   );
 };
