@@ -26,7 +26,7 @@ const SplashNav = props => {
   );
 
   const navSearch =
-    props.history.location.pathname === "/bathrooms" ? <SearchBar /> : null;
+    props.history.location.pathname.includes("/bathrooms") ? <SearchBar /> : null;
 
   return (
     <header className="splash-nav-wrapper">

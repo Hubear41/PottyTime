@@ -35,7 +35,7 @@ const BathroomIndexItem = props => {
       </section>
       
       <aside className="list-item-arrow">
-        <i class="fas fa-chevron-right"></i>
+        <i className="fas fa-chevron-right"></i>
       </aside>
     </li>
   );

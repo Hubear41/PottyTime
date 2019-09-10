@@ -10,10 +10,6 @@ const BathroomMap = props => {
     // setup for google maps after it mounts
     useEffect( () => {
         const mapOptions = {
-            // center: { 
-            //     lat: 40.7549, 
-            //     lng: -73.9840 
-            // }, // this is NY
             center,
             zoom: 16,
             fullscreenControl: false,
@@ -37,9 +33,9 @@ const BathroomMap = props => {
             }
         });
 
-        return () => {
-            mapRef.current.removeListener(idleListener);
-        }
+        // return () => {
+        //     mapRef.current.removeListener(idleListener);
+        // }
     }, []);
 
     // update markers whenever bathrooms change
