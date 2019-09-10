@@ -1,9 +1,17 @@
 .bathroom-show-container {
   display: flex;
-}
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.bathroom-information-container {
-  display: flex;
-  justify-content: center;
-  width: 50%;
+  .bathroom-information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+    h2 {
+      text-transform: capitalize;
+      font-size: 17px;
+      font-weight: 600;
+    }
+  }
 }

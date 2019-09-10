@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import MarkerManager from '../../util/marker_manager';
 
 const BathroomMap = props => {
-    const { bathrooms, center, noResults } = props;
+    const { bathrooms, center, noResults, mapType } = props;
     const mapRef = useRef();
     const mapNodeRef = useRef();
     const markerManagerRef = useRef();
@@ -11,7 +11,7 @@ const BathroomMap = props => {
     useEffect( () => {
         const mapOptions = {
             center,
-            zoom: 16,
+            zoom: mapType === "SHOW" ? 19 : 16,
             fullscreenControl: false,
         };
 
@@ -44,6 +44,11 @@ const BathroomMap = props => {
             markerManagerRef.current.updateMarkers(bathrooms);
         }
     }, [bathrooms]);
+
+    // whenever center changes, change google maps
+    useEffect( () => {
+        mapRef.current.setCenter(center);
+    }, [center]);
 
     return (
         <div id="map-container" ref={map => mapNodeRef.current = map}></div>
