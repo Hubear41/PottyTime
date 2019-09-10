@@ -2,8 +2,11 @@ import React, { useState, useEffect, useRef } from "react";
 
 const BathroomShow = props => {
   useEffect(() => {
-    const benchId = props.match.params.id;
-    props.requestBathroom(benchId);
+    const bathroomId = props.match.params.id;
+    if (!props.bathrooms[bathroomId]) {
+      debugger;
+      props.requestBathroom(bathroomId);
+    }
   }, []);
 
   let currentBathroom = props.bathrooms[props.match.params.id];
