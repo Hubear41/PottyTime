@@ -30,6 +30,6 @@ class Api::BathroomsController < ApplicationController
   private 
 
   def bathroom_params
-    params.require(:bathroom).permit(:name, :lat, :lng)
+    params.require(:bathroom).permit(:name, :lat, :lng, :category_ids)
   end
 end
