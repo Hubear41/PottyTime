@@ -15,7 +15,8 @@ const BathroomMap = props => {
             //     lng: -73.9840 
             // }, // this is NY
             center,
-            zoom: 16
+            zoom: 16,
+            fullscreenControl: false,
         };
 
         // wrap this.mapNode in a Google Map

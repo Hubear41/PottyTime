@@ -1,0 +1,25 @@
+.bathroom-index {
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    ul {
+        width: 100%;
+
+        [class^="bathroom-list-item-"] {
+            box-sizing: content-box;
+            padding: 15px 20px;
+            width: 100%;
+            border-bottom: 1px solid gray;
+
+            h2 {
+                text-transform: capitalize;
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+}
