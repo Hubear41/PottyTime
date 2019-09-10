@@ -1,11 +1,11 @@
-import {
-    RECEIVE_BATHROOMS
-} from '../actions/bathroom_actions';
+import { 
+    RECIEVE_CATEGORIES
+} from '../actions/category_actions';
 
 const categoriesReducer = (state = {}, action) => {
     Object.freeze(state);
     switch(action.type) {
-        case RECEIVE_BATHROOMS:
+        case RECIEVE_CATEGORIES:
             return Object.assign({}, state, action.categories);
         default:
             return state;
