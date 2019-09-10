@@ -1,63 +1,35 @@
-import React, { useState, useEffect, useRef } from "react";
-import MarkerManager from "../../util/marker_manager";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import BathroomMap from "../bathroom_map/bathroom_map";
 
 const BathroomShow = props => {
-  const mapRef = useRef();
-  const mapNodeRef = useRef();
-  const markerManagerRef = useRef();
+  const { bathroom, center } = props;
   const bathroomId = props.match.params.id;
-  const currentBathroom = props.bathrooms[bathroomId];
 
   useEffect(() => {
-    if (!props.bathrooms[bathroomId]) {
+    if (!bathroom || bathroom.id !== bathroomId) {
       props.requestBathroom(bathroomId);
     }
-  }, []);
+  }, [bathroomId]);
 
-  useEffect(() => {
-    if (currentBathroom) {
-      const mapOptions = {
-        center: {
-          lat: currentBathroom.lat,
-          lng: currentBathroom.lng
-        },
-        zoom: 16
-      };
-
-      mapRef.current = new google.maps.Map(mapNodeRef.current, mapOptions);
-      markerManagerRef.current = new MarkerManager(mapRef.current);
-
-      // updates filters each time the map becomes idle
-      const idleListener = mapRef.current.addListener("idle", () => {
-        if (!noResults) {
-          const {
-            north,
-            south,
-            east,
-            west
-          } = mapRef.current.getBounds().toJSON();
-          const bounds = {
-            northEast: { lat: north, lng: east },
-            southWest: { lat: south, lng: west }
-          };
-
-          props.updateFilter("bounds", bounds);
-        }
-      });
-
-      markerManagerRef.current.updateMarkers([currentBathroom]);
-
-      return () => {
-        mapRef.current.removeListener(idleListener);
-      };
-    }
-  }, [currentBathroom]);
+  const centerLocation = bathroom
+    ? { lat: bathroom.lat, lng: bathroom.lng }
+    : center;
 
   return (
     <div className="bathroom-show-container">
-      <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>
-      <div></div>
-      <p>{currentBathroom ? currentBathroom.name : null}</p>
+      <BathroomMap
+        bathrooms={!bathroom ? [] : [bathroom]}
+        center={centerLocation}
+        updateFilter={() => null}
+        mapType="SHOW"
+      />
+
+      <div className="bathroom-information-container">
+        <h2>{bathroom ? bathroom.name.toLowerCase() : null}</h2>
+
+        <Link to="/bathrooms">Back to Results</Link>
+      </div>
     </div>
   );
 };

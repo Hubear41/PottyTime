@@ -26,7 +26,6 @@ class Api::BathroomsController < ApplicationController
     render :show
   end
 
-
   private 
 
   def bathroom_params

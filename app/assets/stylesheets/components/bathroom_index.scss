@@ -1,0 +1,53 @@
+.bathroom-index {
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    ul {
+        width: 100%;
+
+        li {
+            display: flex;
+            box-sizing: content-box;
+            padding: 15px 20px;
+            width: 100%;
+            border-bottom: 1px solid gray;
+            background: white;
+            cursor: pointer;
+
+            .bathroom-info {
+                width: 80%;
+                h2 {
+                    text-transform: capitalize;
+                    font-size: 17px;
+                    font-weight: 600;
+                }
+                span {
+                    font-size: 14px;
+                }
+            }
+
+            .list-item-arrow {
+                display: flex;
+                width: 20%;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                transform: translateX(20px);
+                transition-property: opacity, transform;
+                transition-duration: 0.2s;
+            }
+
+            &:hover {
+                background: rgb(240, 239, 239);
+                box-shadow: inset 3px 4px 5px lightgray;
+
+                .list-item-arrow {
+                    opacity: 1;
+                    transform: translateX(0);
+                    transition-property: opacity, transform;
+                    transition-duration: 0.2s;
+                }
+            }
+        }
+    }
+}

@@ -6,7 +6,7 @@ class MarkerManager {
 
     updateMarkers(bathrooms) {
         const bathroomObj = {};
-
+        
         bathrooms.forEach( bathroom => {
             if ( !this.markers[bathroom.id] ) {
                 this.createMarkerFromBathroom(bathroom);
