@@ -48,6 +48,18 @@ const BathroomMap = props => {
       marker.addListener("click", () => {
         props.history.push(`/bathrooms/${marker.id}`);
       });
+
+      const infowindow = new google.maps.InfoWindow({
+        content: marker.title
+      });
+
+      marker.addListener("mouseover", () => {
+        infowindow.open(mapRef.current, marker);
+      });
+
+      marker.addListener("mouseout", () => {
+        infowindow.close(mapRef.current, marker);
+      });
     });
   };
 
