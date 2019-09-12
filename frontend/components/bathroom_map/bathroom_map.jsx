@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { withRouter } from "react-router-dom";
 import MarkerManager from "../../util/marker_manager";
 
 const BathroomMap = props => {
@@ -36,16 +37,25 @@ const BathroomMap = props => {
         props.updateFilter("bounds", bounds);
       }
     });
-
-    // return () => {
-    //     mapRef.current.removeListener(idleListener);
-    // }
   }, []);
+
+  // update all markers with a click listener that redirects to show page
+  const addMarkerListeners = () => {
+    Object.values(markerManagerRef.current.markers).forEach(marker => {
+      // clear any previous click listeners on the marker
+      google.maps.event.clearListeners(marker, "click");
+
+      marker.addListener("click", () => {
+        props.history.push(`/bathrooms/${marker.id}`);
+      });
+    });
+  };
 
   // update markers whenever bathrooms change
   useEffect(() => {
     if (markerManagerRef.current !== null) {
       markerManagerRef.current.updateMarkers(bathrooms);
+      addMarkerListeners();
     }
   }, [bathrooms]);
 
@@ -57,4 +67,4 @@ const BathroomMap = props => {
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;
 };
 
-export default BathroomMap;
+export default withRouter(BathroomMap);
