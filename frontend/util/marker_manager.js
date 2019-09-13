@@ -23,6 +23,10 @@ class MarkerManager {
         });
     }
 
+    recenterOnMarker(latlng) {
+        this.map.setCenter(latlng)
+    }
+
     createMarkerFromBathroom(bathroom) {
         const { lat, lng, name, id } = bathroom;
 

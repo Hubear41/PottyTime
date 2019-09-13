@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import MarkerManager from "../../util/marker_manager";
 
 const BathroomMap = props => {
-  const { bathrooms, center, noResults, mapType } = props;
+  const { bathrooms, center, noResults, mapType, updateFilter } = props;
   const mapRef = useRef();
   const mapNodeRef = useRef();
   const markerManagerRef = useRef();
@@ -34,7 +34,7 @@ const BathroomMap = props => {
           southWest: { lat: south, lng: west }
         };
 
-        props.updateFilter("bounds", bounds);
+        updateFilter("bounds", bounds);
       }
     });
   }, []);
@@ -47,6 +47,9 @@ const BathroomMap = props => {
 
       marker.addListener("click", () => {
         props.history.push(`/bathrooms/${marker.id}`);
+        const lat = marker.position.lat();
+        const lng = marker.position.lng();
+        updateFilter("center", { lat, lng });
       });
 
       const infowindow = new google.maps.InfoWindow({
