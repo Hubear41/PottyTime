@@ -1,12 +1,14 @@
 .bathroom-show-container {
   display: flex;
+  justify-content: center;
+  width: 50%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   .bathroom-information-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
 
     h2 {
       text-transform: capitalize;

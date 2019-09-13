@@ -1,28 +1,39 @@
-import React from 'react';
-import BathroomIndex from '../bathrooms/bathroom_index';
-import BathroomMap from '../bathroom_map/bathroom_map';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import BathroomIndex from "../bathrooms/bathroom_index";
+import BathroomMap from "../bathroom_map/bathroom_map";
+import BathroomShow from "../bathrooms/bathroom_show_container";
 
 const Search = props => {
-    const { requestBathrooms, updateFilter, bathrooms, center} = props;
-    
-    const filteredBathrooms = bathrooms.slice(0, 10);
+  const { requestBathrooms, updateFilter, bathrooms, center } = props;
 
-    return (
-        <div id="search-index">
-            <BathroomMap 
-                bathrooms={filteredBathrooms} 
-                updateFilter={updateFilter}
-                center={center}
-                mapType="INDEX"
-                // noResults={noResults}
+  const filteredBathrooms = bathrooms.slice(0, 10);
+
+  return (
+    <div id="search-index">
+      <BathroomMap
+        bathrooms={filteredBathrooms}
+        updateFilter={updateFilter}
+        center={center}
+        mapType="INDEX"
+        // noResults={noResults}
+      />
+      <Switch>
+        <Route path="/bathrooms/:id" component={BathroomShow} />
+        <Route
+          path="/bathrooms/"
+          render={props => (
+            <BathroomIndex
+              requestBathrooms={requestBathrooms}
+              bathrooms={filteredBathrooms}
+              updateFilter={updateFilter}
+              // noResults={noResults}
             />
-            <BathroomIndex 
-                requestBathrooms={requestBathrooms} 
-                bathrooms={filteredBathrooms} 
-                // noResults={noResults}
-            />
-        </div>
-    );
+          )}
+        />
+      </Switch>
+    </div>
+  );
 };
 
 export default Search;
