@@ -3,7 +3,7 @@ import BathroomIndexItem from "./bathroom_index_item";
 import NoResults from "../no_results_message/no_results";
 
 const BathroomIndex = props => {
-  const { bathrooms, noResults, updateFilter } = props;
+  const { bathrooms, noResults, updateFilter, center } = props;
 
   const bathroomItems = bathrooms.map((bathroom, idx) => {
     return (
