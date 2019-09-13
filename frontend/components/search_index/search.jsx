@@ -27,6 +27,7 @@ const Search = props => {
               requestBathrooms={requestBathrooms}
               bathrooms={filteredBathrooms}
               updateFilter={updateFilter}
+              center={center}
               // noResults={noResults}
             />
           )}
