@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     resources :users, only: [:create]
     resource :session, only: [:create, :destroy]
 
-    resources :bathrooms, only: [:index, :show]
+    resources :bathrooms, only: [:index, :show, :create, :destroy]
   end
 
   get '*path', to: 'static_pages#root'

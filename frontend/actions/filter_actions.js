@@ -20,6 +20,5 @@ export const clearSearchError = () => ({
 
 export const updateFilter = (filter, value) => (dispatch, getState) => {
     dispatch(changeFilter(filter, value));
-
     return requestBathrooms(getState().ui.filters)(dispatch);
 }

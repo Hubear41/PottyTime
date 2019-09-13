@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { Link } from 'react-router-dom';
-import BathroomMap from '../bathroom_map/bathroom_map';
+import { Link } from "react-router-dom";
+import BathroomMap from "../bathroom_map/bathroom_map";
 
 const BathroomShow = props => {
   const { bathroom, center } = props;
@@ -12,17 +12,17 @@ const BathroomShow = props => {
     }
   }, [bathroomId]);
 
-  const centerLocation = bathroom 
+  const centerLocation = bathroom
     ? { lat: bathroom.lat, lng: bathroom.lng }
     : center;
 
   return (
     <div className="bathroom-show-container">
-      <BathroomMap 
-          bathrooms={ !bathroom ? [] : [bathroom] }
-          center={centerLocation}
-          updateFilter={() => null}
-          mapType="SHOW"
+      <BathroomMap
+        bathrooms={!bathroom ? [] : [bathroom]}
+        center={centerLocation}
+        updateFilter={() => null}
+        mapType="SHOW"
       />
 
       <div className="bathroom-information-container">
