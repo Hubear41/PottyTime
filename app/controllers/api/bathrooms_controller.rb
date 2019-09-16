@@ -6,10 +6,11 @@ class Api::BathroomsController < ApplicationController
 
   def index
     @bathrooms = Bathroom.includes(:categories).in_bounds(params[:bounds])
-
-    # unless params[:category_ids].empty?
-    #   @bathrooms.select! { |bathroom| !(params[:category_ids] & bathroom.category_ids).empty? }
-    # end
+    
+    # removes any bathrooms that don't have any of the filter_ids
+    unless filter_ids.empty?
+      @bathrooms = @bathrooms.reject { |bathroom| (filter_ids & bathroom.category_ids).empty? }
+    end
 
     render :index
   end
@@ -35,6 +36,11 @@ class Api::BathroomsController < ApplicationController
   private 
 
   def bathroom_params
-    params.require(:bathroom).permit(:name, :lat, :lng, :category_ids)
+    params.require(:bathroom).permit(:name, :lat, :lng)
+  end
+
+  def filter_ids 
+    params[:category_ids] ||= []
+    params[:category_ids].map { |id| id.to_i }
   end
 end
