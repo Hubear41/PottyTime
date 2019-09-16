@@ -1,10 +1,13 @@
 export const fetchBathrooms = filters => {
-    const { bounds } = filters;
+    const { bounds, categoryIds } = filters;
 
     return $.ajax({
         method: "GET",
         url: "/api/bathrooms",
-        data: { bounds }
+        data: {
+            bounds,
+            category_ids: categoryIds,
+        }
     });
 };
 

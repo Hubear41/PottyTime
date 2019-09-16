@@ -1,43 +1,49 @@
-.bathroom-index {
-  height: calc(100vh - 60px);
-  width: 50%;
-  overflow: scroll;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+@import "_default_styles";
 
-  ul {
-    width: 100%;
+#bathroom-index {
+    width: 55%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    li {
-      display: flex;
-      box-sizing: content-box;
-      padding: 15px 20px;
-      width: 100%;
-      border-bottom: 1px solid gray;
-      background: white;
-      cursor: pointer;
+    #filter-bar-wrapper {
+        height: 15%;
+    }
 
-      .bathroom-info {
-        width: 80%;
-        h2 {
-          text-transform: capitalize;
-          font-size: 17px;
-          font-weight: 600;
-        }
-        span {
-          font-size: 14px;
-        }
-      }
+    .bathroom-index-list {
+        width: 100%;
+        height: 85%;
+        overflow-y: scroll;
 
-      .list-item-arrow {
-        display: flex;
-        width: 20%;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        transform: translateX(20px);
-        transition-property: opacity, transform;
-        transition-duration: 0.2s;
-      }
+        [class^="bathroom-list-item-"] {
+            display: flex;
+            box-sizing: border-box;
+            padding: 15px 20px;
+            width: 100%;
+            border-bottom: 1px solid gray;
+            background: white;
+            cursor: pointer;
+
+            .bathroom-info {
+                width: 80%;
+                h2 {
+                    text-transform: capitalize;
+                    font-size: 17px;
+                    font-weight: 600;
+                }
+                span {
+                    font-size: 14px;
+                }
+            }
+            
+            .list-item-arrow {
+                display: flex;
+                width: 20%;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                transform: translateX(20px);
+                transition-property: opacity, transform;
+                transition-duration: 0.2s;
+            }
 
       &:hover {
         background: rgb(240, 239, 239);
@@ -51,5 +57,24 @@
         }
       }
     }
+<<<<<<< HEAD
   }
 }
+=======
+}
+
+// scroll bar stuff
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: $light_gray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $dark_cyan;
+    border-radius: 5px;
+}
+>>>>>>> category_feature
