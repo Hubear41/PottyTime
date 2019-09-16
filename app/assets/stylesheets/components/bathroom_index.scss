@@ -5,7 +5,7 @@
     ul {
         width: 100%;
 
-        li {
+        [class^="bathroom-list-item-"] {
             display: flex;
             box-sizing: content-box;
             padding: 15px 20px;

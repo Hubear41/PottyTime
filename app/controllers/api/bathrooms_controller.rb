@@ -5,7 +5,12 @@ class Api::BathroomsController < ApplicationController
   end
 
   def index
-    @bathrooms = Bathroom.in_bounds(params[:bounds])
+    @bathrooms = Bathroom.includes(:categories).in_bounds(params[:bounds])
+
+    # unless params[:category_ids].empty?
+    #   @bathrooms.select! { |bathroom| !(params[:category_ids] & bathroom.category_ids).empty? }
+    # end
+
     render :index
   end
 

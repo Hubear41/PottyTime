@@ -7,7 +7,7 @@ const recieveCategories = categories => ({
     categories,
 });
 
-export const requestCategories = dispatch => {
+export const requestCategories = () => dispatch => {
     return CategoryAPI.requestCategories()
-        .then( categories => dispatch(recieveCategories(categories)) );
+        .then( categories => dispatch(recieveCategories(categories)));
 };

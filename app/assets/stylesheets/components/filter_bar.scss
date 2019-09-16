@@ -1,0 +1,89 @@
+@import "_default_styles";
+
+#filter-bar-wrapper {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    h3 {
+        width: inherit;
+        text-align: center;
+        font-size: 22px;
+        padding-bottom: 10px;
+        box-sizing: inherit;
+    }
+
+    #category-filter-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        [class^="filter-item-"] {
+            font-size: 14px;
+            min-height: 37px;
+            margin-right: 5px;
+            width: 30%;
+            padding: 2px 5px;
+            box-sizing: border-box;
+
+            .checkbox-wrapper {
+                position: relative;
+                margin-bottom: 12px;
+                cursor: pointer;
+
+                user-select: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+
+                h6 {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 35px;
+                    height: 25px;
+                }
+                .checkmark {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 25px;
+                    width: 25px;
+                    background-color: $white;
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        display: none;
+                        left: 9px;
+                        top: 5px;
+                        width: 5px;
+                        height: 10px;
+                        border: solid white;
+                        border-width: 0 3px 3px 0;
+                        transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                    }
+                }
+                input[type="checkbox"] {
+                    position: absolute;
+                    opacity: 0;
+                    height: 0;
+                    width: 0;
+
+                    &:checked ~ .checkmark {
+                        background-color: $cyan;
+                        &:after {
+                            display: block;
+                        }
+                    }
+                }
+                &:hover input ~ .checkmark {
+                    background: $light_cyan;
+                }
+            }
+        }
+   }
+}
