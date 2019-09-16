@@ -1,9 +1,10 @@
 @import "_default_styles";
 
 #filter-bar-wrapper {
-    width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    // position: fixed;
+    background: white;
 
     h3 {
         width: inherit;

@@ -14,7 +14,7 @@ const BathroomIndex = props => {
 
     return (
         <>
-            <aside className="bathroom-index">
+            <aside id="bathroom-index">
                 <FilterBar />
 
                 {/* {noResultsMsg} */}

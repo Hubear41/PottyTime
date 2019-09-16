@@ -14,7 +14,7 @@ const FilterBarItem = props => {
 
     return (
         <li className={`filter-item-${category.id} ${filtering ? "filtered" : ""}`}>
-            <label className="checkbox-wrapper" onClick={handleClick}>
+            <label className="checkbox-wrapper">
                 <h6>{category.name}</h6>
                 <input type="checkbox"/>
                 <span className="checkmark"></span>

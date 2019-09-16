@@ -21,7 +21,7 @@ const FilterBar = props => {
 
     return (
         <div id="filter-bar-wrapper">
-            <h3>Filters</h3>
+            {/* <h3>Filters</h3> */}
             <ul id="category-filter-list">
                 {categoryItems}
             </ul>
