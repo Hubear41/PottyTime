@@ -3,7 +3,6 @@
 #filter-bar-wrapper {
     padding: 10px;
     box-sizing: border-box;
-    // position: fixed;
     background: white;
 
     h3 {
@@ -13,7 +12,6 @@
         padding-bottom: 10px;
         box-sizing: inherit;
     }
-
     #category-filter-list {
         width: 100%;
         display: flex;
@@ -53,6 +51,7 @@
                     width: 25px;
                     background-color: $white;
 
+                    // create the checkmark
                     &:after {
                         content: "";
                         position: absolute;
@@ -73,7 +72,6 @@
                     opacity: 0;
                     height: 0;
                     width: 0;
-
                     &:checked ~ .checkmark {
                         background-color: $cyan;
                         &:after {

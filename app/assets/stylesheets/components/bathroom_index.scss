@@ -1,3 +1,5 @@
+@import "_default_styles";
+
 #bathroom-index {
     width: 55%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,7 +33,7 @@
                     font-size: 14px;
                 }
             }
-
+            
             .list-item-arrow {
                 display: flex;
                 width: 20%;
@@ -56,4 +58,19 @@
             }
         }
     }
+}
+
+// scroll bar stuff
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: $light_gray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $dark_cyan;
+    border-radius: 5px;
 }
