@@ -1,0 +1,17 @@
+.bathroom-form-container {
+  width: 100%;
+  justify-content: center;
+
+  button,
+  input,
+  label {
+    width: 50%;
+  }
+
+  #bathroom-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

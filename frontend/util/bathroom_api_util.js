@@ -20,7 +20,7 @@ export const fetchBathroom = id => {
 
 export const createBathroom = bathroom => {
     return $.ajax({
-        method: "GET",
+        method: "POST",
         url: '/api/bathrooms',
         data: { bathroom }
 
