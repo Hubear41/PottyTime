@@ -1,10 +1,13 @@
 export const fetchBathrooms = filters => {
-    const { bounds } = filters;
+    const { bounds, categoryIds } = filters;
 
     return $.ajax({
         method: "GET",
         url: "/api/bathrooms",
-        data: { bounds }
+        data: {
+            bounds,
+            category_ids: categoryIds,
+        }
     });
 };
 
@@ -17,7 +20,7 @@ export const fetchBathroom = id => {
 
 export const createBathroom = bathroom => {
     return $.ajax({
-        method: "GET",
+        method: "POST",
         url: '/api/bathrooms',
         data: { bathroom }
 

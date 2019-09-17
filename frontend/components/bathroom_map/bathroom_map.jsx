@@ -1,9 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import { withRouter } from "react-router-dom";
+import { connect } from "react-redux";
 import MarkerManager from "../../util/marker_manager";
 
+const msp = (state, { location }) => ({
+  pathname: location.pathname
+});
+
 const BathroomMap = props => {
-  const { bathrooms, center, noResults, mapType } = props;
+  const { bathrooms, center, noResults, mapType, updateFilter } = props;
   const mapRef = useRef();
   const mapNodeRef = useRef();
   const markerManagerRef = useRef();
@@ -34,8 +39,16 @@ const BathroomMap = props => {
           southWest: { lat: south, lng: west }
         };
 
-        props.updateFilter("bounds", bounds);
+        updateFilter("bounds", bounds);
       }
+    });
+
+    mapRef.current.addListener("click", e => {
+      let coordinates = { lat: e.latLng.lat(), lng: e.latLng.lng() };
+
+      props.history.push({
+        search: `lat=${coordinates.lat}&lng=${coordinates.lng}`
+      });
     });
   }, []);
 
@@ -47,6 +60,21 @@ const BathroomMap = props => {
 
       marker.addListener("click", () => {
         props.history.push(`/bathrooms/${marker.id}`);
+        const lat = marker.position.lat();
+        const lng = marker.position.lng();
+        updateFilter("center", { lat, lng });
+      });
+
+      const infowindow = new google.maps.InfoWindow({
+        content: marker.title
+      });
+
+      marker.addListener("mouseover", () => {
+        infowindow.open(mapRef.current, marker);
+      });
+
+      marker.addListener("mouseout", () => {
+        infowindow.close(mapRef.current, marker);
       });
     });
   };
@@ -61,10 +89,15 @@ const BathroomMap = props => {
 
   // whenever center changes, change google maps
   useEffect(() => {
-    mapRef.current.setCenter(center);
+    mapRef.current.panTo(center);
   }, [center]);
 
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;
 };
 
-export default withRouter(BathroomMap);
+export default withRouter(
+  connect(
+    msp,
+    null
+  )(BathroomMap)
+);

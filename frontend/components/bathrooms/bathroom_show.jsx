@@ -18,16 +18,9 @@ const BathroomShow = props => {
 
   return (
     <div className="bathroom-show-container">
-      <BathroomMap
-        bathrooms={!bathroom ? [] : [bathroom]}
-        center={centerLocation}
-        updateFilter={() => null}
-        mapType="SHOW"
-      />
-
       <div className="bathroom-information-container">
         <h2>{bathroom ? bathroom.name.toLowerCase() : null}</h2>
-
+        <h1>{bathroom ? `${bathroom.lng}, ${bathroom.lat}` : null}</h1>
         <Link to="/bathrooms">Back to Results</Link>
       </div>
     </div>

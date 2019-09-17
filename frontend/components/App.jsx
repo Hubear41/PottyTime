@@ -9,7 +9,6 @@ const App = () => (
   <>
     <Route path="/" component={Navbar} />
     <Switch>
-      <Route path="/bathrooms/:id" component={BathroomShow} />
       <Route path="/bathrooms" component={SearchIndex} />
       <Route path="/" component={Splash} />
     </Switch>

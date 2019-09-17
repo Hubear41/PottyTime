@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     resource :session, only: [:create, :destroy]
 
     resources :bathrooms, only: [:index, :show, :create, :destroy]
+    resources :categories, only: [:index]
   end
 
   get '*path', to: 'static_pages#root'

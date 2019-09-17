@@ -6,6 +6,7 @@ const defaultState = {
         lat: 40.7536,
         lng: -73.9832,
     },
+    categoryIds: [],
 };
 
 const filtersReducer = (state = defaultState, { type, filter, value }) => {
