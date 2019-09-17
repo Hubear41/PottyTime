@@ -1,6 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import { withRouter } from "react-router-dom";
+import { connect } from "react-redux";
 import MarkerManager from "../../util/marker_manager";
+
+const msp = (state, { location }) => ({
+  pathname: location.pathname
+});
 
 const BathroomMap = props => {
   const { bathrooms, center, noResults, mapType, updateFilter } = props;
@@ -39,6 +44,14 @@ const BathroomMap = props => {
 
         updateFilter("bounds", bounds);
       }
+    });
+
+    mapRef.current.addListener("click", e => {
+      let coordinates = { lat: e.latLng.lat(), lng: e.latLng.lng() };
+
+      props.history.push({
+        search: `lat=${coordinates.lat}&lng=${coordinates.lng}`
+      });
     });
   }, []);
 
@@ -85,4 +98,9 @@ const BathroomMap = props => {
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;
 };
 
-export default withRouter(BathroomMap);
+export default withRouter(
+  connect(
+    msp,
+    null
+  )(BathroomMap)
+);

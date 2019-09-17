@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import SearchBar from "../search_bar/search_bar_container";
 
 const SplashNav = props => {
@@ -25,14 +25,18 @@ const SplashNav = props => {
     loggedOutButtons
   );
 
-  const navSearch =
-    props.history.location.pathname.includes("/bathrooms") ? <SearchBar /> : null;
+  const navSearch = props.history.location.pathname.includes("/bathrooms") ? (
+    <SearchBar />
+  ) : null;
 
   return (
     <header className="splash-nav-wrapper">
       <div className="splash-nav-left">
         <h1 className="splash-title">Comfort Station</h1>
         {navSearch}
+      </div>
+      <div className="splash-nav-create">
+        <Link to="/bathrooms/new">Create Bathroom!</Link>
       </div>
       <div className="splash-nav-btns">
         {loggedIn}
