@@ -3,6 +3,7 @@
 #bathroom-index {
     width: 55%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: $lightest_black;
 
     #filter-bar-wrapper {
         height: 15%;
@@ -28,14 +29,17 @@
                     text-transform: capitalize;
                     font-size: 17px;
                     font-weight: 600;
+                    color: $almost_black;
                 }
                 span {
-                    font-size: 14px;
+                    font-size: 12px;
+                    color: $gray;
                 }
             }
             .list-item-arrow {
                 display: flex;
                 width: 20%;
+                font-size: 20px;
                 justify-content: center;
                 align-items: center;
                 opacity: 0;
@@ -44,14 +48,18 @@
                 transition-duration: 0.2s;
             }
             &:hover {
-                background: rgb(240, 239, 239);
-                box-shadow: inset 3px 4px 5px lightgray;
+                background: $cyan;
+
+                h2 {
+                    color: white;
+                }
 
                 .list-item-arrow {
-                opacity: 1;
-                transform: translateX(0);
-                transition-property: opacity, transform;
-                transition-duration: 0.2s;
+                    opacity: 1;
+                    color: white;
+                    transform: translateX(0);
+                    transition-property: opacity, transform;
+                    transition-duration: 0.2s;
                 }
             }
         }
@@ -63,12 +71,11 @@
     width: 10px;
 }
 
-::-webkit-scrollbar-track {
-    background: $light_gray;
-    border-radius: 5px;
-}
+// ::-webkit-scrollbar-track {
+//     background: $light_gray;
+// }
 
-::-webkit-scrollbar-thumb {
-    background: $dark_cyan;
-    border-radius: 5px;
-}
+// ::-webkit-scrollbar-thumb {
+//     background: $dark_cyan;
+//     border-radius: 5px;
+// }
