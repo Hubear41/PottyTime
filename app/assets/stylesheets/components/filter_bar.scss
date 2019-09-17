@@ -3,7 +3,7 @@
 #filter-bar-wrapper {
     padding: 10px;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, $gray, $lightest_black);
+    // background: linear-gradient(to bottom, $gray, $lightest_black);
 
     #category-filter-list {
         width: 100%;
@@ -12,7 +12,7 @@
         align-items: center;
         flex-wrap: wrap;
 
-        [class^="filter-item-"] {
+        li[class^="filter-item-"] {
             font-size: 14px;
             min-height: 37px;
             margin-right: 5px;

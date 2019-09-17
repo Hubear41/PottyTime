@@ -14,14 +14,14 @@
         height: 85%;
         overflow-y: scroll;
 
-        [class^="bathroom-list-item-"] {
+        li[class^="bathroom-list-item-"] { 
             display: flex;
             box-sizing: border-box;
             padding: 15px 20px;
             width: 100%;
             border-bottom: 1px solid gray;
-            background: white;
             cursor: pointer;
+            background: $white;
 
             .bathroom-info {
                 width: 80%;
@@ -29,7 +29,7 @@
                     text-transform: capitalize;
                     font-size: 17px;
                     font-weight: 600;
-                    color: $almost_black;
+                    color: $cyan;
                 }
                 span {
                     font-size: 12px;
@@ -49,11 +49,12 @@
             }
             &:hover {
                 background: $cyan;
-
                 h2 {
                     color: white;
                 }
-
+                span {
+                    color: $gray;
+                }
                 .list-item-arrow {
                     opacity: 1;
                     color: white;
@@ -68,7 +69,7 @@
 
 // scroll bar stuff
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0px;
 }
 
 // ::-webkit-scrollbar-track {
