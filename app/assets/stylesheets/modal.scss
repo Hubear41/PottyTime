@@ -1,7 +1,4 @@
-$almost_white: #eeeeee;
-$almost_black: #222831;
-$dark_cyan: #006166;
-$cyan: #00adb5;
+@import "_default_styles.scss";
 
 .modal-background {
   position: fixed;
@@ -20,10 +17,41 @@ $cyan: #00adb5;
   transform: translate(-50%, -50%);
 }
 
+#signup-form {
+  background-color: $white;
+}
+
+#login-form {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $white;
+  padding: 20px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+
+  .login-header {
+    text-align: center;
+  }
+
+  span {
+    margin: 4px;
+    cursor: pointer;
+  }
+
+  span:hover,
+  .active-form {
+    border-bottom: $cyan 2px solid;
+  }
+
+  hr {
+    width: 100%;
+  }
+}
+
 .signup-container {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-  background-color: $almost_white;
+  background-color: $white;
   display: flex;
   flex-direction: column;
   padding: 32px;
@@ -83,7 +111,7 @@ $cyan: #00adb5;
 
 .login-form-container {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: $almost_white;
+
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -112,7 +140,7 @@ $cyan: #00adb5;
 
 .signup-form-container {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: $almost_white;
+  background-color: $white;
   display: flex;
   flex-direction: column;
   padding: 20px;
