@@ -17,7 +17,7 @@ const FilterToggle = props => {
 
     return (
         <button
-            id="filters-button"
+            id="filters-toggle"
             className={buttonClass}
             onClick={handleFilterClick}
         >
