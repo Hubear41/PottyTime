@@ -51,10 +51,13 @@
     }
     &:hover {
         .circle {
-            background-color: $light_gray;
+            background-color: $gray;
         }
         .fa-sliders-h {
             color: $white;
+            animation: shake;
+            animation-duration: 0.3s;
+            animation-timing-function: ease;
         }   
         .filter-text {
             @include  transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
@@ -63,12 +66,11 @@
             color: $gray;
         }
     }
-    &.active, 
-    &.active:hover {
+    &.active {
         .circle {
-            @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+            // @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
             width: 100%;
-            background: $light_gray;
+            background: $gray;
         }
         .fa-sliders-h  {
             @include transition(color, 0.45s, cubic-bezier(0.65,0,.076,1));
@@ -80,5 +82,29 @@
             color: $white;
             opacity: 1;
         }
+    }
+
+    &.active:hover {
+        .circle {
+            background: $gray;
+        }
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
     }
 }
