@@ -7,6 +7,7 @@
     margin-top: 60px;
     padding: 10px;
     background: linear-gradient(to bottom, $gray, $light_gray);
+    opacity: 0;
     transition: all 0.2s ease-in;
 
     #filter-all-btn {

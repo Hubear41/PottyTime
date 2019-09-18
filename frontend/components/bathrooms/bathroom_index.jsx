@@ -19,9 +19,11 @@ const BathroomIndex = props => {
     return (
       <aside id="bathroom-index">
           <FilterBar hidden={filterBarHidden} />
-          <ul className="bathroom-index-list">
-              {bathroomItems}
-          </ul>
+          <div id="bathroom-list-wrapper">
+            <ul id="bathroom-list">
+                {bathroomItems}
+            </ul>
+          </div>
       </aside>
     )
 }

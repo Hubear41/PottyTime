@@ -26,8 +26,8 @@ const FilterBar = props => {
     });
 
     const filterStyle = hidden 
-        ? { maxHeight: "0", padding: "0" }
-        : { maxHeight: "120px", padding: "10px" }
+        ? { maxHeight: "0", padding: "0", marginTop: "0" }
+        : { maxHeight: "120px", padding: "10px", marginTop: "60px" }
 
     return (
         <div 
