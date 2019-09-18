@@ -8,7 +8,6 @@ const IndexNav = props => {
     return ( 
         <div id="index-navbar">
             <aside id="index-nav-left">
-                {/* <h2>C</h2> */}
                 <SearchBar />
                 <FilterToggle 
                     filterBarHidden={filterBarHidden}
