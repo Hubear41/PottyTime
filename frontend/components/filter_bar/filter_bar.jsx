@@ -20,13 +20,13 @@ const FilterBar = props => {
     });
 
     const filterStyle = hidden 
-        ? { height: '0', padding: "0" }
-        : { height: "90px", padding: "10px"}
+        ? { maxHeight: '0', padding: "0", opacity: 0 }
+        : { maxHeight: "120px", padding: "10px", opacity: 1 }
 
     return (
         <div 
           id="filter-bar-wrapper" 
-        //   style={filterStyle}
+          style={filterStyle}
         >
             <ul id="category-filter-list">
                 {categoryItems}

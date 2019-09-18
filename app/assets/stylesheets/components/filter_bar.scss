@@ -4,7 +4,7 @@
     padding: 10px;
     box-sizing: border-box;
     background: linear-gradient(to bottom, $gray, $light_gray);
-    transition: height 0.45s ease-in;
+    transition: max-height 0.2s ease-in;
 
     #category-filter-list {
         width: 100%;
@@ -21,4 +21,30 @@
             display: inline;
         }
    }
+}
+
+.chbox-appear {
+
+}
+
+.chbox-disappear {
+
+}
+
+@keyframes chbox-appear {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes chbox-disappear {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
 }
