@@ -20,15 +20,21 @@ const FilterBar = props => {
     });
 
     const filterStyle = hidden 
-        ? { maxHeight: '0', padding: "0", opacity: 0 }
-        : { maxHeight: "120px", padding: "10px", opacity: 1 }
+        ? { maxHeight: "0", padding: "0" }
+        : { maxHeight: "120px", padding: "10px" }
 
     return (
         <div 
           id="filter-bar-wrapper" 
           style={filterStyle}
-        >
-            <ul id="category-filter-list">
+        >   
+            <button id="filter-clear-btn">
+                Clear All
+            </button>
+            <ul 
+              id="category-filter-list"
+              class={hidden ? "filters-disappear" : "filters-appear"}
+            >
                 {categoryItems}
             </ul>
         </div>

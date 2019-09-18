@@ -1,13 +1,22 @@
 @import "_default_styles";
 
 #filter-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
     padding: 10px;
     box-sizing: border-box;
     background: linear-gradient(to bottom, $gray, $light_gray);
-    transition: max-height 0.2s ease-in;
+    transition: all 0.2s ease-in;
+
+    #filter-clear-btn {
+        width: 20%;
+        margin: 5px;
+        border-right: 1px solid rbga($white, 0.2);
+    }
 
     #category-filter-list {
-        width: 100%;
+        width: 80%;
         max-height: 120px;
         display: flex;
         flex-direction: column;
@@ -16,6 +25,7 @@
         flex-wrap: wrap;
         font-size: 14px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        opacity: 0;
 
         li[class^="filter-item-"] {
             display: inline;
@@ -23,28 +33,39 @@
    }
 }
 
-.chbox-appear {
-
+.filters-appear {
+    animation: filters-appear;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    // animation-delay: 0.2s;
+    animation-timing-function: ease-in;
 }
 
-.chbox-disappear {
-
+.filters-disappear {
+    animation: filters-disappear;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
 }
 
-@keyframes chbox-appear {
+@keyframes filters-appear {
     0% {
         transform: translateY(-20px);
+        opacity: 0;
     }
     100% {
         transform: translateY(0);
+        opacity: 1;
     }
 }
 
-@keyframes chbox-disappear {
+@keyframes filters-disappear {
     0% {
         transform: translateY(0);
+        opacity: 1;
     }
     100% {
         transform: translateY(-20px);
+        opacity: 0;
     }
 }

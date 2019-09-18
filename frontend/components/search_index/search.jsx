@@ -25,7 +25,7 @@ const Search = props => {
         center={center}
         mapType="INDEX"
       />
-      <div id="search-index-left">
+      <div id="search-index-right">
         <Navbar />
         <Switch>
           <Route path="/bathrooms/new" component={CreateBathroom} />
