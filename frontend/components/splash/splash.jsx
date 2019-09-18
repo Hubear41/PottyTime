@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
 import NoResultsMsg from '../no_results_message/no_results';
-import SplashNavbar from './splash_nav_container';
+import SplashNavbar from '../nav_bars/splash_nav_container';
 
 const Splash = props => {
   const { noResults } = props;
