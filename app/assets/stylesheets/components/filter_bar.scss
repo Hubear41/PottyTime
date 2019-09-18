@@ -3,21 +3,30 @@
 #filter-bar-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 60px;
     padding: 10px;
-    box-sizing: border-box;
     background: linear-gradient(to bottom, $gray, $light_gray);
     transition: all 0.2s ease-in;
 
-    #filter-clear-btn {
+    #filter-all-btn {
+        display: flex;
+        justify-content: center;
         width: 20%;
+        min-width: 100px;
         margin: 5px;
-        border-right: 1px solid rbga($white, 0.2);
+        background: none;
+        border: none;
+        color: $cyan;
+        font-size: 22px;
+        text-transform: uppercase;
+        padding: 2% 2px;
+        border-right: 2px solid rgba($white, 0.5);
     }
 
     #category-filter-list {
         width: 80%;
-        max-height: 120px;
+        height: 110px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -25,7 +34,6 @@
         flex-wrap: wrap;
         font-size: 14px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        opacity: 0;
 
         li[class^="filter-item-"] {
             display: inline;
@@ -37,7 +45,6 @@
     animation: filters-appear;
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
-    // animation-delay: 0.2s;
     animation-timing-function: ease-in;
 }
 
