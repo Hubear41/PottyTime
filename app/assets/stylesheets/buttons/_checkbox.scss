@@ -115,6 +115,7 @@ input[type="checkbox"] {
 
     &:hover + .cbox-label {
         border: 2px solid $light_cyan;
+        transform: scale(1.03);
     }
 }
 

@@ -48,6 +48,13 @@
         text-transform: uppercase;
         transform: translateX(-30px);
         opacity: 0;
+
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
     }
     &:hover {
         .circle {
@@ -87,6 +94,12 @@
     &.active:hover {
         .circle {
             background: $gray;
+        }
+        .filter-text {
+            @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+            transform: scale(0.95);
+            color: $white;
+            opacity: 1;
         }
     }
 }
