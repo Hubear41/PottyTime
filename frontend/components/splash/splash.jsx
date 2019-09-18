@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
 import NoResultsMsg from '../no_results_message/no_results';
+import SplashNavbar from './splash_nav_container';
 
 const Splash = props => {
   const { noResults } = props;
@@ -43,21 +44,24 @@ const Splash = props => {
   const noResultMsg = noResults ? <NoResultsMsg /> : null;
 
   return (
-    <div className="splash-wrapper">
-      <form className="splash-form" onSubmit={handleSubmit}>
-        {noResultMsg}
+    <>
+      <SplashNavbar />
+      <div className="splash-wrapper">
+        <form className="splash-form" onSubmit={handleSubmit}>
+          {noResultMsg}
 
-        <label htmlFor="location">Location: </label>
-        <input
-          id="search-input"
-          type="text"
-          onChange={handleChange}
-          placeholder='Try "Bryant Park"'
-          value={search.name}
-        />
-        <input type="submit" value="Search Nearby" />
-      </form>
-    </div>
+          <label htmlFor="location">Location: </label>
+          <input
+            id="search-input"
+            type="text"
+            onChange={handleChange}
+            placeholder='Try "Bryant Park"'
+            value={search.name}
+          />
+          <input type="submit" value="Search Nearby" />
+        </form>
+      </div>
+    </>
   );
 };
 

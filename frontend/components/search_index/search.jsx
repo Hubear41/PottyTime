@@ -17,7 +17,6 @@ const Search = props => {
         updateFilter={updateFilter}
         center={center}
         mapType="INDEX"
-        // noResults={noResults}
       />
       <Switch>
         <Route path="/bathrooms/new" component={CreateBathroom} />
@@ -30,7 +29,6 @@ const Search = props => {
               bathrooms={filteredBathrooms}
               updateFilter={updateFilter}
               center={center}
-              // noResults={noResults}
             />
           )}
         />
