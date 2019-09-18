@@ -1,10 +1,22 @@
 #search-index {
-    display: flex;
-    // width: 90%;
-    // margin: 0 auto;
+  display: flex;
+  // width: 90%;
+  // margin: 0 auto;
 
-    #map-container, 
-    #bathroom-index {
-        height: calc(100vh - 60px);
-    }
+  #map-container,
+  #bathroom-index {
+    height: calc(100vh - 60px);
+  }
+}
+
+@media (max-width: 600px) {
+  #search-index {
+    flex-direction: column;
+  }
+
+  #map-container,
+  #bathroom-index {
+    height: calc(100vh - 60px);
+    width: 100%;
+  }
 }

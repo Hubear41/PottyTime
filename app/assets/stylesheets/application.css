@@ -15,5 +15,10 @@
  */
 
 body {
-    overflow: hidden;
+  overflow: hidden;
+}
+@media (max-width: 600px) {
+  body {
+    overflow: auto;
+  }
 }

@@ -18,10 +18,7 @@ const BathroomMap = props => {
     const mapOptions = {
       center,
       zoom: mapType === "SHOW" ? 19 : 16,
-      fullscreenControl: false,
-      style: {
-        
-      }
+      fullscreenControl: false
     };
 
     // wrap this.mapNode in a Google Map
