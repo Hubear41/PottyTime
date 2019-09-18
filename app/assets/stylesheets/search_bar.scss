@@ -1,31 +1,25 @@
 @import '_default_styles.scss';
 
-.splash-nav-left {
+#splash-search {
     display: flex;
     align-items: center;
+    background: white;
+    font-size: 16px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #BEBEBE;
+    height: 20px;
+    color: $gray;
 
-    .splash-title {
-        margin-right: 20px;
+
+    .fa-search-location {
+        margin-right: 10px;
     }
 
-    #splash-search {
-        display: flex;
-        align-items: center;
-        background: white;
+    #search-input {
+        width: 220px;
+        border: none;
+        background: none;
         font-size: 16px;
-        padding: 7px 10px;
-        border-radius: 5px;
-        box-shadow: 1px 1px 6px #BEBEBE;
-
-        .fa-search-location {
-            margin-right: 10px;
-        }
-
-        #search-input {
-            width: 200px;
-            color: $gray;
-            border: none;
-            background: none;
-        }
     }
 }

@@ -1,0 +1,33 @@
+@import "_default_styles";
+
+#index-navbar {
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    #index-nav-left {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        h2 {
+            font-size: 36px;
+            font-style: italic;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+    }
+
+    #navbar-dropdown-icon {
+        font-size: 32px;
+        color: $white;
+    }
+}

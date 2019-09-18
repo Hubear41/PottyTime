@@ -1,15 +1,17 @@
 import { connect } from 'react-redux';
 import IndexNav from './index_nav';
-import { openModal } from '../../actions/modal_actions'
-import { logoutUser } from '../../actions/session_actions'
+import { 
+    revealFilterBar, 
+    hideFilterBar, 
+} from '../../actions/category_actions';
 
-const msp = ({ session }) => ({
-    currentUser: session.currentUser
+const msp = ({ ui }) => ({
+    filterBarHidden: ui.filterBar.hidden,
 })
 
 const mdp = dispatch => ({
-    openModal: modal => dispatch(openModal(modal)),
-    logoutUser: () => dispatch(logoutUser())
+    revealFilterBar: () => dispatch(revealFilterBar()),
+    hideFilterBar: () => dispatch(hideFilterBar()),
 })
 
 export default connect(msp, mdp)(IndexNav)

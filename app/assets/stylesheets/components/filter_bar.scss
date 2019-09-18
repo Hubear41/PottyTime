@@ -3,7 +3,7 @@
 #filter-bar-wrapper {
     padding: 10px;
     box-sizing: border-box;
-    // background: linear-gradient(to bottom, $gray, $lightest_black);
+    transition: height 0.45s ease-in;
 
     #category-filter-list {
         width: 100%;

@@ -3,7 +3,7 @@ import BathroomIndexItem from './bathroom_index_item';
 import FilterBar from '../filter_bar/filter_bar_container';
 
 const BathroomIndex = props => {
-  const { bathrooms, updateFilter } = props;
+  const { bathrooms, updateFilter, filterBarHidden } = props;
 
   const bathroomItems = bathrooms.map((bathroom, idx) => {
     return (
@@ -18,7 +18,7 @@ const BathroomIndex = props => {
 
     return (
       <aside id="bathroom-index">
-          <FilterBar />
+          <FilterBar hidden={filterBarHidden} />
           <ul className="bathroom-index-list">
               {bathroomItems}
           </ul>

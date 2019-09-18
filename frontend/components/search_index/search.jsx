@@ -4,10 +4,16 @@ import BathroomIndex from "../bathrooms/bathroom_index";
 import BathroomMap from "../bathroom_map/bathroom_map";
 import BathroomShow from "../bathrooms/bathroom_show_container";
 import CreateBathroom from "../bathrooms/bathrooms_create_container";
-import Navbar from '../splash/splash_nav_container';
+import Navbar from '../nav_bars/index_nav_container';
 
 const Search = props => {
-  const { requestBathrooms, updateFilter, bathrooms, center } = props;
+  const { 
+    requestBathrooms, 
+    updateFilter, 
+    bathrooms, 
+    center, 
+    filterBarHidden, 
+  } = props;
 
   const filteredBathrooms = bathrooms.slice(0, 10);
 
@@ -20,6 +26,7 @@ const Search = props => {
         mapType="INDEX"
       />
       <div id="search-index-left">
+        <Navbar />
         <Switch>
           <Route path="/bathrooms/new" component={CreateBathroom} />
           <Route path="/bathrooms/:id" component={BathroomShow} />
@@ -31,6 +38,7 @@ const Search = props => {
                 bathrooms={filteredBathrooms}
                 updateFilter={updateFilter}
                 center={center}
+                filterBarHidden={filterBarHidden}
               />
             )}
           />

@@ -7,6 +7,7 @@ const msp = ({ entities, ui }) => {
     return {
         bathrooms: Object.values(entities.bathrooms),
         center: ui.filters.center,
+        filterBarHidden: ui.filterBar.hidden,
     }
 };
 

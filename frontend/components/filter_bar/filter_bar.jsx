@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import FilterBarItem from './filter_bar_item';
 
 const FilterBar = props => {
-    const { categories, updateFilter, filteredCategoryIds } = props;
+    const { categories, updateFilter, filteredCategoryIds, hidden } = props;
 
     useEffect(() => {
         props.requestCategories();
@@ -19,9 +19,15 @@ const FilterBar = props => {
         );
     });
 
+    const filterStyle = hidden 
+        ? { height: '0', padding: "0" }
+        : { height: "90px", padding: "10px"}
+
     return (
-        <div id="filter-bar-wrapper">
-            {/* <h3>Filters</h3> */}
+        <div 
+          id="filter-bar-wrapper" 
+        //   style={filterStyle}
+        >
             <ul id="category-filter-list">
                 {categoryItems}
             </ul>
