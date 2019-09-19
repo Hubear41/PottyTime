@@ -37,7 +37,7 @@ class MarkerManager {
     }
 
     findMarker(latLng) {
-        debugger
+        // debugger
     }
 
     // remove marker from map and from this.markers
