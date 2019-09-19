@@ -19,9 +19,7 @@ const BathroomMap = props => {
       center,
       zoom: mapType === "SHOW" ? 19 : 16,
       fullscreenControl: false,
-      style: {
-        
-      }
+      style: {}
     };
 
     // wrap this.mapNode in a Google Map
@@ -93,6 +91,7 @@ const BathroomMap = props => {
   // whenever center changes, change google maps
   useEffect(() => {
     mapRef.current.panTo(center);
+    markerManagerRef.current.findMarker(center);
   }, [center]);
 
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;
