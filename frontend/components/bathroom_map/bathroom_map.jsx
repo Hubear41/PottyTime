@@ -90,7 +90,7 @@ const BathroomMap = props => {
   useEffect(() => {
     mapRef.current.panTo(center);
     const marker = markerManagerRef.current.findMarker(center);
-    debugger;
+
     if (marker) {
       const infowindow = new google.maps.InfoWindow({
         content: marker.title

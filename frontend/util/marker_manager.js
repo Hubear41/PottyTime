@@ -39,8 +39,9 @@ class MarkerManager {
     findMarker(center) {
         let result;
         Object.values(this.markers).forEach(marker => {
-            let position = { lat: marker.getPosition().lat().toString(), lng: marker.getPosition().lng().toString().slice(0, 10) }
-            let check = { lat: center.lat.toString(), lng: center.lng.toString().slice(0, 10) }
+            let position = { lat: marker.getPosition().lat().toString(), lng: marker.getPosition().lng().toString().slice(0, 9) }
+            let check = { lat: center.lat.toString(), lng: center.lng.toString().slice(0, 9) }
+
             if (position.lat === check.lat && position.lng === check.lng) {
                 result = marker
             }
