@@ -89,6 +89,8 @@ const BathroomMap = props => {
   // whenever center changes, change google maps
   useEffect(() => {
     mapRef.current.panTo(center);
+
+    //update center and find marker at latlng
     const marker = markerManagerRef.current.findMarker(center);
 
     if (marker) {

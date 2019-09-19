@@ -36,6 +36,7 @@ class MarkerManager {
         this.markers[id] = marker;
     }
 
+    //find marker based on center
     findMarker(center) {
         let result;
         Object.values(this.markers).forEach(marker => {
