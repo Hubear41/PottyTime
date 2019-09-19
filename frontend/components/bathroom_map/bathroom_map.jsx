@@ -19,9 +19,7 @@ const BathroomMap = props => {
       center,
       zoom: mapType === "SHOW" ? 19 : 16,
       fullscreenControl: false,
-      style: {
-        
-      }
+      style: {}
     };
 
     // wrap this.mapNode in a Google Map
@@ -60,6 +58,8 @@ const BathroomMap = props => {
     Object.values(markerManagerRef.current.markers).forEach(marker => {
       // clear any previous click listeners on the marker
       google.maps.event.clearListeners(marker, "click");
+      google.maps.event.clearListeners(marker, "mouseover");
+      google.maps.event.clearListeners(marker, "mouseout");
 
       marker.addListener("click", () => {
         props.history.push(`/bathrooms/${marker.id}`);
@@ -74,10 +74,6 @@ const BathroomMap = props => {
 
       marker.addListener("mouseover", () => {
         infowindow.open(mapRef.current, marker);
-      });
-
-      marker.addListener("mouseout", () => {
-        infowindow.close(mapRef.current, marker);
       });
     });
   };

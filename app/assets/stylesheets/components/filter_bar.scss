@@ -1,85 +1,87 @@
 @import "_default_styles";
 
 #filter-bar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to bottom, $gray, $light_gray);
+  opacity: 0;
+  transition: all 0.2s ease-in;
+
+  #filter-all-btn {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 20%;
+    min-width: 100px;
+    margin: 5px;
+    background: none;
+    border: none;
+    color: $cyan;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 2% 2px;
+    border-right: 2px solid rgba($white, 0.5);
+  }
+
+  #category-filter-list {
+    width: 80%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    padding: 10px;
-    background: linear-gradient(to bottom, $gray, $light_gray);
-    opacity: 0;
-    transition: all 0.2s ease-in;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    #filter-all-btn {
-        display: flex;
-        justify-content: center;
-        width: 20%;
-        min-width: 100px;
-        margin: 5px;
-        background: none;
-        border: none;
-        color: $cyan;
-        font-size: 22px;
-        text-transform: uppercase;
-        padding: 2% 2px;
-        border-right: 2px solid rgba($white, 0.5);
+    li[class^="filter-item-"] {
+      display: inline;
     }
-
-    #category-filter-list {
-        width: 80%;
-        height: 110px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        font-size: 14px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-        li[class^="filter-item-"] {
-            display: inline;
-        }
-   }
+  }
 }
 
 .filters-appear {
-    animation: filters-appear;
-    animation-duration: 0.4s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
+  height: 100%;
+  animation: filters-appear;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
 }
 
 .filters-disappear {
-    animation: filters-disappear;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
+  height: 0;
+  overflow: hidden;
+  animation: filters-disappear;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
 }
 
 @keyframes filters-appear {
-    0% {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
-    92% {
-        transform: translateY(1px);
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  92% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes filters-disappear {
-    0% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-    10% {
-        transform: translateY(5px);
-    }
-    100% {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  10% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
 }

@@ -36,6 +36,10 @@ class MarkerManager {
         this.markers[id] = marker;
     }
 
+    findMarker(latLng) {
+        // debugger
+    }
+
     // remove marker from map and from this.markers
     removeMarker(marker) {
         marker.setMap(null);
