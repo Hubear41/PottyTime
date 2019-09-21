@@ -15,14 +15,17 @@ const LoginForm = props => {
 
   return (
     <div id="login-form">
-      <div className="login-header">Log Into Comfort Station</div>
+      <div className="login-header">
+        <p>Log Into Comfort Station</p>
+      </div>
+
       <div className="form-links">
         <span className="active-form">Login</span>
         <span onClick={props.openModal} className="signup-form-link">
           Signup
         </span>
+        <hr />
       </div>
-      <hr />
       <form className="login-form-container">
         <h1 onClick={props.closeModal} className="close-button">
           X

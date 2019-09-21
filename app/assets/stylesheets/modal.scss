@@ -28,23 +28,16 @@
   width: 420px;
   display: flex;
   flex-direction: column;
+  border-radius: 4px;
 
   .login-header {
     text-align: center;
+    margin: 10px 0;
   }
 
   span {
-    margin: 4px;
+    margin-right: 4px;
     cursor: pointer;
-  }
-
-  span:hover,
-  .active-form {
-    border-bottom: $cyan 2px solid;
-  }
-
-  hr {
-    width: 100%;
   }
 }
 
@@ -159,4 +152,18 @@
     width: 75vw;
     line-height: 1.5em;
   }
+}
+
+.signup-form-link:hover ~ hr {
+  margin-left: 10.2%;
+  width: 12%;
+}
+
+hr {
+  height: 0.25rem;
+  width: 9.5%;
+  margin: 0;
+  background: $cyan;
+  border: none;
+  transition: 0.3s ease-in-out;
 }
