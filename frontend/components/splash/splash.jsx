@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
-import NoResultsMsg from '../no_results_message/no_results';
-import SplashNavbar from '../nav_bars/splash_nav_container';
+import NoResultsMsg from "../no_results_message/no_results";
+import SplashNavbar from "../nav_bars/splash_nav_container";
 
 const Splash = props => {
   const { noResults } = props;
@@ -11,11 +11,9 @@ const Splash = props => {
     // setup google places on search bar
     const input = document.getElementById("search-input");
     const autocomplete = new google.maps.places.Autocomplete(input);
-    autocomplete.setFields(
-      ["formatted_address", "name", "location"]
-    );
+    autocomplete.setFields(["formatted_address", "name", "location"]);
 
-    autocomplete.addListener("place_changed", function() {      
+    autocomplete.addListener("place_changed", function() {
       updateSearch(autocomplete.getPlace());
     });
 
@@ -26,10 +24,10 @@ const Splash = props => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    
+
     if (search.name === "" && !search.location) {
       props.history.push("/bathrooms");
-    } else if ( !search.location ) {
+    } else if (!search.location) {
       props.receiveError();
     } else {
       props.updateFilter("center", search.location);
@@ -38,7 +36,7 @@ const Splash = props => {
   };
 
   const handleChange = e => {
-    updateSearch( Object.assign({}, search, { name: e.target.value }) );
+    updateSearch(Object.assign({}, search, { name: e.target.value }));
   };
 
   const noResultMsg = noResults ? <NoResultsMsg /> : null;
@@ -47,6 +45,13 @@ const Splash = props => {
     <>
       <SplashNavbar />
       <div className="splash-wrapper">
+        <video autoPlay loop>
+          <source src="https://www.meetup.com/mu_static/en-US/video.dddafbfe.mp4" />
+        </video>
+        <div className="splash-video-text">
+          <h1>Nature Calling?</h1>
+          <p>Find a Bathroom close by where ever you are</p>
+        </div>
         <form className="splash-form" onSubmit={handleSubmit}>
           {noResultMsg}
 
