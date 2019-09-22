@@ -19,7 +19,7 @@ $almost_white: #eeeeee;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 10;
+    z-index: 1;
 
     h1 {
       font-size: 38px;
@@ -29,7 +29,7 @@ $almost_white: #eeeeee;
   }
 
   .splash-form {
-    z-index: 10;
+    z-index: 1;
     top: 55%;
     color: white;
     background: transparent;
