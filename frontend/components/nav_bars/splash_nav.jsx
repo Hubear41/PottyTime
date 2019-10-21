@@ -5,12 +5,15 @@ import SearchBar from "../search_bar/search_bar_container";
 const SplashNav = props => {
   const loggedOutButtons = (
     <>
-      <button className="splash-login nav-button" onClick={() => props.openModal("login")}>
+      <button
+        className="splash-login nav-button"
+        onClick={() => props.openModal("login")}
+      >
         <span>Log In</span>
       </button>
       <button
         className="splash-signup nav-button"
-        onClick={() => props.openModal("signup")}
+        onClick={() => props.openModal("signup-form")}
       >
         <span>Sign Up</span>
       </button>
@@ -35,10 +38,12 @@ const SplashNav = props => {
         <h1 className="splash-title">Comfort Station</h1>
         {navSearch}
       </div>
-      <div className="splash-nav-create">
-        <Link to="/bathrooms/new">Create Bathroom!</Link>
-      </div>
       <div className="splash-nav-btns">
+        <div className="splash-nav-create">
+          <Link className="create-link nav-button" to="/bathrooms/new">
+            Create Bathroom!
+          </Link>
+        </div>
         {loggedIn}
       </div>
     </header>

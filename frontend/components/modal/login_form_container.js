@@ -10,7 +10,7 @@ const msp = ({ ui }) => ({
 const mdp = dispatch => ({
   loginUser: userParams => dispatch(loginUser(userParams)),
   closeModal: () => dispatch(closeModal()),
-  openModal: () => dispatch(openModal('signup'))
+  openModal: () => dispatch(openModal('signup-form'))
 })
 
 export default connect(msp, mdp)(LoginForm)

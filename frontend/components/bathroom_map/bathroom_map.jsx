@@ -89,6 +89,16 @@ const BathroomMap = props => {
   // whenever center changes, change google maps
   useEffect(() => {
     mapRef.current.panTo(center);
+
+    //update center and find marker at latlng
+    const marker = markerManagerRef.current.findMarker(center);
+
+    if (marker) {
+      const infowindow = new google.maps.InfoWindow({
+        content: marker.title
+      });
+      infowindow.open(mapRef.current, marker);
+    }
   }, [center]);
 
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;

@@ -4,15 +4,15 @@ import BathroomIndex from "../bathrooms/bathroom_index";
 import BathroomMap from "../bathroom_map/bathroom_map";
 import BathroomShow from "../bathrooms/bathroom_show_container";
 import CreateBathroom from "../bathrooms/bathrooms_create_container";
-import Navbar from '../nav_bars/index_nav_container';
+import Navbar from "../nav_bars/index_nav_container";
 
 const Search = props => {
-  const { 
-    requestBathrooms, 
-    updateFilter, 
-    bathrooms, 
-    center, 
-    filterBarHidden, 
+  const {
+    requestBathrooms,
+    updateFilter,
+    bathrooms,
+    center,
+    filterBarHidden
   } = props;
 
   const filteredBathrooms = bathrooms.slice(0, 10);

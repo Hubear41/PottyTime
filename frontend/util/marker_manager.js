@@ -36,8 +36,18 @@ class MarkerManager {
         this.markers[id] = marker;
     }
 
-    findMarker(latLng) {
-        // debugger
+    //find marker based on center
+    findMarker(center) {
+        let result;
+        Object.values(this.markers).forEach(marker => {
+            let position = { lat: marker.getPosition().lat().toString(), lng: marker.getPosition().lng().toString().slice(0, 9) }
+            let check = { lat: center.lat.toString(), lng: center.lng.toString().slice(0, 9) }
+
+            if (position.lat === check.lat && position.lng === check.lng) {
+                result = marker
+            }
+        })
+        return result;
     }
 
     // remove marker from map and from this.markers
