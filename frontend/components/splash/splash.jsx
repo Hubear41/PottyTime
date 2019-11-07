@@ -11,9 +11,9 @@ const Splash = props => {
     // setup google places on search bar
     const input = document.getElementById("search-input");
     const autocomplete = new google.maps.places.Autocomplete(input);
-    autocomplete.setFields(["formatted_address", "name", "location"]);
+    autocomplete.setFields(["formatted_address", "name", "geometry"]);
 
-    autocomplete.addListener("place_changed", function() {
+    autocomplete.addListener("place_changed", function () {
       updateSearch(autocomplete.getPlace());
     });
 
@@ -24,13 +24,13 @@ const Splash = props => {
 
   const handleSubmit = e => {
     e.preventDefault();
-
-    if (search.name === "" && !search.location) {
+    if (search.name === "" && !search.geometry) {
       props.history.push("/bathrooms");
-    } else if (!search.location) {
+    } else if (!search.geometry) {
       props.receiveError();
     } else {
-      props.updateFilter("center", search.location);
+      const latlng = { lat: search.geometry.location.lat(), lng: search.geometry.location.lng() };
+      props.updateFilter("center", latlng);
       props.history.push("/bathrooms");
     }
   };

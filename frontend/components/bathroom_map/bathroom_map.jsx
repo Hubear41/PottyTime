@@ -12,6 +12,7 @@ const BathroomMap = props => {
   const mapRef = useRef();
   const mapNodeRef = useRef();
   const markerManagerRef = useRef();
+  const centerMarkerRef = useRef();
 
   // setup for google maps after it mounts
   useEffect(() => {
@@ -58,22 +59,17 @@ const BathroomMap = props => {
     Object.values(markerManagerRef.current.markers).forEach(marker => {
       // clear any previous click listeners on the marker
       google.maps.event.clearListeners(marker, "click");
-      google.maps.event.clearListeners(marker, "mouseover");
-      google.maps.event.clearListeners(marker, "mouseout");
 
       marker.addListener("click", () => {
         props.history.push(`/bathrooms/${marker.id}`);
         const lat = marker.position.lat();
         const lng = marker.position.lng();
-        updateFilter("center", { lat, lng });
+        mapRef.current.panTo({ lat, lng });
+        centerMarkerRef.current = { lat, lng };
       });
 
       const infowindow = new google.maps.InfoWindow({
         content: marker.title
-      });
-
-      marker.addListener("mouseover", () => {
-        infowindow.open(mapRef.current, marker);
       });
     });
   };
@@ -88,10 +84,8 @@ const BathroomMap = props => {
 
   // whenever center changes, change google maps
   useEffect(() => {
-    mapRef.current.panTo(center);
-
-    //update center and find marker at latlng
-    const marker = markerManagerRef.current.findMarker(center);
+    //find the selected marker to open infowindow
+    const marker = markerManagerRef.current.findMarker(centerMarkerRef.current);
 
     if (marker) {
       const infowindow = new google.maps.InfoWindow({
@@ -99,7 +93,11 @@ const BathroomMap = props => {
       });
       infowindow.open(mapRef.current, marker);
     }
-  }, [center]);
+  }, [centerMarkerRef.current]);
+
+  useEffect(() => {
+    mapRef.current.panTo(center);
+  }, [center])
 
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;
 };

@@ -1,10 +1,9 @@
-import React from 'react';
-import BathroomIndexItem from './bathroom_index_item';
-import FilterBar from '../filter_bar/filter_bar_container';
+import React from "react";
+import BathroomIndexItem from "./bathroom_index_item";
+import FilterBar from "../filter_bar/filter_bar_container";
 
 const BathroomIndex = props => {
-  const { bathrooms, updateFilter, filterBarHidden } = props;
-
+  const { bathrooms, updateFilter, filterBarHidden, center } = props;
   const bathroomItems = bathrooms.map((bathroom, idx) => {
     return (
       <BathroomIndexItem
@@ -16,16 +15,14 @@ const BathroomIndex = props => {
     );
   });
 
-    return (
-      <aside id="bathroom-index">
-          <FilterBar hidden={filterBarHidden} />
-          <div id="bathroom-list-wrapper">
-            <ul id="bathroom-list">
-                {bathroomItems}
-            </ul>
-          </div>
-      </aside>
-    )
-}
+  return (
+    <aside id="bathroom-index">
+      <FilterBar hidden={filterBarHidden} />
+      <div id="bathroom-list-wrapper">
+        <ul id="bathroom-list">{bathroomItems}</ul>
+      </div>
+    </aside>
+  );
+};
 
 export default BathroomIndex;

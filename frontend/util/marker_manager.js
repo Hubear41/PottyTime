@@ -10,7 +10,6 @@ class MarkerManager {
         bathrooms.forEach(bathroom => {
             if (!this.markers[bathroom.id]) {
                 this.createMarkerFromBathroom(bathroom);
-                // this.createMarkerInfo();
             }
             bathroomObj[bathroom.id] = bathroom;
         });

@@ -8,14 +8,13 @@ const SearchBar = props => {
         const input = document.getElementById("search-input");
         const autocomplete = new google.maps.places.Autocomplete(input);
         autocomplete.setFields(
-            ["formatted_address", "name", "location"]
+            ["formatted_address", "name", "geometry"]
         );
 
         autocomplete.addListener("place_changed", function () {
             const newPlace = autocomplete.getPlace();
-            
-            if (newPlace.location) {
-                updateSearch( Object.assign({}, search, autocomplete.getPlace()) );
+            if (newPlace.geometry) {
+                updateSearch(Object.assign({}, search, autocomplete.getPlace()));
             }
         });
 
@@ -26,22 +25,22 @@ const SearchBar = props => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        if ( !search.location ) {
+        if (!search.geometry) {
             props.receiveError();
         } else {
-            props.updateFilter("center", search.location);
+            const latlng = { lat: search.geometry.location.lat(), lng: search.geometry.location.lng() };
+            props.updateFilter("center", latlng);
         }
     };
 
     const handleChange = e => {
         updateSearch(Object.assign({}, search, { name: e.target.value }));
-
     };
 
     return (
         <form id="splash-search" onSubmit={handleSubmit}>
             <i className="fas fa-search-location"></i>
-            <input 
+            <input
                 id="search-input"
                 type="text"
                 placeholder='Try "Bryant Park"'
