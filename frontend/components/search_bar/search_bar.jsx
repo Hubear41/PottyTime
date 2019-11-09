@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { withRouter } from 'react-router-dom';
 
 
 const SearchBar = props => {
@@ -30,6 +31,8 @@ const SearchBar = props => {
         } else {
             const latlng = { lat: search.geometry.location.lat(), lng: search.geometry.location.lng() };
             props.updateFilter("center", latlng);
+
+            props.history.push('/bathrooms/')
         }
     };
 
@@ -51,4 +54,4 @@ const SearchBar = props => {
     );
 }
 
-export default SearchBar;
+export default withRouter(SearchBar);

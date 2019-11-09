@@ -15,7 +15,7 @@ const Search = props => {
     filterBarHidden
   } = props;
 
-  const filteredBathrooms = bathrooms.slice(0, 10);
+  const filteredBathrooms = bathrooms.slice(0, 30);
 
   return (
     <div id="search-index">

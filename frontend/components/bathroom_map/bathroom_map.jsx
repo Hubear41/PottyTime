@@ -12,13 +12,13 @@ const BathroomMap = props => {
   const mapRef = useRef();
   const mapNodeRef = useRef();
   const markerManagerRef = useRef();
-  const centerMarkerRef = useRef();
+  const centerMarkerRef = useRef([]);
 
   // setup for google maps after it mounts
   useEffect(() => {
     const mapOptions = {
       center,
-      zoom: mapType === "SHOW" ? 19 : 16,
+      zoom: mapType === "SHOW" ? 19 : 17,
       fullscreenControl: false,
       style: {}
     };
@@ -47,7 +47,6 @@ const BathroomMap = props => {
 
     mapRef.current.addListener("click", e => {
       let coordinates = { lat: e.latLng.lat(), lng: e.latLng.lng() };
-
       props.history.push({
         search: `lat=${coordinates.lat}&lng=${coordinates.lng}`
       });
@@ -61,15 +60,14 @@ const BathroomMap = props => {
       google.maps.event.clearListeners(marker, "click");
 
       marker.addListener("click", () => {
-        props.history.push(`/bathrooms/${marker.id}`);
         const lat = marker.position.lat();
         const lng = marker.position.lng();
-        mapRef.current.panTo({ lat, lng });
-        centerMarkerRef.current = { lat, lng };
-      });
-
-      const infowindow = new google.maps.InfoWindow({
-        content: marker.title
+        let centerMarker = centerMarkerRef.current;
+        if (lat !== centerMarker.lat && lng !== centerMarker.lng) {
+          props.history.push(`/bathrooms/${marker.id}`);
+          mapRef.current.panTo({ lat, lng });
+          centerMarkerRef.current = { lat, lng };
+        }
       });
     });
   };

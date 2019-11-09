@@ -6,7 +6,7 @@ const bathroomsReducer = (state = {}, action) => {
 
     switch (action.type) {
         case RECEIVE_BATHROOMS:
-            return action.bathrooms;
+            return merge({}, state, action.bathrooms);
         case RECEIVE_BATHROOM:
             return merge({}, state, { [action.bathroom.id]: action.bathroom });
         case DELETE_BATHROOM:
