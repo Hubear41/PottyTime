@@ -8,7 +8,6 @@ const BathroomIndexItem = props => {
 
   useEffect(() => {
     geocoder.geocode({ location: { lat, lng } }, (results, status) => {
-      debugger
       if (status === "OK") {
         updateAddress(results[0].formatted_address);
       }
