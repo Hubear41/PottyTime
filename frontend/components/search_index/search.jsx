@@ -12,10 +12,16 @@ const Search = props => {
     updateFilter,
     bathrooms,
     center,
+    sorting,
     filterBarHidden
   } = props;
 
-  const filteredBathrooms = bathrooms.slice(0, 30);
+  bathrooms.forEach(bathroom => { bathroom.distance = Math.abs(Math.abs(sorting.lat - bathroom.lat) - Math.abs(sorting.lng - bathroom.lng)) });
+  let sortedBathrooms = bathrooms.sort((current, next) => current.distance - next.distance)
+
+  const filteredBathrooms = sortedBathrooms.slice(0, 30);
+
+
 
   return (
     <div id="search-index">

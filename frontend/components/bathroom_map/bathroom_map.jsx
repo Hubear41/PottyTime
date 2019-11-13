@@ -42,7 +42,11 @@ const BathroomMap = props => {
           southWest: { lat: south, lng: west }
         };
 
+        const getCenter = mapRef.current.getCenter();
+        const newCenter = { lat: getCenter.lat(), lng: getCenter.lng() };
+
         updateFilter("bounds", bounds);
+        updateFilter("sorting", newCenter);
       }
     });
 
