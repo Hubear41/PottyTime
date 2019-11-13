@@ -35,13 +35,15 @@ const SplashNav = props => {
   return (
     <header className="splash-nav-wrapper">
       <div className="splash-nav-left">
-        <h1 className="splash-title">PottyTime</h1>
+        <h1 className="splash-title">
+          <strong>Potty</strong> Time
+        </h1>
         {navSearch}
       </div>
       <div className="splash-nav-btns">
         <div className="splash-nav-create">
           <Link className="create-link nav-button" to="/bathrooms/new">
-            Create Bathroom!
+            Create Bathroom
           </Link>
         </div>
         {/* {loggedIn} */}
