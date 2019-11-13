@@ -13,7 +13,9 @@ const mdp = dispatch => ({
 });
 
 const CreateBathroom = props => {
+  const geocoder = new google.maps.Geocoder();
   const [name, setName] = useState("");
+  const { lat, lng } = props;
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -35,8 +37,8 @@ const CreateBathroom = props => {
         <span id="bathroom-location">
           Select Location By Clicking on the Map
         </span>
-        <input type="text" value={props.lat} disabled />
-        <input type="text" value={props.lng} disabled />
+        <input type="text" value={lat} disabled />
+        <input type="text" value={lng} disabled />
         <button onClick={handleSubmit}>Create!</button>
         <Link to="/bathrooms">Cancel</Link>
       </form>
