@@ -3,8 +3,9 @@ import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import MarkerManager from "../../util/marker_manager";
 
-const msp = (state, { location }) => ({
-  pathname: location.pathname
+const msp = ({ ui }, { location }) => ({
+  pathname: location.pathname,
+  center: ui.filters.center
 });
 
 const BathroomMap = props => {
@@ -95,6 +96,10 @@ const BathroomMap = props => {
 
   useEffect(() => {
     mapRef.current.panTo(center);
+
+    if (center.lat !== centerMarkerRef.current.lat && center.lng !== centerMarkerRef.current.lng) {
+      centerMarkerRef.current = center
+    }
   }, [center])
 
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;

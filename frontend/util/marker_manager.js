@@ -38,6 +38,7 @@ class MarkerManager {
     //find marker based on center
     findMarker(center) {
         let result;
+
         Object.values(this.markers).forEach(marker => {
             let position = { lat: marker.getPosition().lat().toString(), lng: marker.getPosition().lng().toString().slice(0, 9) }
             let check = { lat: center.lat.toString(), lng: center.lng.toString().slice(0, 9) }
@@ -46,6 +47,7 @@ class MarkerManager {
                 result = marker
             }
         })
+
         return result;
     }
 

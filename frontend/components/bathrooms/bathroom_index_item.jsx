@@ -4,29 +4,29 @@ import { withRouter } from "react-router-dom";
 const BathroomIndexItem = props => {
   const { bathroom, idx, updateFilter } = props;
   const { lat, lng, name, id } = bathroom;
-  const [address, updateAddress] = useState(null);
+  // const [address, updateAddress] = useState(null);
 
-  useEffect(() => {
-    const geocoder = new google.maps.Geocoder();
+  // useEffect(() => {
+  //   const geocoder = new google.maps.Geocoder();
 
-    geocoder.geocode({ location: { lat, lng } }, (results, status) => {
-      if (status === "OK") {
-        updateAddress(results[0].formatted_address);
-      }
-    });
-  }, [bathroom]);
+  //   geocoder.geocode({ location: { lat, lng } }, (results, status) => {
+  //     if (status === "OK") {
+  //       updateAddress(results[0].formatted_address);
+  //     }
+  //   });
+  // }, [bathroom]);
 
   const handleClick = e => {
     props.history.push(`/bathrooms/${id}`);
     updateFilter("center", { lat, lng });
   };
 
-  const locationContent =
-    address === null ? (
-      <span>{`lat: ${lat} | lng: ${lng}`}</span>
-    ) : (
-      <span>{`address: ${address}`}</span>
-    );
+  // const locationContent =
+  //   bathroom.address === null ? (
+  //     <span>{`lat: ${lat} | lng: ${lng}`}</span>
+  //   ) : (
+  //     <span>{`address: ${address}`}</span>
+  //   );
 
   return (
     <li
@@ -36,7 +36,7 @@ const BathroomIndexItem = props => {
     >
       <section className="bathroom-info">
         <h2>{name.toLowerCase()}</h2>
-        {locationContent}
+        <span>{`Address: ${bathroom.address}`}</span>
       </section>
 
       <aside className="list-item-arrow">

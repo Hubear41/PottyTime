@@ -22,7 +22,6 @@ const Search = props => {
       <BathroomMap
         bathrooms={filteredBathrooms}
         updateFilter={updateFilter}
-        center={center}
         mapType="INDEX"
       />
       <div id="search-index-right">
