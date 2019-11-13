@@ -25,8 +25,8 @@ const SplashNav = props => {
       <span>Logout</span>
     </button>
   ) : (
-      loggedOutButtons
-    );
+    loggedOutButtons
+  );
 
   const navSearch = props.history.location.pathname.includes("/bathrooms") ? (
     <SearchBar />
@@ -35,7 +35,7 @@ const SplashNav = props => {
   return (
     <header className="splash-nav-wrapper">
       <div className="splash-nav-left">
-        <h1 className="splash-title">Comfort Station</h1>
+        <h1 className="splash-title">PottyTime</h1>
         {navSearch}
       </div>
       <div className="splash-nav-btns">

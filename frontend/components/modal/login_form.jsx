@@ -16,7 +16,7 @@ const LoginForm = props => {
   return (
     <div id="login-form">
       <div className="login-header">
-        <p>Log Into Comfort Station</p>
+        <p>Log Into Potty Time</p>
       </div>
 
       <div className="form-links">

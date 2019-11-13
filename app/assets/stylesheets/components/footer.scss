@@ -1,0 +1,36 @@
+@import "../default_styles";
+
+#footer {
+  width: 80%;
+  padding: 0 10%;
+  height: 60px;
+  color: $white;
+  background: $gray;
+
+  display: flex;
+  align-items: center;
+
+  .footer-text {
+    flex: 6 0 100px;
+  }
+
+  .footer-social-links {
+    display: flex;
+    align-content: center;
+    height: 100%;
+    flex: 3 0 100px;
+
+    .footer-link-item {
+      color: $white;
+      outline: none;
+      border: none;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+
+      i {
+        font-size: 30px;
+      }
+    }
+  }
+}

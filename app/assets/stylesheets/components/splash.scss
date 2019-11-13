@@ -3,6 +3,7 @@ $almost_white: #eeeeee;
 
 .splash-wrapper {
   min-height: 460px;
+  height: calc(100vh - 120px);
   width: 100vw;
   position: relative;
   background: $almost_black;

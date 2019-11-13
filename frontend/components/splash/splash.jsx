@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
 import NoResultsMsg from "../no_results_message/no_results";
 import SplashNavbar from "../nav_bars/splash_nav_container";
+import Footer from "../footer/footer";
 
 const Splash = props => {
   const { noResults } = props;
@@ -13,7 +14,7 @@ const Splash = props => {
     const autocomplete = new google.maps.places.Autocomplete(input);
     autocomplete.setFields(["formatted_address", "name", "geometry"]);
 
-    autocomplete.addListener("place_changed", function () {
+    autocomplete.addListener("place_changed", function() {
       updateSearch(autocomplete.getPlace());
     });
 
@@ -29,7 +30,10 @@ const Splash = props => {
     } else if (!search.geometry) {
       props.receiveError();
     } else {
-      const latlng = { lat: search.geometry.location.lat(), lng: search.geometry.location.lng() };
+      const latlng = {
+        lat: search.geometry.location.lat(),
+        lng: search.geometry.location.lng()
+      };
       props.updateFilter("center", latlng);
       props.history.push("/bathrooms");
     }
@@ -66,6 +70,7 @@ const Splash = props => {
           <input type="submit" value="Search Nearby" />
         </form>
       </div>
+      <Footer />
     </>
   );
 };
