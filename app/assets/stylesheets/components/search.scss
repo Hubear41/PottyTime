@@ -2,13 +2,14 @@
   height: 100vh;
   overflow: hidden;
   display: flex;
+  flex-direction: row-reverse;
 
   #bathroom-index {
     height: calc(100vh - 60px);
   }
 
   #search-index-right {
-    width: 35%;
+    width: 50%;
     position: relative;
     display: flex;
     flex-direction: column;
