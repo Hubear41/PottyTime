@@ -1,12 +1,10 @@
-@import "_default_styles";
+@import "../../base/_default_styles";
 
 #index-navbar {
-  // position: absolute;
   z-index: 20;
-  width: 100%;
+  width: 90%;
   height: 60px;
-  box-sizing: border-box;
-  padding: 5px 15px;
+  padding: 5px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +23,11 @@
       font-style: italic;
       font-weight: 600;
       margin-right: 10px;
+    }
+
+    .index-logo {
+      text-decoration: none;
+      font-size: 40px;
     }
   }
 }

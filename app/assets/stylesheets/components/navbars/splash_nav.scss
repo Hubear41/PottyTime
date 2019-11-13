@@ -1,4 +1,4 @@
-@import "_default_styles";
+@import "../../base/_default_styles";
 
 .splash-nav-wrapper {
   display: flex;
@@ -17,15 +17,6 @@
       margin-right: 20px;
       margin-left: 10px;
       font-size: 24px;
-      text-transform: uppercase;
-      font-weight: medium;
-
-      strong {
-        font-weight: bold;
-        color: $cyan;
-      }
-
-      border-bottom: 5px solid $cyan;
     }
   }
 

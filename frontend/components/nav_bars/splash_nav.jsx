@@ -35,8 +35,10 @@ const SplashNav = props => {
   return (
     <header className="splash-nav-wrapper">
       <div className="splash-nav-left">
-        <h1 className="splash-title">
-          <strong>Potty</strong> Time
+        <h1 className="splash-title logo-full">
+          <span>
+            <strong>Potty</strong> Time
+          </span>
         </h1>
         {navSearch}
       </div>

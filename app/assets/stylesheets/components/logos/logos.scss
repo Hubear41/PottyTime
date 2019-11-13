@@ -1,0 +1,41 @@
+@import "../../base/_default_styles";
+
+.logo-round {
+  color: $light_gray;
+  position: relative;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    position: absolute;
+    z-index: 5;
+
+    strong {
+      font-weight: bold;
+      color: $white;
+      font-style: italic;
+    }
+  }
+}
+
+.logo-full {
+  color: $almost_black;
+
+  span {
+    strong {
+      font-weight: bold;
+      color: $cyan;
+    }
+
+    border-bottom: 5px solid $cyan;
+  }
+}
+
+[class^="logo-"] {
+  text-transform: uppercase;
+  font-weight: medium;
+  font-family: "Roboto", sans-serif;
+}
