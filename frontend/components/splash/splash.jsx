@@ -56,8 +56,8 @@ const Splash = props => {
           <h1>Nature Calling?</h1>
           <p>
             Life is a journey! Enjoy every moment! Don't let nature's call ruin
-            your fun. Let us handle finding the nearest bathroom so you can keep
-            on partying.
+            your fun. So let us handle finding the nearest bathroom so you can
+            keep on partying.
           </p>
         </div>
         <form className="splash-search" onSubmit={handleSubmit}>
