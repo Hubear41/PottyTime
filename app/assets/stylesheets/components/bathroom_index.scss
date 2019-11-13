@@ -18,9 +18,8 @@
 
       li[class^="bathroom-list-item-"] {
         display: flex;
-        box-sizing: border-box;
-        padding: 15px 20px;
-        width: 100%;
+        padding: 30px 5%;
+        width: 90%;
         border-bottom: 1px solid gray;
         cursor: pointer;
         background: $white;
