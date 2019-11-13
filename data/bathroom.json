@@ -7,7 +7,8 @@
                 "lon": "-73.999518",
                 "name": "BARNES & NOBLE",
                 "category": "Book Store",
-                "zindex": 1
+                "zindex": 1,
+                "address": "396 Avenue of the Americas, New York, NY 10011"
             }
         },
         {
@@ -17,7 +18,8 @@
                 "lon": "-73.969831",
                 "name": "BARNES & NOBLE",
                 "category": "Book Store",
-                "zindex": 1
+                "zindex": 1,
+                "address": "160 East 54th Street, New York, NY 10022"
             }
         },
         {
