@@ -16,7 +16,7 @@ require 'csv'
 
 bathroomRecords = JSON.parse(File.read("./data/bathroom.json"))
 
-bathroom_data = CSV.parse(File.read('/Users/Elvis/Desktop/PottyTime/data/bathrooms.csv'),headers: true)
+bathroom_data = CSV.parse(File.read('./data/bathrooms.csv'),headers: true)
 
 bathroom_hashes = []
 
