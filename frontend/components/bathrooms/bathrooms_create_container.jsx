@@ -15,14 +15,30 @@ const mdp = dispatch => ({
 const CreateBathroom = props => {
   const geocoder = new google.maps.Geocoder();
   const [name, setName] = useState("");
+  const [address, setAddress] = useState('')
   const { lat, lng } = props;
+
+  useEffect(() => {
+    const myLatlng = new google.maps.LatLng(parseFloat(lat), parseFloat(lng));
+    geocoder.geocode({
+      'latLng': myLatlng
+    }, function (results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        if (results[0]) {
+          setAddress(results[0].formatted_address);
+        }
+      }
+    });
+  }, [lat, lng])
 
   function handleSubmit(e) {
     e.preventDefault();
-    let bathroom = { name, lat: props.lat, lng: props.lng };
+    let bathroom = { name, lat: props.lat, lng: props.lng, address };
     props
       .createBathroom(bathroom)
-      .then(bathroom => props.history.push("/bathrooms"));
+      .then(bathroom => {
+        props.history.push(`/bathrooms/`)
+      });
   }
 
   return (
@@ -37,8 +53,9 @@ const CreateBathroom = props => {
         <span id="bathroom-location">
           Select Location By Clicking on the Map
         </span>
-        <input type="text" value={lat} disabled />
-        <input type="text" value={lng} disabled />
+        {/* <input type="text" value={lat || ""} disabled />
+        <input type="text" value={lng || ""} disabled /> */}
+        <input type="text" value={address} disabled className='' />
         <button onClick={handleSubmit}>Create!</button>
         <Link to="/bathrooms">Cancel</Link>
       </form>
