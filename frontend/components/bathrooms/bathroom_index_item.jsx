@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
 
 const BathroomIndexItem = props => {
-  const { bathroom, idx, updateFilter, geocoder } = props;
+  const { bathroom, idx, updateFilter } = props;
   const { lat, lng, name, id } = bathroom;
   const [address, updateAddress] = useState(null);
 
   useEffect(() => {
+    const geocoder = new google.maps.Geocoder();
+
     geocoder.geocode({ location: { lat, lng } }, (results, status) => {
       if (status === "OK") {
         updateAddress(results[0].formatted_address);
@@ -19,14 +21,12 @@ const BathroomIndexItem = props => {
     updateFilter("center", { lat, lng });
   };
 
-
   const locationContent =
     address === null ? (
       <span>{`lat: ${lat} | lng: ${lng}`}</span>
     ) : (
-        <span>{`address: ${address}`}</span>
-      );
-
+      <span>{`address: ${address}`}</span>
+    );
 
   return (
     <li
