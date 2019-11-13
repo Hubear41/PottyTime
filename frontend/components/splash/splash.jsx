@@ -54,20 +54,25 @@ const Splash = props => {
         </video>
         <div className="splash-video-text">
           <h1>Nature Calling?</h1>
-          <p>Find a Bathroom close by where ever you are</p>
+          <p>
+            Life is a journey! Enjoy every moment! Don't let nature's call ruin
+            your fun. Let us handle finding the nearest bathroom so you can keep
+            on partying.
+          </p>
         </div>
-        <form className="splash-form" onSubmit={handleSubmit}>
-          {noResultMsg}
-
-          <label htmlFor="location">Location: </label>
-          <input
-            id="search-input"
-            type="text"
-            onChange={handleChange}
-            placeholder='Try "Bryant Park"'
-            value={search.name}
-          />
-          <input type="submit" value="Search Nearby" />
+        <form className="splash-search" onSubmit={handleSubmit}>
+          <label htmlFor="search-input" id="splash-search-label">
+            <input
+              id="search-input"
+              type="text"
+              onChange={handleChange}
+              placeholder='Try "Bryant Park"'
+              value={search.name}
+            />
+          </label>
+          <button id="splash-search-btn" onClick={handleSubmit}>
+            <i className="fas fa-search-location"></i>
+          </button>
         </form>
       </div>
       <Footer />
