@@ -8,9 +8,24 @@ const BathroomShow = props => {
   const center = bathroom ? { lat: bathroom.lat, lng: bathroom.lng } : {};
 
   const address = bathroom ? bathroom.address.split(" ").join("+") : null;
-  debugger;
+
   useEffect(() => {
     requestBathroom(bathroomId);
+    // .then(action => {
+    //   const request = {
+    //     query: action.bathroom.address,
+    //     fields: ["icon", "place_id", "open_now", "rating", "user_rating_total"]
+    //   };
+
+    //   const service = new google.maps.places.PlacesService("#places-results");
+
+    //   service.findPlaceFromQuery(request, (res, status) => {
+    //     if (status === google.maps.place.PlaceServiceState.OK) {
+    //       console.log(res);
+    //       debugger;
+    //     }
+    //   });
+    // });
   }, []);
 
   useEffect(() => {
@@ -38,6 +53,7 @@ const BathroomShow = props => {
             Directions
           </a>
         ) : null}
+        <p id="places-results"></p>
         <Link to="/bathrooms" className="back-button">
           Back to Results
         </Link>
