@@ -90,7 +90,7 @@ class MarkerManager {
     // remove previously selected marker
     if (this.selectedId) {
       const prevSelectedMarker = this.markers[this.selectedId];
-      debugger;
+
       this.removeMarker(prevSelectedMarker);
       this.createMarkerFromMarker(prevSelectedMarker);
     }
@@ -98,7 +98,6 @@ class MarkerManager {
     // if there's a new selected marker, create a green marker
     if (id) {
       const selectedMarker = this.markers[id];
-      debugger;
       this.removeMarker(selectedMarker);
 
       const { position, title } = selectedMarker;

@@ -33,7 +33,10 @@ const BathroomIndexItem = props => {
   //     <span>{`address: ${address}`}</span>
   //   );
 
-  // const distanceAway = distance(center.lat, center.lng, lat, lng, "M");
+  const distanceAway =
+    bathroom.distance.toFixed(2) <= 0.01
+      ? "Nearby"
+      : `${bathroom.distance.toFixed(2)}mi`;
 
   return (
     <li
@@ -47,7 +50,7 @@ const BathroomIndexItem = props => {
           <h2>{name.toLowerCase()}</h2>
           <span>{`Address: ${bathroom.address}`}</span>
         </aside>
-        <h4>{`${bathroom.distance.toFixed(2)}mi`}</h4>
+        <h4>{distanceAway}</h4>
       </section>
 
       <aside className="list-item-arrow">

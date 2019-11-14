@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import { requestBathrooms } from "../../actions/bathroom_actions";
-import { updateFilter } from "../../actions/filter_actions";
+import { updateFilter, updateFilters } from "../../actions/filter_actions";
 import { updateCurrentMarker } from "../../actions/ui_actions";
 import Search from "./search";
 
@@ -18,6 +18,7 @@ const msp = ({ entities, ui }) => {
 const mdp = dispatch => ({
   requestBathrooms: () => dispatch(requestBathrooms()),
   updateFilter: (filter, value) => dispatch(updateFilter(filter, value)),
+  updateFilters: (filters, values) => dispatch(updateFilters(filters, values)),
   updateCurrentMarker: bathroom => dispatch(updateCurrentMarker(bathroom))
 });
 
