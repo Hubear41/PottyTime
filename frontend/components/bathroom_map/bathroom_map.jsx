@@ -12,6 +12,7 @@ const BathroomMap = props => {
   const {
     bathrooms,
     center,
+    bounds,
     noResults,
     mapType,
     updateFilter,
@@ -22,7 +23,7 @@ const BathroomMap = props => {
   const mapNodeRef = useRef();
   const markerManagerRef = useRef();
   const centerMarkerRef = useRef([]);
-
+  debugger;
   // setup for google maps after it mounts
   useEffect(() => {
     const mapOptions = {
@@ -47,7 +48,7 @@ const BathroomMap = props => {
           east,
           west
         } = mapRef.current.getBounds().toJSON();
-        const bounds = {
+        const newBounds = {
           northEast: { lat: north, lng: east },
           southWest: { lat: south, lng: west }
         };
@@ -55,10 +56,27 @@ const BathroomMap = props => {
         const getCenter = mapRef.current.getCenter();
         const newCenter = { lat: getCenter.lat(), lng: getCenter.lng() };
 
-        // updateFilter("bounds", bounds);
-        // updateFilter("center", newCenter);
-
-        updateFilters(["bounds", "center"], [bounds, newCenter]);
+        updateFilter("bounds", newBounds);
+        updateFilter("sorting", newCenter);
+        // debugger;
+        // if (
+        //   !center.lat ||
+        //   !center.lng ||
+        //   !bounds.northEast ||
+        //   !bounds.southWest ||
+        //   center.lat.toFixed(2) !== newCenter.lat.toFixed(2) ||
+        //   center.lng.toFixed(2) !== newCenter.lng.toFixed(2) ||
+        //   bounds.northEast.lat.toFixed(2) !==
+        //     newBounds.northEast.lat.toFixed(2) ||
+        //   bounds.northEast.lng.toFixed(2) !==
+        //     newBounds.northEast.lng.toFixed(2) ||
+        //   bounds.southWest.lat.toFixed(2) !==
+        //     newBounds.southWest.lat.toFixed(2) ||
+        //   bounds.southWest.lng.toFixed(2) !== newBounds.southWest.lng.toFixed(2)
+        // ) {
+        //   debugger;
+        //   updateFilters(["bounds", "center"], [newBounds, newCenter]);
+        // }
       }
     });
 

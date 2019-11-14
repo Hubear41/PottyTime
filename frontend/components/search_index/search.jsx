@@ -15,6 +15,8 @@ const Search = props => {
     bathrooms,
     categories,
     center,
+    bounds,
+    sorting,
     filterBarHidden,
     selectedMarkerId,
     updateCurrentMarker
@@ -24,8 +26,8 @@ const Search = props => {
 
   bathrooms.forEach(bathroom => {
     bathroom.distance = distance(
-      center.lat,
-      center.lng,
+      sorting.lat,
+      sorting.lng,
       bathroom.lat,
       bathroom.lng,
       "M"
@@ -44,9 +46,12 @@ const Search = props => {
     return bathroom;
   });
 
+  debugger;
   return (
     <div id="search-index">
       <BathroomMap
+        center={center}
+        bounds={bounds}
         bathrooms={filteredBathrooms}
         updateFilter={updateFilter}
         updateFilters={updateFilters}

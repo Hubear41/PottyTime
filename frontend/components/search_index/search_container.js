@@ -5,10 +5,12 @@ import { updateCurrentMarker } from "../../actions/ui_actions";
 import Search from "./search";
 
 const msp = ({ entities, ui }) => {
+  debugger;
   return {
     bathrooms: Object.values(entities.bathrooms),
     center: ui.filters.center,
     sorting: ui.filters.sorting,
+    bounds: ui.filters.bounds,
     categories: ui.filters.categoryIds,
     filterBarHidden: ui.filterBar.hidden,
     selectedMarkerId: ui.selectedMarker.markerId
