@@ -59,21 +59,21 @@ const Splash = props => {
             your fun. So let us handle finding the nearest bathroom so you can
             keep on partying.
           </p>
+          <form className="splash-search" onSubmit={handleSubmit}>
+            <label htmlFor="search-input" id="splash-search-label">
+              <input
+                id="search-input"
+                type="text"
+                onChange={handleChange}
+                placeholder='Try "Bryant Park"'
+                value={search.name}
+              />
+            </label>
+            <button id="splash-search-btn" onClick={handleSubmit}>
+              <i className="fas fa-search-location"></i>
+            </button>
+          </form>
         </div>
-        <form className="splash-search" onSubmit={handleSubmit}>
-          <label htmlFor="search-input" id="splash-search-label">
-            <input
-              id="search-input"
-              type="text"
-              onChange={handleChange}
-              placeholder='Try "Bryant Park"'
-              value={search.name}
-            />
-          </label>
-          <button id="splash-search-btn" onClick={handleSubmit}>
-            <i className="fas fa-search-location"></i>
-          </button>
-        </form>
       </div>
       <Footer />
     </>
