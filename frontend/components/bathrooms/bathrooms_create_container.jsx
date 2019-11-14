@@ -43,21 +43,26 @@ const CreateBathroom = props => {
 
   return (
     <div className="bathroom-form-container">
+      <h1>Create A Bathroom:</h1>
       <form id="bathroom-form">
-        <label htmlFor="">Bathroom Name:</label>
+        <span>Bathroom Name:</span>
         <input
           type="text"
           onChange={e => setName(e.target.value)}
           value={name}
         />
+
         <span id="bathroom-location">
           Select Location By Clicking on the Map
         </span>
-        {/* <input type="text" value={lat || ""} disabled />
-        <input type="text" value={lng || ""} disabled /> */}
-        <input type="text" value={address} disabled className='' />
-        <button onClick={handleSubmit}>Create!</button>
-        <Link to="/bathrooms">Cancel</Link>
+        <input type="text" value={address} disabled className='address-input' />
+
+        <div className='btn-container'>
+          <div className='cancel-btn-ctn'>
+            <Link to="/bathrooms" className='cancel-btn'>Cancel</Link>
+          </div>
+          <button onClick={handleSubmit} className='create-btn'>Create!</button>
+        </div>
       </form>
     </div>
   );
