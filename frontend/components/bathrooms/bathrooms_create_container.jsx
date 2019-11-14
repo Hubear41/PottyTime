@@ -15,30 +15,31 @@ const mdp = dispatch => ({
 const CreateBathroom = props => {
   const geocoder = new google.maps.Geocoder();
   const [name, setName] = useState("");
-  const [address, setAddress] = useState('')
+  const [address, setAddress] = useState("");
   const { lat, lng } = props;
 
   useEffect(() => {
     const myLatlng = new google.maps.LatLng(parseFloat(lat), parseFloat(lng));
-    geocoder.geocode({
-      'latLng': myLatlng
-    }, function (results, status) {
-      if (status == google.maps.GeocoderStatus.OK) {
-        if (results[0]) {
-          setAddress(results[0].formatted_address);
+    geocoder.geocode(
+      {
+        latLng: myLatlng
+      },
+      function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+          if (results[0]) {
+            setAddress(results[0].formatted_address);
+          }
         }
       }
-    });
-  }, [lat, lng])
+    );
+  }, [lat, lng]);
 
   function handleSubmit(e) {
     e.preventDefault();
     let bathroom = { name, lat: props.lat, lng: props.lng, address };
-    props
-      .createBathroom(bathroom)
-      .then(bathroom => {
-        props.history.push(`/bathrooms/`)
-      });
+    props.createBathroom(bathroom).then(bathroom => {
+      props.history.push(`/bathrooms/`);
+    });
   }
 
   return (
@@ -55,22 +56,21 @@ const CreateBathroom = props => {
         <span id="bathroom-location">
           Select Location By Clicking on the Map
         </span>
-        <input type="text" value={address} disabled className='address-input' />
+        <input type="text" value={address} disabled className="address-input" />
 
-        <div className='btn-container'>
-          <div className='cancel-btn-ctn'>
-            <Link to="/bathrooms" className='cancel-btn'>Cancel</Link>
+        <div className="btn-container">
+          <div className="cancel-btn-ctn">
+            <Link to="/bathrooms" className="cancel-btn">
+              Cancel
+            </Link>
           </div>
-          <button onClick={handleSubmit} className='create-btn'>Create!</button>
+          <button onClick={handleSubmit} className="create-btn">
+            Create!
+          </button>
         </div>
       </form>
     </div>
   );
 };
 
-export default withRouter(
-  connect(
-    msp,
-    mdp
-  )(CreateBathroom)
-);
+export default withRouter(connect(msp, mdp)(CreateBathroom));
