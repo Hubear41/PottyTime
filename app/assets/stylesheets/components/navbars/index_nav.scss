@@ -28,4 +28,16 @@
       margin-right: 10px;
     }
   }
+
+  .new-btn {
+    color: white;
+    font-size: 30px;
+    user-select: none; 
+    position: absolute;
+    right: 5%;
+
+    &:hover{
+      color: rgb(226, 226, 226)
+    }
+  }
 }
