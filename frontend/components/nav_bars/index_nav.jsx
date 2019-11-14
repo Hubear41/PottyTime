@@ -17,13 +17,13 @@ const IndexNav = props => {
 
       <aside id="index-nav-left">
         <SearchBar />
-        {props.location.pathname === "/bathrooms" ? (
-          <FilterToggle
-            filterBarHidden={filterBarHidden}
-            revealFilterBar={props.revealFilterBar}
-            hideFilterBar={props.hideFilterBar}
-          />
-        ) : null}
+        {/* {props.location.pathname === "/bathrooms" ? ( */}
+        <FilterToggle
+          filterBarHidden={filterBarHidden}
+          revealFilterBar={props.revealFilterBar}
+          hideFilterBar={props.hideFilterBar}
+        />
+        {/* ) : null} */}
       </aside>
 
       {/* <label id="navbar-dropdown-label">

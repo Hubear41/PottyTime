@@ -9,7 +9,14 @@ const msp = ({ ui }, { location }) => ({
 });
 
 const BathroomMap = props => {
-  const { bathrooms, center, noResults, mapType, updateFilter } = props;
+  const {
+    bathrooms,
+    center,
+    noResults,
+    mapType,
+    updateFilter,
+    selectedMarkerId
+  } = props;
   const mapRef = useRef();
   const mapNodeRef = useRef();
   const markerManagerRef = useRef();
@@ -85,6 +92,11 @@ const BathroomMap = props => {
     }
   }, [bathrooms]);
 
+  // update selectedMarker to by blue
+  useEffect(() => {
+    markerManagerRef.current.highlightSelectedMarker(selectedMarkerId);
+  }, [selectedMarkerId]);
+
   // whenever center changes, change google maps
   useEffect(() => {
     //find the selected marker to open infowindow
@@ -101,17 +113,15 @@ const BathroomMap = props => {
   useEffect(() => {
     mapRef.current.panTo(center);
 
-    if (center.lat !== centerMarkerRef.current.lat && center.lng !== centerMarkerRef.current.lng) {
-      centerMarkerRef.current = center
+    if (
+      center.lat !== centerMarkerRef.current.lat &&
+      center.lng !== centerMarkerRef.current.lng
+    ) {
+      centerMarkerRef.current = center;
     }
-  }, [center])
+  }, [center]);
 
   return <div id="map-container" ref={map => (mapNodeRef.current = map)}></div>;
 };
 
-export default withRouter(
-  connect(
-    msp,
-    null
-  )(BathroomMap)
-);
+export default withRouter(connect(msp, null)(BathroomMap));

@@ -1,20 +1,14 @@
 @import "../base/_default_styles";
 
 #bathroom-index {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: $lightest_black;
 
   #bathroom-list-wrapper {
     width: 100%;
-    // height: 100vh;
-    // overflow: scroll;
 
     #bathroom-list {
       height: calc(100vh - 44px);
       overflow: scroll;
-      // width: 100%;
-      // height: auto;
-      // overflow-y: visible;
 
       li[class^="bathroom-list-item-"] {
         display: flex;
@@ -25,22 +19,36 @@
         background: $white;
 
         .bathroom-info {
-          width: 80%;
-          h2 {
-            text-transform: capitalize;
-            font-size: 17px;
-            font-weight: 600;
-            color: $cyan;
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .bathroom-info-right {
+            h2 {
+              text-transform: capitalize;
+              font-size: 24px;
+              font-weight: 600;
+              color: $cyan;
+              margin-bottom: 16px;
+            }
+
+            span {
+              font-size: 16px;
+              color: $gray;
+              margin-left: 20px;
+            }
           }
-          span {
-            font-size: 12px;
+
+          h4 {
             color: $gray;
+            font-size: 18px;
           }
         }
         .list-item-arrow {
           display: flex;
-          width: 20%;
-          font-size: 20px;
+          width: 10%;
+          font-size: 30px;
           justify-content: center;
           align-items: center;
           opacity: 0;
@@ -48,14 +56,23 @@
           transition-property: opacity, transform;
           transition-duration: 0.2s;
         }
+
         &:hover {
           background: $cyan;
-          h2 {
-            color: white;
+
+          .bathroom-info-right {
+            h2 {
+              color: white;
+            }
+            span {
+              color: $gray;
+            }
           }
-          span {
-            color: $gray;
+
+          h4 {
+            color: $white;
           }
+
           .list-item-arrow {
             opacity: 1;
             color: white;

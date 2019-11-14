@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
+import { distance } from "../../util/distance_util";
 
 const BathroomIndexItem = props => {
-  const { bathroom, idx, updateFilter } = props;
+  const { bathroom, idx, updateFilter, center, updateCurrentMarker } = props;
   const { lat, lng, name, id } = bathroom;
   // const [address, updateAddress] = useState(null);
 
@@ -21,6 +22,10 @@ const BathroomIndexItem = props => {
     updateFilter("center", { lat, lng });
   };
 
+  const handleMouseEnter = e => {
+    updateCurrentMarker(bathroom.id);
+  };
+
   // const locationContent =
   //   bathroom.address === null ? (
   //     <span>{`lat: ${lat} | lng: ${lng}`}</span>
@@ -28,15 +33,21 @@ const BathroomIndexItem = props => {
   //     <span>{`address: ${address}`}</span>
   //   );
 
+  // const distanceAway = distance(center.lat, center.lng, lat, lng, "M");
+
   return (
     <li
       className={`bathroom-list-item-${idx}`}
       key={"bathroom " + id}
       onClick={handleClick}
+      onMouseEnter={handleMouseEnter}
     >
       <section className="bathroom-info">
-        <h2>{name.toLowerCase()}</h2>
-        <span>{`Address: ${bathroom.address}`}</span>
+        <aside className="bathroom-info-right">
+          <h2>{name.toLowerCase()}</h2>
+          <span>{`Address: ${bathroom.address}`}</span>
+        </aside>
+        <h4>{`${bathroom.distance.toFixed(2)}mi`}</h4>
       </section>
 
       <aside className="list-item-arrow">
