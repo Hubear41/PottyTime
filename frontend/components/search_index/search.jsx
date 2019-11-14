@@ -5,6 +5,7 @@ import BathroomMap from "../bathroom_map/bathroom_map";
 import BathroomShow from "../bathrooms/bathroom_show_container";
 import CreateBathroom from "../bathrooms/bathrooms_create_container";
 import Navbar from "../nav_bars/index_nav_container";
+import { distance } from "../../util/distance_util";
 
 const Search = props => {
   const {
@@ -18,9 +19,12 @@ const Search = props => {
   } = props;
 
   bathrooms.forEach(bathroom => {
-    bathroom.distance = Math.abs(
-      Math.abs(sorting.lat - bathroom.lat) -
-        Math.abs(sorting.lng - bathroom.lng)
+    bathroom.distance = distance(
+      center.lat,
+      center.lng,
+      bathroom.lat,
+      bathroom.lng,
+      "M"
     );
   });
   let sortedBathrooms = bathrooms.sort(

@@ -29,7 +29,7 @@ const BathroomIndexItem = props => {
   //     <span>{`address: ${address}`}</span>
   //   );
 
-  const distanceAway = distance(center.lat, center.lng, lat, lng, "M");
+  // const distanceAway = distance(center.lat, center.lng, lat, lng, "M");
 
   return (
     <li
@@ -42,7 +42,7 @@ const BathroomIndexItem = props => {
           <h2>{name.toLowerCase()}</h2>
           <span>{`Address: ${bathroom.address}`}</span>
         </aside>
-        <h4>{`${distanceAway.toFixed(2)}mi`}</h4>
+        <h4>{`${bathroom.distance.toFixed(2)}mi`}</h4>
       </section>
 
       <aside className="list-item-arrow">
