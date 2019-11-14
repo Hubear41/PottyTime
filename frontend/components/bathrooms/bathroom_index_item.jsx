@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 import { distance } from "../../util/distance_util";
 
 const BathroomIndexItem = props => {
-  const { bathroom, idx, updateFilter, center } = props;
+  const { bathroom, idx, updateFilter, center, updateCurrentMarker } = props;
   const { lat, lng, name, id } = bathroom;
   // const [address, updateAddress] = useState(null);
 
@@ -22,6 +22,10 @@ const BathroomIndexItem = props => {
     updateFilter("center", { lat, lng });
   };
 
+  const handleMouseEnter = e => {
+    updateCurrentMarker(bathroom.id);
+  };
+
   // const locationContent =
   //   bathroom.address === null ? (
   //     <span>{`lat: ${lat} | lng: ${lng}`}</span>
@@ -36,6 +40,7 @@ const BathroomIndexItem = props => {
       className={`bathroom-list-item-${idx}`}
       key={"bathroom " + id}
       onClick={handleClick}
+      onMouseEnter={handleMouseEnter}
     >
       <section className="bathroom-info">
         <aside className="bathroom-info-right">

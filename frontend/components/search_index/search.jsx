@@ -15,7 +15,9 @@ const Search = props => {
     categories,
     center,
     sorting,
-    filterBarHidden
+    filterBarHidden,
+    selectedMarkerId,
+    updateCurrentMarker
   } = props;
 
   bathrooms.forEach(bathroom => {
@@ -45,6 +47,7 @@ const Search = props => {
         bathrooms={filteredBathrooms}
         updateFilter={updateFilter}
         mapType="INDEX"
+        selectedMarkerId={selectedMarkerId}
       />
       <div id="search-index-right">
         <Navbar />
@@ -60,6 +63,7 @@ const Search = props => {
                 updateFilter={updateFilter}
                 center={center}
                 filterBarHidden={filterBarHidden}
+                updateCurrentMarker={updateCurrentMarker}
               />
             )}
           />

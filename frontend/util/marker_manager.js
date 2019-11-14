@@ -2,6 +2,7 @@ class MarkerManager {
   constructor(map) {
     this.map = map;
     this.markers = {};
+    this.selectedId = null;
   }
 
   updateMarkers(bathrooms) {
@@ -27,12 +28,27 @@ class MarkerManager {
 
     const marker = new google.maps.Marker({
       position: { lat, lng },
-      title: name,
+      title: name || title,
       id
     });
 
     marker.setMap(this.map);
     this.markers[id] = marker;
+  }
+
+  createMarkerFromMarker(marker) {
+    const { position, title, id } = marker;
+    const lat = position.lat(),
+      lng = position.lng();
+
+    const newMarker = new google.maps.Marker({
+      position: { lat, lng },
+      title,
+      id
+    });
+
+    newMarker.setMap(this.map);
+    this.markers[id] = newMarker;
   }
 
   //find marker based on center
@@ -68,6 +84,41 @@ class MarkerManager {
   removeMarker(marker) {
     marker.setMap(null);
     delete this.markers[marker.id];
+  }
+
+  highlightSelectedMarker(id) {
+    // remove previously selected marker
+    if (this.selectedId) {
+      const prevSelectedMarker = this.markers[this.selectedId];
+      debugger;
+      this.removeMarker(prevSelectedMarker);
+      this.createMarkerFromMarker(prevSelectedMarker);
+    }
+
+    // if there's a new selected marker, create a green marker
+    if (id) {
+      const selectedMarker = this.markers[id];
+      debugger;
+      this.removeMarker(selectedMarker);
+
+      const { position, title } = selectedMarker;
+      const lat = position.lat(),
+        lng = position.lng();
+
+      const newSelectedMarker = new google.maps.Marker({
+        position: { lat, lng },
+        title: title,
+        id,
+        icon: {
+          url: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+          scaledSize: new google.maps.Size(50, 50)
+        }
+      });
+
+      newSelectedMarker.setMap(this.map);
+      this.markers[id] = newSelectedMarker;
+      this.selectedId = id;
+    }
   }
 }
 

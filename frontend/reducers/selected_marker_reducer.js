@@ -9,7 +9,7 @@ const selectedMarkerReducer = (state = _default_state, action) => {
 
   switch (action.type) {
     case UPDATE_CURRENT_MARKER:
-      return { markerId: action.bathroom.id };
+      return { markerId: action.markerId };
     default:
       return state;
   }
