@@ -22,7 +22,6 @@ const BathroomShow = props => {
     //   service.findPlaceFromQuery(request, (res, status) => {
     //     if (status === google.maps.place.PlaceServiceState.OK) {
     //       console.log(res);
-    //       debugger;
     //     }
     //   });
     // });

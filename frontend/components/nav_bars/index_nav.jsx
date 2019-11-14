@@ -6,8 +6,13 @@ import Dropdown from "../dropdown/dropdown_container";
 
 const IndexNav = props => {
   const { filterBarHidden } = props;
-  const pathname = props.location.pathname.split('/');
-  const locationCheck = pathname.length > 2 ? pathname[2].slice(0, 3) === 'new' ? true : false : false;
+  const pathname = props.location.pathname.split("/");
+  const locationCheck =
+    pathname.length > 2
+      ? pathname[2].slice(0, 3) === "new"
+        ? true
+        : false
+      : false;
 
   return (
     <div id="index-navbar">
@@ -32,11 +37,11 @@ const IndexNav = props => {
         <i className="fas fa-bars"></i>
         <Dropdown />
       </label> */}
-      {locationCheck ?
-        null : <Link to='/bathrooms/new' className='new-btn'>
-          <i class="fas fa-plus"></i>
+      {locationCheck ? null : (
+        <Link to="/bathrooms/new" className="new-btn">
+          <i className="fas fa-plus"></i>
         </Link>
-      }
+      )}
     </div>
   );
 };

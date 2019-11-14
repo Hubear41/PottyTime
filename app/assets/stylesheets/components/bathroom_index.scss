@@ -19,7 +19,7 @@
         background: $white;
 
         .bathroom-info {
-          width: 90%;
+          width: 85%;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -46,15 +46,27 @@
           }
         }
         .list-item-arrow {
+          position: relative;
           display: flex;
           width: 10%;
-          font-size: 30px;
           justify-content: center;
           align-items: center;
           opacity: 0;
           transform: translateX(20px);
           transition-property: opacity, transform;
           transition-duration: 0.2s;
+          font-size: 20px;
+          text-align: left;
+
+          span {
+            position: absolute;
+            left: -150%;
+            overflow: visible;
+          }
+
+          i {
+            font-size: 30px;
+          }
         }
 
         &:hover {

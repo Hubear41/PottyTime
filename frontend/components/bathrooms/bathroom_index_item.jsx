@@ -5,6 +5,8 @@ import { distance } from "../../util/distance_util";
 const BathroomIndexItem = props => {
   const { bathroom, idx, updateFilter, center, updateCurrentMarker } = props;
   const { lat, lng, name, id } = bathroom;
+  const [isHovered, updateHoverState] = useState(false);
+
   // const [address, updateAddress] = useState(null);
 
   // useEffect(() => {
@@ -18,12 +20,21 @@ const BathroomIndexItem = props => {
   // }, [bathroom]);
 
   const handleClick = e => {
-    props.history.push(`/bathrooms/${id}`);
-    updateFilter("center", { lat, lng });
+    // props.history.push(`/bathrooms/${id}`);
+    // updateFilter("center", { lat, lng });
+    window.open(
+      `https://www.google.com/maps/search/?api=1&query=${bathroom.address}`,
+      "_blank"
+    );
   };
 
   const handleMouseEnter = e => {
     updateCurrentMarker(bathroom.id);
+    updateHoverState(true);
+  };
+
+  const handleMouseLeave = e => {
+    updateHoverState(false);
   };
 
   // const locationContent =
@@ -44,16 +55,18 @@ const BathroomIndexItem = props => {
       key={"bathroom " + id}
       onClick={handleClick}
       onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <section className="bathroom-info">
         <aside className="bathroom-info-right">
           <h2>{name.toLowerCase()}</h2>
           <span>{`Address: ${bathroom.address}`}</span>
         </aside>
-        <h4>{distanceAway}</h4>
+        <h4>{isHovered ? "" : distanceAway}</h4>
       </section>
 
       <aside className="list-item-arrow">
+        <span>Get Directions</span>
         <i className="fas fa-chevron-right"></i>
       </aside>
     </li>

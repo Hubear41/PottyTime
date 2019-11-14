@@ -23,7 +23,7 @@ const BathroomMap = props => {
   const mapNodeRef = useRef();
   const markerManagerRef = useRef();
   const centerMarkerRef = useRef([]);
-  debugger;
+
   // setup for google maps after it mounts
   useEffect(() => {
     const mapOptions = {
@@ -58,7 +58,6 @@ const BathroomMap = props => {
 
         updateFilter("bounds", newBounds);
         updateFilter("sorting", newCenter);
-        // debugger;
         // if (
         //   !center.lat ||
         //   !center.lng ||
@@ -74,7 +73,6 @@ const BathroomMap = props => {
         //     newBounds.southWest.lat.toFixed(2) ||
         //   bounds.southWest.lng.toFixed(2) !== newBounds.southWest.lng.toFixed(2)
         // ) {
-        //   debugger;
         //   updateFilters(["bounds", "center"], [newBounds, newCenter]);
         // }
       }

@@ -46,7 +46,6 @@ const Search = props => {
     return bathroom;
   });
 
-  debugger;
   return (
     <div id="search-index">
       <BathroomMap
