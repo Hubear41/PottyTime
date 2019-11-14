@@ -8,6 +8,7 @@ const msp = ({ entities, ui }) => {
         bathrooms: Object.values(entities.bathrooms),
         center: ui.filters.center,
         sorting: ui.filters.sorting,
+        categories: ui.filters.categoryIds,
         filterBarHidden: ui.filterBar.hidden,
     }
 };
