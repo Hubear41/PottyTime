@@ -17,17 +17,23 @@ const Search = props => {
     filterBarHidden
   } = props;
 
-  bathrooms.forEach(bathroom => { bathroom.distance = Math.abs(Math.abs(sorting.lat - bathroom.lat) - Math.abs(sorting.lng - bathroom.lng)) });
-  let sortedBathrooms = bathrooms.sort((current, next) => current.distance - next.distance)
+  bathrooms.forEach(bathroom => {
+    bathroom.distance = Math.abs(
+      Math.abs(sorting.lat - bathroom.lat) -
+        Math.abs(sorting.lng - bathroom.lng)
+    );
+  });
+  let sortedBathrooms = bathrooms.sort(
+    (current, next) => current.distance - next.distance
+  );
 
-
-  const filtered = (id) => categories.includes(id);
+  const filtered = id => categories.includes(id);
   const filteredBathrooms = sortedBathrooms.filter(bathroom => {
     if (categories.length > 0) {
-      return bathroom.category_ids.some(filtered)
+      return bathroom.category_ids.some(filtered);
     }
-    return bathroom
-  })
+    return bathroom;
+  });
 
   return (
     <div id="search-index">
@@ -40,7 +46,7 @@ const Search = props => {
         <Navbar />
         <Switch>
           <Route path="/bathrooms/new" component={CreateBathroom} />
-          <Route path="/bathrooms/:id" component={BathroomShow} />
+          {/* <Route path="/bathrooms/:id" component={BathroomShow} /> */}
           <Route
             path="/bathrooms/"
             render={props => (
