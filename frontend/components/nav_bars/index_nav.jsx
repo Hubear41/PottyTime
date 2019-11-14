@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import SearchBar from "../search_bar/search_bar_container";
 import FilterToggle from "./filter_toggle.jsx";
 import Dropdown from "../dropdown/dropdown_container";
@@ -9,18 +9,21 @@ const IndexNav = props => {
 
   return (
     <div id="index-navbar">
+      <Link to="/bathrooms" className="logo-round index-logo">
+        <span>
+          <strong>P</strong>
+        </span>
+      </Link>
+
       <aside id="index-nav-left">
-        <Link to="/" className="logo-round index-logo">
-          <span>
-            <strong>P</strong>
-          </span>
-        </Link>
         <SearchBar />
-        <FilterToggle
-          filterBarHidden={filterBarHidden}
-          revealFilterBar={props.revealFilterBar}
-          hideFilterBar={props.hideFilterBar}
-        />
+        {props.location.pathname === "/bathrooms" ? (
+          <FilterToggle
+            filterBarHidden={filterBarHidden}
+            revealFilterBar={props.revealFilterBar}
+            hideFilterBar={props.hideFilterBar}
+          />
+        ) : null}
       </aside>
 
       {/* <label id="navbar-dropdown-label">
@@ -31,4 +34,4 @@ const IndexNav = props => {
   );
 };
 
-export default IndexNav;
+export default withRouter(IndexNav);

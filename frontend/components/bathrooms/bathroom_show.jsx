@@ -7,17 +7,17 @@ const BathroomShow = props => {
 
   const center = bathroom ? { lat: bathroom.lat, lng: bathroom.lng } : {};
 
-  const address = bathroom ? bathroom.address.split(' ').join('+') : null;
-
+  const address = bathroom ? bathroom.address.split(" ").join("+") : null;
+  debugger;
   useEffect(() => {
     requestBathroom(bathroomId);
-  }, [])
+  }, []);
 
   useEffect(() => {
     if (center.lat) {
-      updateFilter('center', center);
+      updateFilter("center", center);
     }
-  }, [center.lat, center.lng])
+  }, [center.lat, center.lng]);
 
   useEffect(() => {
     if (!bathroom || bathroom.id !== bathroomId) {
@@ -30,8 +30,17 @@ const BathroomShow = props => {
       <div className="bathroom-information-container">
         <h2>{bathroom ? bathroom.name.toLowerCase() : null}</h2>
         <h1>{bathroom ? bathroom.address : null}</h1>
-        {bathroom ? <a className='direction-btn' href={`https://www.google.com/maps/search/?api=1&query=${address}`}>Directions</a> : null}
-        <Link to="/bathrooms" className='back-button'>Back to Results</Link>
+        {bathroom ? (
+          <a
+            className="direction-btn"
+            href={`https://www.google.com/maps/search/?api=1&query=${address}`}
+          >
+            Directions
+          </a>
+        ) : null}
+        <Link to="/bathrooms" className="back-button">
+          Back to Results
+        </Link>
       </div>
     </div>
   );
