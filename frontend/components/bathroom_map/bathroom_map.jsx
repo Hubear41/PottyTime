@@ -15,6 +15,7 @@ const BathroomMap = props => {
     noResults,
     mapType,
     updateFilter,
+    updateFilters,
     selectedMarkerId
   } = props;
   const mapRef = useRef();
@@ -28,6 +29,8 @@ const BathroomMap = props => {
       center,
       zoom: mapType === "SHOW" ? 19 : 17,
       fullscreenControl: false,
+      mapTypeControl: false,
+      streetViewControl: false,
       style: {}
     };
 
@@ -52,8 +55,10 @@ const BathroomMap = props => {
         const getCenter = mapRef.current.getCenter();
         const newCenter = { lat: getCenter.lat(), lng: getCenter.lng() };
 
-        updateFilter("bounds", bounds);
-        updateFilter("sorting", newCenter);
+        // updateFilter("bounds", bounds);
+        // updateFilter("center", newCenter);
+
+        updateFilters(["bounds", "center"], [bounds, newCenter]);
       }
     });
 
@@ -110,6 +115,7 @@ const BathroomMap = props => {
     }
   }, [centerMarkerRef.current]);
 
+  // if center changes, pan to it
   useEffect(() => {
     mapRef.current.panTo(center);
 

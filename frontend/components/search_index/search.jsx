@@ -11,14 +11,16 @@ const Search = props => {
   const {
     requestBathrooms,
     updateFilter,
+    updateFilters,
     bathrooms,
     categories,
     center,
-    sorting,
     filterBarHidden,
     selectedMarkerId,
     updateCurrentMarker
   } = props;
+
+  // calculate the distance from the center for each bathroom
 
   bathrooms.forEach(bathroom => {
     bathroom.distance = distance(
@@ -29,6 +31,7 @@ const Search = props => {
       "M"
     );
   });
+
   let sortedBathrooms = bathrooms.sort(
     (current, next) => current.distance - next.distance
   );
@@ -46,6 +49,7 @@ const Search = props => {
       <BathroomMap
         bathrooms={filteredBathrooms}
         updateFilter={updateFilter}
+        updateFilters={updateFilters}
         mapType="INDEX"
         selectedMarkerId={selectedMarkerId}
       />
