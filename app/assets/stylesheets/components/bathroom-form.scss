@@ -1,17 +1,77 @@
+@import "../base/_default_styles";
+
 .bathroom-form-container {
   width: 100%;
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
-  button,
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
   input,
   label {
     width: 50%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 34px;
+    padding: 2px;
+  }
+
+  .address-input {
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
   }
 
   #bathroom-form {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+   
+  .btn-container {
+    display:flex;
+
+    .create-btn {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      background-color: $cyan;
+      border-radius: 3px;
+      padding: 5px 10px;
+
+      &:hover {
+        background-color: $dark-cyan;
+      }
+    }
+
+    .cancel-btn-ctn {
+      background-color: rgb(255, 47, 47);
+      font-size: 18px;
+      border-radius: 3px;
+      padding: 5px 10px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 100px;
+
+      &:hover {
+        background-color: rgb(204, 34, 34);
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
   }
 }
