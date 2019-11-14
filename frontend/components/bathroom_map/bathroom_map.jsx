@@ -108,6 +108,7 @@ const BathroomMap = props => {
   // update markers whenever bathrooms change
   useEffect(() => {
     if (markerManagerRef.current !== null) {
+      debugger;
       markerManagerRef.current.updateMarkers(bathrooms);
       addMarkerListeners();
     }
