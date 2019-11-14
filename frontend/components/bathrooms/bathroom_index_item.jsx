@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
+import { distance } from "../../util/distance_util";
 
 const BathroomIndexItem = props => {
-  const { bathroom, idx, updateFilter } = props;
+  const { bathroom, idx, updateFilter, center } = props;
   const { lat, lng, name, id } = bathroom;
   // const [address, updateAddress] = useState(null);
 
@@ -28,6 +29,8 @@ const BathroomIndexItem = props => {
   //     <span>{`address: ${address}`}</span>
   //   );
 
+  const distanceAway = distance(center.lat, center.lng, lat, lng, "M");
+
   return (
     <li
       className={`bathroom-list-item-${idx}`}
@@ -35,8 +38,11 @@ const BathroomIndexItem = props => {
       onClick={handleClick}
     >
       <section className="bathroom-info">
-        <h2>{name.toLowerCase()}</h2>
-        <span>{`Address: ${bathroom.address}`}</span>
+        <aside className="bathroom-info-right">
+          <h2>{name.toLowerCase()}</h2>
+          <span>{`Address: ${bathroom.address}`}</span>
+        </aside>
+        <h4>{`${distanceAway.toFixed(2)}mi`}</h4>
       </section>
 
       <aside className="list-item-arrow">

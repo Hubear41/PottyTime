@@ -53,7 +53,7 @@ const BathroomShow = props => {
             Directions
           </a>
         ) : null}
-        <p id="places-results"></p>
+        {/* <p id="places-results"></p> */}
         <Link to="/bathrooms" className="back-button">
           Back to Results
         </Link>

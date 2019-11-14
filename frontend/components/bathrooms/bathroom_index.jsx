@@ -13,6 +13,7 @@ const BathroomIndex = props => {
         idx={idx}
         key={"bathroom " + idx}
         geocoder={geocoder}
+        center={center}
         updateFilter={updateFilter}
       />
     );
